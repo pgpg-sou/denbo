@@ -1,0 +1,2422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/write_9_1_title"
+                style="@style/write_9_title"
+                android:gravity="center"
+                android:text="妊娠中と産後の歯の状態" />
+
+            <!-- ダミー -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="　" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageview_teeth_report"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:src="@drawable/noimage" />
+            <!-- ダミー -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="　" />
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="2"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="初回診査" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_teeth_report_examination1"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="2"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="妊娠" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_teeth_report_week1"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="1"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="週" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="要治療の虫歯" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_teeth_report_need1"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_teeth_report_need_number1"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="本"
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="歯石" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_teeth_report_calculus1"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="歯肉の炎症" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_teeth_report_inflammation1"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="特記事項" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_teeth_report_other1"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="3"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="施設名又は担当者名" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_teeth_report_name1"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="3"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#ffffff"
+                        android:gravity="center" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:id="@+id/TextView_teeth_report_pregnancy_or_after1"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_teeth_report_week2"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="1"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="週" >
+                    </TextView>
+                </TableRow>
+
+                <!-- 歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯 -->
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="歯の状態" >
+                    </TextView>
+
+                    <TableLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="10" >
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#000000" >
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top1_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top2_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top3_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top4_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top5_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top6_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top7_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top8_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top9_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top10_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top11_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top12_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top13_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top14_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top15_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top16_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#000000" >
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="8"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="7"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="6"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="5"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="4"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="3"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="2"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="1"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="1"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="2"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="3"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="4"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="5"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="6"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="7"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="8"
+                                android:textColor="#000000" >
+                            </TextView>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#000000" >
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="8"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="7"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="6"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="5"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="4"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="3"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="2"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="1"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="1"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="2"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="3"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="4"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="5"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="6"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="7"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="8"
+                                android:textColor="#000000" >
+                            </TextView>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#000000" >
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom1_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom2_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom3_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom4_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom5_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom6_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom7_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom8_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom9_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom10_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom11_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom12_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom13_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom14_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom15_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom16_1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+                        </TableRow>
+                    </TableLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="特記事項" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_teeth_report_other2"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="3"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="歯石" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_teeth_report_calculus2"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="歯肉の炎症" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_teeth_report_inflammation2"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="診査日" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_teeth_report_examination2"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="施設名又は担当者名" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_teeth_report_name2"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#ffffff"
+                        android:gravity="center" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:id="@+id/TextView_teeth_report_pregnancy_or_after2"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="1"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_teeth_report_week3"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="1"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="週" >
+                    </TextView>
+                </TableRow>
+
+                <!-- 歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯歯 -->
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="歯の状態" >
+                    </TextView>
+
+                    <TableLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="10" >
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#000000" >
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top1_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top2_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top3_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top4_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top5_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top6_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top7_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top8_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top9_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top10_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top11_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top12_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top13_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top14_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top15_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_top16_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#000000" >
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="8"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="7"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="6"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="5"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="4"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="3"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="2"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="1"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="1"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="2"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="3"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="4"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="5"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="6"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="7"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="8"
+                                android:textColor="#000000" >
+                            </TextView>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#000000" >
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="8"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="7"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="6"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="5"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="4"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="3"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="2"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="1"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="1"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="2"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="3"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="4"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="5"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="6"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="7"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="8"
+                                android:textColor="#000000" >
+                            </TextView>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#000000" >
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom1_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom2_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom3_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom4_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom5_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom6_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom7_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom8_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom9_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom10_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom11_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom12_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom13_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom14_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom15_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/TextView_teeth_report_bottom16_2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="/"
+                                android:textColor="#000000" >
+                            </TextView>
+                        </TableRow>
+                    </TableLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="特記事項" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_teeth_report_other3"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="3"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="歯石" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_teeth_report_calculus3"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="歯肉の炎症" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_teeth_report_inflammation3"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="診査日" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_teeth_report_examination3"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="施設名又は担当者名" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_teeth_report_name3"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+            </TableLayout>
+
+            <!-- 縦長の画像を選択すると下までスクロールされないのでダミースペース -->
+
+            <TextView
+                style="@style/write_9_question"
+                android:layout_width="wrap_content"
+                android:text=" " />
+
+            <TextView
+                style="@style/write_9_question"
+                android:layout_width="wrap_content"
+                android:text=" " />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- TextView 1～9 -->
+
+    <include
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/write_next_back_layout" />
+
+</RelativeLayout>

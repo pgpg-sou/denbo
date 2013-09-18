@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/gdata-client-meta-1.0-71ae3995b29e81ecd3bb8912324a1b3b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v4-bb2c8125cba4f010af73273b45e8dfc0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/google-api-client-1.12.0-beta-5577322db19407a70426456f336e68b3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/gdata-calendar-meta-2.0-dee329469e4f9d21e81d95e3b63d7a99.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/gdata-calendar-2.0-908f2b0a70eb791f5ecc38af3199ca2a.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/gdata-client-1.0-d28b1b67d00579e47f37b2373c9a3e29.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/gdata-core-1.0-12760293c4df0c21462c82d0773d0ff8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

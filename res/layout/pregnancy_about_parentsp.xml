@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/write_9_1_title"
+                style="@style/write_9_title"
+                android:gravity="center"
+                android:text="子の保護者" />
+
+            <!-- ダミー -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="　" >
+            </TextView>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="1"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="母" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="氏名" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/EditText_about_parents_mother_name"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="7"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="生年月日・年齢" >
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/Button_pregnancy_class_mother_birthday"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:text="入力" />
+
+                    <EditText
+                        android:id="@+id/EditText_about_parents_mother_birthday"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/EditText_about_parents_mother_age"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </EditText>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="歳" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="職業" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/EditText_about_parents_mother_job"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="7"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="　" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="1"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="父" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="氏名" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/EditText_about_parents_father_name"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="7"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="生年月日・年齢" >
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/Button_pregnancy_class_father_birthday"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:text="入力" />
+
+                    <EditText
+                        android:id="@+id/EditText_about_parents_father_birthday"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/EditText_about_parents_father_age"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </EditText>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="歳" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="職業" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/EditText_about_parents_father_job"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="7"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="　" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="1"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="その他" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="氏名" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/EditText_about_parents_name_name"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="7"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="生年月日・年齢" >
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/Button_pregnancy_class_name_birthday"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:text="入力" />
+
+                    <EditText
+                        android:id="@+id/EditText_about_parents_name_birthday"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/EditText_about_parents_name_age"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </EditText>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="歳" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="職業" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/EditText_about_parents_name_job"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="7"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </EditText>
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="　" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="1"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="居住地" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="1" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/EditText_about_parents_address1"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="電話" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/EditText_about_parents_number1"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:inputType="phone"
+                        android:text="" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="2" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/EditText_about_parents_address2"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="電話" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/EditText_about_parents_number2"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:inputType="phone"
+                        android:text="" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="3" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/EditText_about_parents_address3"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="電話" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/EditText_about_parents_number3"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:inputType="phone"
+                        android:text="" >
+                    </EditText>
+                </TableRow>
+            </TableLayout>
+
+            <include layout="@layout/write_save_cancel" />
+
+            <!-- 縦長の画像を選択すると下までスクロールされないのでダミースペース -->
+
+            <TextView
+                style="@style/write_9_question"
+                android:layout_width="wrap_content"
+                android:text=" " />
+
+            <TextView
+                style="@style/write_9_question"
+                android:layout_width="wrap_content"
+                android:text=" " />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- TextView 1～9 -->
+
+</RelativeLayout>

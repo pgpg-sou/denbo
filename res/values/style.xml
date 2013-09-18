@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<style name="h1">
+		<item name="android:textSize">16sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#f80</item>
+	</style>
+
+    <style name="Ques_title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#f48</item>
+    </style>
+
+
+	<style name="write_9_title">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#f200</item>
+		<item name="android:background">#4000ff00</item>
+		<item name="android:paddingLeft">8px</item>
+		<item name="android:paddingRight">8px</item>
+		<item name="android:paddingTop">8px</item>
+		<item name="android:paddingBottom">8px</item>
+		<item name="android:layout_marginTop">15px</item>
+		<item name="android:layout_marginRight">15px</item>
+		<item name="android:layout_marginBottom">15px</item>
+		<item name="android:layout_marginLeft">15px</item>
+	</style>
+
+	<style name="write_9_question_box">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:background">#2000ff00</item>
+		<item name="android:padding">16px</item>
+		<item name="android:layout_marginTop">0px</item>
+		<item name="android:layout_marginRight">15px</item>
+		<item name="android:layout_marginBottom">10px</item>
+		<item name="android:layout_marginLeft">15px</item>
+	</style>
+
+
+	<style name="write_9_question">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#333333</item>
+		<item name="android:padding">5px</item>
+		<item name="android:layout_marginTop">0px</item>
+		<item name="android:layout_marginRight">0px</item>
+		<item name="android:layout_marginBottom">0px</item>
+		<item name="android:layout_marginLeft">0px</item>
+	</style>
+
+	<style name="forCheckBox">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#333333</item>
+	</style>
+
+	<style name="write_9s_edittext">
+		<item name="android:layout_width">100px</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="write_9s_edittext_small">
+		<item name="android:layout_width">50px</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+
+
+
+
+
+	<style name="read_x_title">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#f48</item>
+		<item name="android:background">#80ffc0c0</item>
+		<item name="android:paddingLeft">8px</item>
+		<item name="android:paddingRight">8px</item>
+		<item name="android:paddingTop">8px</item>
+		<item name="android:paddingBottom">8px</item>
+		<item name="android:layout_marginTop">15px</item>
+		<item name="android:layout_marginRight">15px</item>
+		<item name="android:layout_marginBottom">0px</item>
+		<item name="android:layout_marginLeft">15px</item>
+	</style>
+
+	<style name="read_x_description">
+		<item name="android:textColor">#333333</item><item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:background">#80ffd0d0</item>
+		<item name="android:padding">16px</item>
+		<item name="android:layout_marginTop">0px</item>
+		<item name="android:layout_marginRight">15px</item>
+		<item name="android:layout_marginBottom">15px</item>
+		<item name="android:layout_marginLeft">15px</item>
+	</style>
+
+	<style name="read_x_footnote">
+		<item name="android:textColor">#333333</item><item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">12sp</item>
+		<item name="android:background">#80ffd0d0</item>
+		<item name="android:padding">16px</item>
+		<item name="android:layout_marginTop">0px</item>
+		<item name="android:layout_marginRight">15px</item>
+		<item name="android:layout_marginBottom">15px</item>
+		<item name="android:layout_marginLeft">15px</item>
+	</style>
+
+	<style name="read_x_x_title">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">16sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#f48</item>
+		<item name="android:background">#80ffc0c0</item>
+		<item name="android:paddingLeft">8px</item>
+		<item name="android:paddingRight">8px</item>
+		<item name="android:paddingTop">8px</item>
+		<item name="android:paddingBottom">8px</item>
+	</style>
+
+	<style name="read_x_x_description">
+		 <item name="android:layout_width">wrap_content</item>
+		 <item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#333333</item>
+		 <item name="android:padding">8px</item>
+	</style>
+
+	<style name="read_x_x_footnote">
+		 <item name="android:textColor">#333333</item><item name="android:layout_width">wrap_content</item>
+		 <item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">12sp</item>
+		 <item name="android:padding">8px</item>
+	</style>
+
+	<style name="read_x_x_column_title">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">16sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#48f</item>
+		<item name="android:background">#80c0c0ff</item>
+		<item name="android:paddingLeft">16px</item>
+		<item name="android:paddingRight">16px</item>
+		<item name="android:paddingTop">8px</item>
+		<item name="android:paddingBottom">8px</item>
+		<item name="android:layout_marginTop">15px</item>
+		<item name="android:layout_marginRight">15px</item>
+		<item name="android:layout_marginBottom">0px</item>
+		<item name="android:layout_marginLeft">15px</item>
+	</style>
+
+	<style name="read_x_x_column_description">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#333333</item>
+		<item name="android:background">#80d0d0ff</item>
+		<item name="android:padding">16px</item>
+		<item name="android:layout_marginTop">0px</item>
+		<item name="android:layout_marginRight">15px</item>
+		<item name="android:layout_marginBottom">15px</item>
+		<item name="android:layout_marginLeft">15px</item>
+	</style>
+
+	<style name="read_x_x_column_footnote">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item><item name="android:textColor">#333333</item>
+		<item name="android:background">#80d0d0ff</item>
+		<item name="android:padding">12px</item>
+		<item name="android:layout_marginTop">0px</item>
+		<item name="android:layout_marginRight">15px</item>
+		<item name="android:layout_marginBottom">15px</item>
+		<item name="android:layout_marginLeft">15px</item>
+	</style>
+
+
+
+
+	<style name="button_style">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">16sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#f48</item>
+		<item name="android:background">#80ffbbbb</item>
+		<item name="android:paddingLeft">16px</item>
+		<item name="android:paddingRight">16px</item>
+		<item name="android:paddingTop">8px</item>
+		<item name="android:paddingBottom">8px</item>
+		<item name="android:layout_marginTop">5px</item>
+		<item name="android:layout_marginRight">5px</item>
+		<item name="android:layout_marginBottom">5px</item>
+		<item name="android:layout_marginLeft">5px</item>
+	</style>
+
+
+
+
+<!-- テーマ -->
+	<style name="PinkTheme">
+		<item name="android:windowBackground">@drawable/background_pink</item>
+		<item name="android:windowTitleStyle">@style/pinkText</item>
+		<item name="android:textColorPrimary">#f80</item>
+		<item name="android:textColor">#f48</item>
+	</style>
+
+	<style name="pinkText">
+		<item name="android:textSize">18sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#ffe0e0</item>
+	</style>
+
+
+	<style name="GreenTheme">
+		<item name="android:windowBackground">@drawable/icon</item>
+		<item name="android:windowTitleStyle">@style/greenText</item>
+		<item name="android:textColorPrimary">#0f8</item>
+		<item name="android:textColor">#084</item>
+	</style>
+
+	<style name="greenText">
+		<item name="android:textSize">18sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#80ff80</item>
+	</style>
+
+	<style name="blackText">
+		<item name="android:textColor">#000000</item>
+		<item name="android:textSize">18sp</item>
+	</style>
+	<style name="blackQuestion">
+		<item name="android:textColor">#f48</item>
+		<item name="android:textSize">16sp</item>
+	</style>
+	<style name="blackOnly">
+		<item name="android:textColor">#000000</item>
+	</style>
+
+	<style name="immunization_main">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:background">#409ACD32</item>
+	</style>
+	<style name="immunization_checkbox">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:onClick">onclick_checkbox_immunization</item>
+	</style>
+
+
+</resources>

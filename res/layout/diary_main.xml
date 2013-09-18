@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<RelativeLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+<ScrollView
+	android:id="@+id/ScrollView01"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_alignParentTop="true">
+
+
+<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="vertical">
+
+	<TextView
+            android:text="日記"
+            android:id="@+id/write_9_1_title"
+            style="@style/write_9_title"
+            android:gravity="center"/>
+
+	<LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		        android:layout_marginBottom="1dip" >
+
+		        <TextView
+		            android:id="@+id/write_day"
+		            style="@style/write_9_question"
+				    android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:text="日にち" />
+		        <TextView
+		            android:id="@+id/TextView_diary_day"
+		            style="@style/blackOnly"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="　年　月　日 " >
+		        </TextView>
+
+</LinearLayout>
+<!-- ダミー -->
+<TextView
+	      android:layout_width="fill_parent"
+	      android:layout_height="fill_parent"
+	      android:text="　"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      >
+	    </TextView>
+	    <LinearLayout
+    android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:gravity="center"
+    >
+
+    <ImageView
+        android:id="@+id/imageview_diary"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:src="@drawable/noimage" />
+
+	<VideoView
+        android:id="@+id/videoview_diary"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:src="@drawable/noimage"
+        />
+
+
+
+
+	</LinearLayout>
+	<!-- ダミー -->
+	<TextView
+	      android:layout_width="fill_parent"
+	      android:layout_height="fill_parent"
+	      android:text="　"
+	      android:layout_weight="1"
+	      android:gravity="center"/>
+
+
+<TableLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+      <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+		  android:id="@+id/TextView_diary_text"
+	      android:background="#ffffff"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="20dip"
+	      android:layout_marginRight="20dip"
+		  android:layout_marginBottom="20dip"
+	      android:layout_marginTop="20dip"
+		  >
+	    </TextView>
+	    </TableRow>
+</TableLayout>
+
+
+		    <!-- 縦長の画像を選択すると下までスクロールされないのでダミースペース -->
+				<TextView
+					android:text=" "
+					android:layout_width="wrap_content"
+					style="@style/write_9_question"/>
+				<TextView
+					android:text=" "
+					android:layout_width="wrap_content"
+					style="@style/write_9_question"/>
+		</LinearLayout>
+
+
+
+</ScrollView>
+
+<include layout="@layout/write_next_back_layout" />
+
+
+
+<!-- TextView 1～9 -->
+</RelativeLayout>
+</LinearLayout>

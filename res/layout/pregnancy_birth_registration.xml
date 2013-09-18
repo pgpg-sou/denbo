@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/write_9_1_title"
+                style="@style/write_9_title"
+                android:gravity="center"
+                android:text="出生届出済証明" />
+
+            <!-- ダミー -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="　" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageview_birth_registration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:src="@drawable/noimage" />
+            <!-- ダミー -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="　" />
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="2"
+                        android:background="#ffbfa5"
+                        android:gravity="center"
+                        android:text="子の氏名" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_birth_registration_name"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="2"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_birth_registration_sex"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="1"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:background="#ffbfa5"
+                        android:gravity="center"
+                        android:text="出生の場所" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_birth_registration_place"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="3"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:background="#ffbfa5"
+                        android:gravity="center"
+                        android:text="出生の年月日" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_birth_registration_birthday"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="3"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="" >
+                    </TextView>
+                </TableRow>
+            </TableLayout>
+
+            <!-- 縦長の画像を選択すると下までスクロールされないのでダミースペース -->
+
+            <TextView
+                style="@style/write_9_question"
+                android:layout_width="wrap_content"
+                android:text=" " />
+
+            <TextView
+                style="@style/write_9_question"
+                android:layout_width="wrap_content"
+                android:text=" " />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- TextView 1～9 -->
+
+    <include
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/write_next_back_layout" />
+
+</RelativeLayout>

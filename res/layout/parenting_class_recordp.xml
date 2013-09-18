@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/write_9_1_title"
+                style="@style/write_9_title"
+                android:gravity="center"
+                android:text="母親(両親)学級　受講記録" />
+
+            <!-- ダミー -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="　" >
+            </TextView>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="2"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="受講年月日" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="2"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="課目"
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="1"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="備考" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+
+                    <Button
+                        android:id="@+id/Button_pregnancy_class_examination1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:padding="3dip"
+                        android:text="入力" />
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_class_examination1"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1.5"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_class_topic1"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_class_other1"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+
+                    <Button
+                        android:id="@+id/Button_pregnancy_class_examination2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:padding="3dip"
+                        android:text="入力" />
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_class_examination2"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1.5"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_class_topic2"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_class_other2"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+
+                    <Button
+                        android:id="@+id/Button_pregnancy_class_examination3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:padding="3dip"
+                        android:text="入力" />
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_class_examination3"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1.5"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_class_topic3"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_class_other3"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+
+                    <Button
+                        android:id="@+id/Button_pregnancy_class_examination4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:padding="3dip"
+                        android:text="入力" />
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_class_examination4"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1.5"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_class_topic4"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_class_other4"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+
+                    <Button
+                        android:id="@+id/Button_pregnancy_class_examination5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:padding="3dip"
+                        android:text="入力" />
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_class_examination5"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1.5"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_class_topic5"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_class_other5"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+
+                    <Button
+                        android:id="@+id/Button_pregnancy_class_examination6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:padding="3dip"
+                        android:text="入力" />
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_class_examination6"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1.5"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_class_topic6"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_class_other6"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+
+                    <Button
+                        android:id="@+id/Button_pregnancy_class_examination7"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:padding="3dip"
+                        android:text="入力" />
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_class_examination7"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1.5"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_class_topic7"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_class_other7"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+
+                    <Button
+                        android:id="@+id/Button_pregnancy_class_examination8"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:padding="3dip"
+                        android:text="入力" />
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_class_examination8"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1.5"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_class_topic8"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_class_other8"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+                </TableRow>
+            </TableLayout>
+
+            <include layout="@layout/write_save_cancel" />
+
+            <!-- 縦長の画像を選択すると下までスクロールされないのでダミースペース -->
+
+            <TextView
+                style="@style/write_9_question"
+                android:layout_width="wrap_content"
+                android:text=" " />
+
+            <TextView
+                style="@style/write_9_question"
+                android:layout_width="wrap_content"
+                android:text=" " />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- TextView 1～9 -->
+
+</RelativeLayout>

@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+<ScrollView
+	android:id="@+id/ScrollView01"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_alignParentTop="true">
+
+
+<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="vertical">
+
+	<TextView
+            android:text="9~10ヶ月児健康診査"
+            android:id="@+id/write_9_1_title"
+            style="@style/write_9_title"
+            android:gravity="center"/>
+
+	<LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		        android:layout_marginBottom="1dip" >
+
+		        <TextView
+		            android:id="@+id/write_day"
+		            style="@style/write_9_question"
+				    android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:text="実施日" />
+		        <TextView
+		            android:id="@+id/TextView_write_checkup_6_examination"
+		            style="@style/blackOnly"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="　年　月　日 " >
+		        </TextView>
+				<TextView
+		            style="@style/write_9_question"
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:text="生後" />
+		        <TextView
+		            android:id="@+id/TextView_write_checkup_6_examination_day"
+		            style="@style/blackOnly"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="----" >
+		        </TextView>
+
+		        <TextView
+		            style="@style/write_9_question"
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:text="日" />
+</LinearLayout>
+<!-- ダミー -->
+<TextView
+	      android:layout_width="fill_parent"
+	      android:layout_height="fill_parent"
+	      android:text="　"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      >
+	    </TextView>
+	<ImageView
+    	android:id="@+id/imageview_write_checkup_6"
+	    android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	android:src="@drawable/noimage"
+    	android:layout_weight="1" />
+	<!-- ダミー -->
+	<TextView
+	      android:layout_width="fill_parent"
+	      android:layout_height="fill_parent"
+	      android:text="　"
+	      android:layout_weight="1"
+	      android:gravity="center"/>
+
+
+<TableLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+      <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="#000000">
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="体重(g)"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+		  android:layout_marginBottom="1dip"
+	      android:layout_marginTop="1dip"
+		  >
+	    </TextView>
+	     <TextView
+	 	 android:id="@+id/TextView_write_checkup_6_weight"
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="2"
+	     android:gravity="center"
+	  android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip"
+	  android:layout_marginTop="1dip">
+	 </TextView>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="身長(cm)"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginTop="1dip"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+	    <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:id="@+id/TextView_write_checkup_6_height"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="2"
+	     android:gravity="center"
+	     android:layout_marginTop="1dip"
+	     android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	 </TextView>
+	  </TableRow>
+	 <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="#000000">
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="胸囲(cm)"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+		  android:layout_marginBottom="1dip"
+		  >
+	    </TextView>
+	     <TextView
+	 	 android:id="@+id/TextView_write_checkup_6_chest"
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="2"
+	     android:gravity="center"
+	  android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	 </TextView>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="頭囲(cm)"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+	    <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:id="@+id/TextView_write_checkup_6_head"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="2"
+	     android:gravity="center"
+	     android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	 </TextView>
+	  </TableRow>
+	 <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="#000000">
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="栄養状態"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+		  android:layout_marginBottom="1dip"
+		  >
+	    </TextView>
+	     <TextView
+	 	 android:id="@+id/TextView_write_checkup_6_diet"
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="2"
+	     android:gravity="center"
+	  android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	 </TextView>
+	  <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="離乳食は1日"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+
+	   <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:id="@+id/TextView_write_checkup_6_meals"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="1"
+	     android:gravity="right"
+	  android:layout_marginBottom="1dip">
+	 </TextView>
+	 <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:text="回"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="1"
+	     android:gravity="left"
+	  android:layout_marginBottom="1dip"
+	  android:layout_marginRight="1dip">
+	 </TextView>
+	 </TableRow>
+	 <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="#000000">
+
+	  <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="歯"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+
+	   <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:id="@+id/TextView_write_checkup_6_tooth"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="1"
+	     android:gravity="right"
+	  android:layout_marginBottom="1dip">
+	 </TextView>
+	 <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:text="本"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="1"
+	     android:gravity="left"
+	  android:layout_marginBottom="1dip">
+	 </TextView>
+<TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="口の中の疾患や異常"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+
+	   <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:id="@+id/TextView_write_checkup_6_mouth"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="2"
+	     android:gravity="center"
+	  android:layout_marginBottom="1dip"
+	  android:layout_marginRight="1dip">
+	 </TextView>
+	 </TableRow>
+	  <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="#000000">
+
+	 <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="備考"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+	  android:layout_marginBottom="1dip"
+	  android:layout_marginRight="1dip">
+	    </TextView>
+
+	   <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:id="@+id/TextView_write_checkup_6_mouth_other"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="5"
+	     android:gravity="center"
+	  android:layout_marginBottom="1dip"
+	  android:layout_marginRight="1dip">
+	 </TextView>
+	 	 </TableRow>
+	  <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="#000000">
+		<TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="口の中の疾患や異常は、虫歯、歯ぐきの病気、噛み合わせの不具合等を含みます。"
+	      android:background="#ffffff"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+
+	 </TableRow>
+	 	  <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="#000000">
+		<TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="健康・要観察"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+
+	   <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:id="@+id/TextView_write_checkup_6_health"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="5"
+	     android:gravity="center"
+	  android:layout_marginBottom="1dip"
+	  android:layout_marginRight="1dip">
+	 </TextView>
+
+	 </TableRow>
+	 	  <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="#000000">
+		<TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="特記事項"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+
+	   <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:id="@+id/TextView_write_checkup_6_other"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="5"
+	     android:gravity="center"
+	  android:layout_marginBottom="1dip"
+	  android:layout_marginRight="1dip">
+	 </TextView>
+
+	 </TableRow>
+	 <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="#000000">
+		<TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="施設名又は担当者名"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+
+	   <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:id="@+id/TextView_write_checkup_6_name"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="5"
+	     android:gravity="center"
+	  android:layout_marginBottom="1dip"
+	  android:layout_marginRight="1dip">
+	 </TextView>
+	 </TableRow>
+
+</TableLayout>
+
+
+		    <!-- 縦長の画像を選択すると下までスクロールされないのでダミースペース -->
+				<TextView
+					android:text=" "
+					android:layout_width="wrap_content"
+					style="@style/write_9_question"/>
+				<TextView
+					android:text=" "
+					android:layout_width="wrap_content"
+					style="@style/write_9_question"/>
+		</LinearLayout>
+
+
+
+</ScrollView>
+
+<include layout="@layout/write_next_back_layout" />
+
+
+
+<!-- TextView 1～9 -->
+</RelativeLayout>

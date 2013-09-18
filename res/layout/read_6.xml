@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/background_pink">
+
+            <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:gravity="center" >
+
+
+        <Button
+            android:id="@+id/read_button_6_back"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ButtonBack" />
+
+
+
+        <Button
+            android:id="@+id/read_button_6_mneu"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ButtonMneu" >
+
+        </Button>
+
+
+
+        <Button
+            android:id="@+id/read_button_6_next"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:text="@string/ButtonNext" >
+
+        </Button>
+        >
+
+    </LinearLayout>
+    
+    
+<ScrollView
+	android:id="@+id/ScrollView01"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:orientation="vertical">
+
+	<TextView
+		android:text="@string/read_6_title"
+		android:id="@+id/read_6_title"
+		style="@style/read_x_title" />
+	<TextView style="@style/read_x_description" android:layout_width="wrap_content" android:id="@+id/read_6_description" android:text="@string/read_6_description" android:layout_height="fill_parent"></TextView>
+
+	<TextView
+		 android:text="@string/read_6_footnote"
+		 android:id="@+id/read_6_footnote"
+		 style="@style/read_x_footnote"/>
+
+	<TextView
+		android:text="@string/read_6_1_title"
+		android:id="@+id/read_6_1_title"
+		style="@style/read_x_x_title" />
+
+
+
+
+		<!-- 2010/07/23 作成途中 -->
+		<!-- 2010/07/23 作成途中 -->
+		<!-- 2010/07/23 作成途中 -->
+	<HorizontalScrollView android:id="@+id/horizontalScrollView1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout2" android:layout_height="fill_parent" android:orientation="horizontal">
+			<TableLayout android:layout_width="wrap_content" android:id="@+id/TableLayout01" android:layout_height="wrap_content">
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_title" android:text="@string/read_6_1_index1" android:id="@+id/read_6_1_index1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_title" android:text="@string/read_6_1_index2" android:id="@+id/read_6_1_index2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_title" android:text="@string/read_6_1_index2" android:id="@+id/read_6_1_index2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_title" android:text="@string/read_6_1_index3" android:id="@+id/read_6_1_index3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_age1" android:id="@+id/read_6_1_age1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident1no1" android:id="@+id/read_6_1_accident1no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident1no2" android:id="@+id/read_6_1_accident1no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident1no3" android:id="@+id/read_6_1_accident1no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_age2" android:id="@+id/read_6_1_age2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident2no1" android:id="@+id/read_6_1_accident2no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident2no2" android:id="@+id/read_6_1_accident2no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident2no3" android:id="@+id/read_6_1_accident2no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_age2" android:id="@+id/read_6_1_age2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident3no1" android:id="@+id/read_6_1_accident3no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident3no2" android:id="@+id/read_6_1_accident3no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident3no3" android:id="@+id/read_6_1_accident3no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_age3" android:id="@+id/read_6_1_age3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident4no1" android:id="@+id/read_6_1_accident4no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident4no2" android:id="@+id/read_6_1_accident4no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident4no3" android:id="@+id/read_6_1_accident4no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_age3" android:id="@+id/read_6_1_age3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident5no1" android:id="@+id/read_6_1_accident5no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident5no2" android:id="@+id/read_6_1_accident5no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident5no3" android:id="@+id/read_6_1_accident5no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_age3" android:id="@+id/read_6_1_age3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident6no1" android:id="@+id/read_6_1_accident6no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident6no2" android:id="@+id/read_6_1_accident6no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident6no3" android:id="@+id/read_6_1_accident6no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_age3" android:id="@+id/read_6_1_age3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident7no1" android:id="@+id/read_6_1_accident7no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident7no2" android:id="@+id/read_6_1_accident7no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident7no3" android:id="@+id/read_6_1_accident7no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_age3" android:id="@+id/read_6_1_age3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident8no1" android:id="@+id/read_6_1_accident8no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident8no2" android:id="@+id/read_6_1_accident8no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident8no3" android:id="@+id/read_6_1_accident8no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_age4" android:id="@+id/read_6_1_age4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident9no1" android:id="@+id/read_6_1_accident9no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident9no2" android:id="@+id/read_6_1_accident9no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident9no3" android:id="@+id/read_6_1_accident9no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_age4" android:id="@+id/read_6_1_age4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident10no1" android:id="@+id/read_6_1_accident10no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident10no2" android:id="@+id/read_6_1_accident10no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident10no3" android:id="@+id/read_6_1_accident10no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_age4" android:id="@+id/read_6_1_age4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident11no1" android:id="@+id/read_6_1_accident11no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident11no2" android:id="@+id/read_6_1_accident11no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident11no3" android:id="@+id/read_6_1_accident11no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_age4" android:id="@+id/read_6_1_age4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident12no1" android:id="@+id/read_6_1_accident12no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident12no2" android:id="@+id/read_6_1_accident12no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident12no3" android:id="@+id/read_6_1_accident12no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_age4" android:id="@+id/read_6_1_age4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident13no1" android:id="@+id/read_6_1_accident13no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident13no2" android:id="@+id/read_6_1_accident13no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_1_accident13no3" android:id="@+id/read_6_1_accident13no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+			</TableLayout>
+		</LinearLayout>
+	</HorizontalScrollView>
+
+	<TextView
+		android:text="@string/read_6_2_title"
+		android:id="@+id/read_6_2_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		 android:text="@string/read_6_2_description"
+		 android:id="@+id/read_6_2_description"
+		 style="@style/read_x_x_description"/>
+
+	<TextView
+		 android:text="@string/read_6_2_footnote"
+		 android:id="@+id/read_6_2_footnote"
+		 style="@style/read_x_x_footnote"/>
+
+
+	<TextView
+		android:text="@string/read_6_3_title"
+		android:id="@+id/read_6_3_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		 android:text="@string/read_6_3_description"
+		 android:id="@+id/read_6_3_description"
+		 style="@style/read_x_x_description"/>
+	<HorizontalScrollView android:id="@+id/horizontalScrollView2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout3" android:layout_height="fill_parent" android:orientation="horizontal">
+			<TableLayout android:layout_width="wrap_content" android:id="@+id/TableLayout01" android:layout_height="wrap_content">
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_index1" android:id="@+id/read_6_3_index1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_index2" android:id="@+id/read_6_3_index2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_index2" android:id="@+id/read_6_3_index2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_index3" android:id="@+id/read_6_3_index3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item1no1" android:id="@+id/read_6_3_item1no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item1no2" android:id="@+id/read_6_3_item1no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item1no3" android:id="@+id/read_6_3_item1no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item1no4" android:id="@+id/read_6_3_item1no4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item2no1" android:id="@+id/read_6_3_item2no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item2no2" android:id="@+id/read_6_3_item2no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item2no3" android:id="@+id/read_6_3_item2no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item2no4" android:id="@+id/read_6_3_item2no4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item3no1" android:id="@+id/read_6_3_item3no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item3no2" android:id="@+id/read_6_3_item3no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item3no3" android:id="@+id/read_6_3_item3no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item3no4" android:id="@+id/read_6_3_item3no4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item4no1" android:id="@+id/read_6_3_item4no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item4no2" android:id="@+id/read_6_3_item4no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item4no3" android:id="@+id/read_6_3_item4no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item4no4" android:id="@+id/read_6_3_item4no4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item5no1" android:id="@+id/read_6_3_item5no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item5no2" android:id="@+id/read_6_3_item5no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item5no3" android:id="@+id/read_6_3_item5no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item5no4" android:id="@+id/read_6_3_item5no4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item6no1" android:id="@+id/read_6_3_item6no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item6no2" android:id="@+id/read_6_3_item6no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item6no3" android:id="@+id/read_6_3_item6no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item6no4" android:id="@+id/read_6_3_item6no4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item7no1" android:id="@+id/read_6_3_item7no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item7no2" android:id="@+id/read_6_3_item7no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item7no3" android:id="@+id/read_6_3_item7no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item7no4" android:id="@+id/read_6_3_item7no4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item8no1" android:id="@+id/read_6_3_item8no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item8no2" android:id="@+id/read_6_3_item8no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item8no3" android:id="@+id/read_6_3_item8no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item8no4" android:id="@+id/read_6_3_item8no4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item9no1" android:id="@+id/read_6_3_item9no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item9no2" android:id="@+id/read_6_3_item9no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item9no3" android:id="@+id/read_6_3_item9no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item9no4" android:id="@+id/read_6_3_item9no4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item10no1" android:id="@+id/read_6_3_item10no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item10no2" android:id="@+id/read_6_3_item10no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item10no3" android:id="@+id/read_6_3_item10no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item10no4" android:id="@+id/read_6_3_item10no4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item11no1" android:id="@+id/read_6_3_item11no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item11no2" android:id="@+id/read_6_3_item11no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item11no3" android:id="@+id/read_6_3_item11no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item11no4" android:id="@+id/read_6_3_item11no4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item12no1" android:id="@+id/read_6_3_item12no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item12no2" android:id="@+id/read_6_3_item12no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item12no3" android:id="@+id/read_6_3_item12no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item12no4" android:id="@+id/read_6_3_item12no4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item13no1" android:id="@+id/read_6_3_item13no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item13no2" android:id="@+id/read_6_3_item13no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item13no3" android:id="@+id/read_6_3_item13no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item13no4" android:id="@+id/read_6_3_item13no4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item14no1" android:id="@+id/read_6_3_item14no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item14no2" android:id="@+id/read_6_3_item14no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item14no3" android:id="@+id/read_6_3_item14no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item14no4" android:id="@+id/read_6_3_item14no4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item15no1" android:id="@+id/read_6_3_item15no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item15no2" android:id="@+id/read_6_3_item15no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item15no3" android:id="@+id/read_6_3_item15no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item15no4" android:id="@+id/read_6_3_item15no4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item16no1" android:id="@+id/read_6_3_item16no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item16no2" android:id="@+id/read_6_3_item16no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item16no3" android:id="@+id/read_6_3_item16no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item16no4" android:id="@+id/read_6_3_item16no4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item17no1" android:id="@+id/read_6_3_item17no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item17no2" android:id="@+id/read_6_3_item17no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item17no3" android:id="@+id/read_6_3_item17no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item17no4" android:id="@+id/read_6_3_item17no4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item18no1" android:id="@+id/read_6_3_item18no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item18no2" android:id="@+id/read_6_3_item18no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item18no3" android:id="@+id/read_6_3_item18no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item18no4" android:id="@+id/read_6_3_item18no4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item19no1" android:id="@+id/read_6_3_item19no1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item19no2" android:id="@+id/read_6_3_item19no2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item19no3" android:id="@+id/read_6_3_item19no3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+					<TextView style="@style/read_x_x_description" android:text="@string/read_6_3_item19no4" android:id="@+id/read_6_3_item19no4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</TableRow>
+			</TableLayout>
+		</LinearLayout>
+	</HorizontalScrollView>
+
+	<TextView
+		android:text="@string/read_6_4_title"
+		android:id="@+id/read_6_4_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		 android:text="@string/read_6_4_description"
+		 android:id="@+id/read_6_4_description"
+		 style="@style/read_x_x_description"/>
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

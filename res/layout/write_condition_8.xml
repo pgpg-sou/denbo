@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/write_9_1_title"
+                style="@style/write_9_title"
+                android:background="#FFDFA5"
+                android:gravity="center"
+                android:text="保護者の記録[４歳の頃]" />
+            <!-- ダミー -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="　" >
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center" >
+
+                <!-- ソース側で自動記入します -->
+
+                <TextView
+                    android:id="@+id/radio_writep_condition_day_record"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=" 記録" >
+                </TextView>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageview_writep_condition_day_record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:src="@drawable/noimage" />
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:id="@+id/TextView_writep_condition_day_old"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFFFFF"
+                        android:gravity="right"
+                        android:text="----年--月--日"
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFFFFF"
+                        android:gravity="left"
+                        android:text="で４歳になりました"
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="4"
+                        android:background="#ffffff"
+                        android:text="両親から４歳の誕生日のメッセージを記入しましょう。" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <!-- デフォルトであえて高さをとるためのダミービュー -->
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:background="#ffffff" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/EditText_write_condition_message"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFFFFF"
+                        android:gravity="left"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:background="#ffffff" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="7"
+                        android:background="#FFDFA5"
+                        android:text="階段の２、３段目の高さからとびおりるようなことをしますか。" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/EditText_write_condition1"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="----"
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="7"
+                        android:background="#FFDFA5"
+                        android:text="片足でケンケンをしてとびますか｡" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/radio_write_condition2"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="----"
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="7"
+                        android:background="#FFDFA5"
+                        android:text="自分の経験したことをお母さんやお父さんに話しますか｡" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/radio_write_condition3"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="----"
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="7"
+                        android:background="#FFDFA5"
+                        android:text="お手本を見て十字が描けますか。" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/radio_write_condition4"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="----"
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="7"
+                        android:background="#FFDFA5"
+                        android:text="はさみを上手に使えますか｡" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/radio_write_condition5"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="----"
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="7"
+                        android:background="#FFDFA5"
+                        android:text="衣服の着脱ができますか。" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/radio_write_condition6"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="----"
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="7"
+                        android:background="#FFDFA5"
+                        android:text="友だちと、ごっこ遊びをしますか｡" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/radio_write_condition7"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="----"
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="7"
+                        android:background="#FFDFA5"
+                        android:text="歯みがき、口ゆすぎ（ぶくぶくうがい）手洗いをしますか。" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/radio_write_condition8"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="----"
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="7"
+                        android:background="#FFDFA5"
+                        android:text="歯の仕上げみがきをしてあげていますか。" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/radio_write_condition9"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="----"
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="7"
+                        android:background="#FFDFA5"
+                        android:text="いつも指しゃぶりをしていますか。" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/radio_write_condition10"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="----"
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="7"
+                        android:background="#FFDFA5"
+                        android:text="食べ物の好き嫌いはありますか。" >
+                    </TextView>
+
+                    <TableLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2" >
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#000000" >
+
+                            <TextView
+                                android:id="@+id/radio_write_condition11"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="----"
+                                android:textColor="#000000" >
+                            </TextView>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#000000" >
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_weight="1"
+                                android:background="#ffffff"
+                                android:text="嫌いなものの例" >
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/EditText_write_condition11"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="----"
+                                android:textColor="#000000" >
+                            </TextView>
+                        </TableRow>
+                    </TableLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="7"
+                        android:background="#FFDFA5"
+                        android:text="おしっこをひとりでしますか｡" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/radio_write_condition12"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="----"
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="7"
+                        android:background="#FFDFA5"
+                        android:text="子育てについて気軽に相談できる人はいますか。" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/radio_write_condition13"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="----"
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="7"
+                        android:background="#FFDFA5"
+                        android:text="子育てについて不安や困難を感じることがありますか。" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/radio_write_condition14"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="----"
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="4"
+                        android:background="#FFDFA5"
+                        android:text="成長の様子、育児の心配、かかった病気、感想などを自由に記入しましょう。" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <!-- デフォルトであえて高さをとるためのダミービュー -->
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:background="#ffffff" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/EditText_write_condition_other"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFFFFF"
+                        android:gravity="left"
+                        android:text=""
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:background="#ffffff" >
+                    </TextView>
+                </TableRow>
+            </TableLayout>
+
+            <!-- 縦長の画像を選択すると下までスクロールされないのでダミースペース -->
+
+            <TextView
+                style="@style/write_9_question"
+                android:layout_width="wrap_content"
+                android:text=" " />
+
+            <TextView
+                style="@style/write_9_question"
+                android:layout_width="wrap_content"
+                android:text=" " />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- TextView 1～9 -->
+
+    <include
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/write_next_back_layout" />
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello"></string>
+    <string name="fruit">フルーツの種類を選んでください。</string>
+
+    <string-array name="item_label">
+        <item>Apple</item>
+        <item>Orange</item>
+        <item>Grape</item>
+        <item>Banana</item>
+        <item>Strawberry</item>
+        <item>Raspberry</item>
+        <item>Blueberry</item>
+        <item>Mango</item>
+        <item>Papaya</item>
+        <item>Remon</item>
+        <item>Grapefruit</item>
+        <item>Pineapple</item>
+    </string-array>
+
+</resources>

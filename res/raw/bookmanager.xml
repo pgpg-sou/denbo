@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<planshelf>
+    <planlist>
+        <plan>
+            <planName>デートてにゃ</planName>
+            <date>2013.9.9</date>
+            <startTime>12:00</startTime>
+            <endTime>16:00</endTime>
+            <alerm>60</alerm>
+        </plan>
+        <plan>
+            <planName>キャンプだい</planName>
+            <date>2013.9.13</date>
+            <startTime>10:30</startTime>
+            <endTime>11:00</endTime>
+            <alerm>60</alerm>
+        </plan>
+
+        <plan>
+            <planName>キャプい</planName>
+            <date>2013.9.18</date>
+            <startTime>10:30</startTime>
+            <endTime>11:00</endTime>
+            <alerm>60</alerm>
+        </plan>
+        <plan>
+            <planName>プロコン</planName>
+            <date>2013.9.18</date>
+            <startTime>10:30</startTime>
+            <endTime>11:00</endTime>
+            <alerm>60</alerm>
+        </plan>
+        
+        
+        <plan>
+            <planName>キャプ</planName>
+            <date>2013.10.27</date>
+            <startTime>10:30</startTime>
+            <endTime>11:00</endTime>
+            <alerm>60</alerm>
+        </plan>
+        
+        
+    </planlist>
+</planshelf>

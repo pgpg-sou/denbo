@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/write_9_1_title"
+                style="@style/write_9_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="妊婦の職業と環境" />
+
+            <!-- ダミー -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="　" >
+            </TextView>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF" >
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="5"
+                        android:background="#FFDFA5"
+                        android:gravity="center"
+                        android:text="妊娠に気づいた時の状況" />
+                </TableRow>
+
+                <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="#FFFFFF" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginBottom="1dip"
+                            android:layout_marginLeft="1dip"
+                            android:layout_marginRight="1dip"
+                            android:layout_weight="1"
+                            android:background="#FFDFA5"
+                            android:gravity="center"
+                            android:text="職業"
+                            android:textColor="#000000" >
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/EditText_pregnancy_home_situation_occupation"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginBottom="1dip"
+                            android:layout_marginRight="1dip"
+                            android:layout_weight="5"
+                            android:gravity="center"
+                            android:text="" >
+                        </EditText>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="#FFFFFF" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginBottom="1dip"
+                            android:layout_marginLeft="1dip"
+                            android:layout_marginRight="1dip"
+                            android:layout_weight="1"
+                            android:background="#FFDFA5"
+                            android:gravity="center"
+                            android:text="仕事の内容と職場環境"
+                            android:textColor="#000000" >
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/EditText_pregnancy_home_situation_environment"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginBottom="1dip"
+                            android:layout_marginRight="1dip"
+                            android:layout_weight="5"
+                            android:gravity="center"
+                            android:text="" >
+                        </EditText>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="#FFFFFF" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginBottom="1dip"
+                            android:layout_marginLeft="1dip"
+                            android:layout_marginRight="1dip"
+                            android:layout_weight="1"
+                            android:background="#FFDFA5"
+                            android:gravity="center"
+                            android:text="仕事をする時間"
+                            android:textColor="#000000" >
+                        </TextView>
+
+                        <TableLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="5" >
+
+                            <TableRow
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="#FFFFFF" >
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_marginBottom="1dip"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="1日約" >
+                                </TextView>
+
+                                <EditText
+                                    android:id="@+id/EditText_pregnancy_home_situation_hours"
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_marginBottom="1dip"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:inputType="number"
+                                    android:maxLength="2"
+                                    android:text="" >
+                                </EditText>
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_marginBottom="1dip"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="時間・" >
+                                </TextView>
+
+                                <EditText
+                                    android:id="@+id/EditText_pregnancy_home_situation_time_start"
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_marginBottom="1dip"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:inputType="number"
+                                    android:maxLength="2"
+                                    android:text="" >
+                                </EditText>
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_marginBottom="1dip"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="時～" >
+                                </TextView>
+
+                                <EditText
+                                    android:id="@+id/EditText_pregnancy_home_situation_time_finish"
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_marginBottom="1dip"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:inputType="number"
+                                    android:maxLength="2"
+                                    android:text="" >
+                                </EditText>
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_marginBottom="1dip"
+                                    android:layout_marginRight="1dip"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:text="時" >
+                                </TextView>
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="#FFFFFF" >
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_marginBottom="1dip"
+                                    android:layout_weight="6"
+                                    android:gravity="center"
+                                    android:text="交代制など変則的な勤務" >
+                                </TextView>
+
+                                <Spinner
+                                    android:id="@+id/Spinner_pregnancy_home_situation_irregular"
+                                    style="@style/write_9s_edittext"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="4" />
+                            </TableRow>
+                        </TableLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="#FFFFFF" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginBottom="1dip"
+                            android:layout_marginLeft="1dip"
+                            android:layout_marginRight="1dip"
+                            android:layout_weight="1"
+                            android:background="#FFDFA5"
+                            android:gravity="center"
+                            android:text="通勤や仕事に利用する乗り物"
+                            android:textColor="#000000" >
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/EditText_pregnancy_home_situation_how"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginBottom="1dip"
+                            android:layout_marginRight="1dip"
+                            android:layout_weight="5"
+                            android:gravity="center"
+                            android:text="" >
+                        </EditText>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="#FFFFFF" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginBottom="1dip"
+                            android:layout_marginLeft="1dip"
+                            android:layout_marginRight="1dip"
+                            android:layout_weight="1"
+                            android:background="#FFDFA5"
+                            android:gravity="center"
+                            android:text="通勤の時間"
+                            android:textColor="#000000" >
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginBottom="1dip"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="片道" >
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/EditText_pregnancy_home_situation_length"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginBottom="1dip"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="3"
+                            android:text="" >
+                        </EditText>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginBottom="1dip"
+                            android:layout_marginRight="1dip"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="分" >
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginBottom="1dip"
+                            android:layout_marginRight="1dip"
+                            android:layout_weight="1"
+                            android:background="#FFDFA5"
+                            android:gravity="center"
+                            android:text="混雑の程度"
+                            android:textColor="#000000" >
+                        </TextView>
+
+                        <Spinner
+                            android:id="@+id/Spinner_pregnancy_home_situation_crowded"
+                            style="@style/write_9s_edittext"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2" />
+                    </TableRow>
+                </TableLayout>
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="　" >
+            </TextView>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#FFDFA5"
+                        android:gravity="center"
+                        android:text="妊娠してからの変更点"
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TableLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="5" >
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#FFFFFF" >
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="4"
+                                android:gravity="center"
+                                android:text="仕事を休んだ　(妊娠" />
+
+                            <EditText
+                                android:id="@+id/EditText_pregnancy_home_situation_condition_week1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="0.5"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:maxLength="2"
+                                android:text="" >
+                            </EditText>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="2"
+                                android:gravity="center"
+                                android:text="週　(第" >
+                            </TextView>
+
+                            <EditText
+                                android:id="@+id/EditText_pregnancy_home_situation_condition_month1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="0.5"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:maxLength="2"
+                                android:text="" >
+                            </EditText>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="2"
+                                android:gravity="center"
+                                android:text="月)のとき" >
+                            </TextView>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#FFFFFF" >
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="4"
+                                android:gravity="center"
+                                android:text="仕事を変えた　(妊娠" />
+
+                            <EditText
+                                android:id="@+id/EditText_pregnancy_home_situation_condition_week2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="0.5"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:maxLength="2"
+                                android:text="" >
+                            </EditText>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="2"
+                                android:gravity="center"
+                                android:text="週　(第" >
+                            </TextView>
+
+                            <EditText
+                                android:id="@+id/EditText_pregnancy_home_situation_condition_month2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="0.5"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:maxLength="2"
+                                android:text="" >
+                            </EditText>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="2"
+                                android:gravity="center"
+                                android:text="月)のとき" >
+                            </TextView>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#FFFFFF" >
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="4"
+                                android:gravity="center"
+                                android:text="仕事をやめた　(妊娠" />
+
+                            <EditText
+                                android:id="@+id/EditText_pregnancy_home_situation_condition_week3"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="0.5"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:maxLength="2"
+                                android:text="" >
+                            </EditText>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="2"
+                                android:gravity="center"
+                                android:text="週　(第" >
+                            </TextView>
+
+                            <EditText
+                                android:id="@+id/EditText_pregnancy_home_situation_condition_month3"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="0.5"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:maxLength="2"
+                                android:text="" >
+                            </EditText>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="2"
+                                android:gravity="center"
+                                android:text="月)のとき" >
+                            </TextView>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#FFFFFF" >
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="その他" >
+                            </TextView>
+
+                            <EditText
+                                android:id="@+id/EditText_pregnancy_home_situation_condition_other"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="4"
+                                android:gravity="center"
+                                android:text="" >
+                            </EditText>
+                        </TableRow>
+                    </TableLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#FFDFA5"
+                        android:gravity="center"
+                        android:text="産前休業"
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/Button_pregnancy_home_situation_before_start"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:text="入力" />
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_home_situation_before_start"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="から"
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_home_situation_before_day"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="2"
+                        android:text="" >
+                    </EditText>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="日間"
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#FFDFA5"
+                        android:gravity="center"
+                        android:text="産後休業"
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/Button_pregnancy_home_situation_after_start"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="3dip"
+                        android:text="入力" />
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_home_situation_after_start"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="から"
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_home_situation_after_day"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="2"
+                        android:text="" >
+                    </EditText>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="日間"
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#FFDFA5"
+                        android:gravity="center"
+                        android:text="育児休業"
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TableLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="5" >
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#FFFFFF" >
+
+                            <Button
+                                android:id="@+id/Button_pregnancy_home_situation_leave_start1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:padding="3dip"
+                                android:text="入力" />
+
+                            <EditText
+                                android:id="@+id/EditText_pregnancy_home_situation_leave_start1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="" >
+                            </EditText>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="から"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <Button
+                                android:id="@+id/Button_pregnancy_home_situation_leave_finish1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:padding="3dip"
+                                android:text="入力" />
+
+                            <EditText
+                                android:id="@+id/EditText_pregnancy_home_situation_leave_finish1"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="" >
+                            </EditText>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="まで"
+                                android:textColor="#000000" >
+                            </TextView>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#FFFFFF" >
+
+                            <Button
+                                android:id="@+id/Button_pregnancy_home_situation_leave_start2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:padding="3dip"
+                                android:text="入力" />
+
+                            <EditText
+                                android:id="@+id/EditText_pregnancy_home_situation_leave_start2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="" >
+                            </EditText>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="から"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <Button
+                                android:id="@+id/Button_pregnancy_home_situation_leave_finish2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:padding="3dip"
+                                android:text="入力" />
+
+                            <EditText
+                                android:id="@+id/EditText_pregnancy_home_situation_leave_finish2"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="" >
+                            </EditText>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="まで"
+                                android:textColor="#000000" >
+                            </TextView>
+                        </TableRow>
+                    </TableLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="　"
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="住居の種類"
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/Spinner_pregnancy_home_situation_living"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="備考"
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/EditText_pregnancy_home_situation_living_other"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="騒音"
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/Spinner_pregnancy_home_situation_noise"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="日当たり"
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/Spinner_pregnancy_home_situation_sun"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="　"
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="1"
+                        android:background="#ccff99"
+                        android:gravity="center"
+                        android:text="同居"
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TableLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="5" >
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#ffffff" >
+
+                            <Button
+                                android:id="@+id/Button_pregnancy_home_situation_with"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:padding="3dip"
+                                android:text="選択" 
+                                android:onClick="alertDialogShow_immunization"/>
+
+                            <EditText
+                                android:id="@+id/EditText_pregnancy_home_situation_with"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_weight="3"
+                                android:gravity="center"
+                                android:text="" >
+                            </EditText>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#FFFFFF" >
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginLeft="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#ffffff"
+                                android:gravity="center"
+                                android:text="子ども"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <EditText
+                                android:id="@+id/EditText_pregnancy_home_situation_with_children"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_weight="1.5"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:maxLength="2"
+                                android:text="" >
+                            </EditText>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="0.5"
+                                android:gravity="center"
+                                android:text="人"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="1"
+                                android:background="#ffffff"
+                                android:gravity="center"
+                                android:text="その他"
+                                android:textColor="#000000" >
+                            </TextView>
+
+                            <EditText
+                                android:id="@+id/EditText_pregnancy_home_situation_with_other"
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="2"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:maxLength="2"
+                                android:text="" >
+                            </EditText>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="1dip"
+                                android:layout_marginRight="1dip"
+                                android:layout_weight="0.5"
+                                android:gravity="center"
+                                android:text="人"
+                                android:textColor="#000000" >
+                            </TextView>
+                        </TableRow>
+                    </TableLayout>
+                </TableRow>
+            </TableLayout>
+            <!-- 縦長の画像を選択すると下までスクロールされないのでダミースペース -->
+
+            <include layout="@layout/write_save_cancel" />
+
+            <TextView
+                style="@style/write_9_question"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:text=" " />
+
+            <TextView
+                style="@style/write_9_question"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:text=" " />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- <include layout="@layout/edit_layout" /> -->
+
+</RelativeLayout>

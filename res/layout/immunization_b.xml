@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/write_9_title"
+                android:gravity="center"
+                android:text="B型肝炎" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000" >
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="0.5dip"
+                        android:layout_marginLeft="0.5dip"
+                        android:layout_marginRight="0.5dip"
+                        android:layout_marginTop="0.5dip"
+                        android:layout_weight="2"
+                        android:background="#FFDFA5"
+                        android:text="接種年月日"
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_immunization_write_b_ymd1"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="0.5dip"
+                        android:layout_marginLeft="0.5dip"
+                        android:layout_marginRight="0.5dip"
+                        android:layout_marginTop="0.5dip"
+                        android:layout_weight="5"
+                        android:background="#FFFFFF"
+                        android:text="" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="0.5dip"
+                        android:layout_marginLeft="0.5dip"
+                        android:layout_marginRight="0.5dip"
+                        android:layout_marginTop="0.5dip"
+                        android:layout_weight="2"
+                        android:background="#FFDFA5"
+                        android:text="メーカー/ロット"
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_immunization_write_b_lot1"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="0.5dip"
+                        android:layout_marginLeft="0.5dip"
+                        android:layout_marginRight="0.5dip"
+                        android:layout_marginTop="0.5dip"
+                        android:layout_weight="5"
+                        android:background="#FFFFFF"
+                        android:text="" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="0.5dip"
+                        android:layout_marginLeft="0.5dip"
+                        android:layout_marginRight="0.5dip"
+                        android:layout_marginTop="0.5dip"
+                        android:layout_weight="2"
+                        android:background="#FFDFA5"
+                        android:text="接種者署名"
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_immunization_write_b_name1"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="0.5dip"
+                        android:layout_marginLeft="0.5dip"
+                        android:layout_marginRight="0.5dip"
+                        android:layout_marginTop="0.5dip"
+                        android:layout_weight="5"
+                        android:background="#FFFFFF"
+                        android:text="" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="0.5dip"
+                        android:layout_marginLeft="0.5dip"
+                        android:layout_marginRight="0.5dip"
+                        android:layout_marginTop="0.5dip"
+                        android:layout_weight="2"
+                        android:background="#FFDFA5"
+                        android:text="備考"
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_immunization_write_b_other1"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="0.5dip"
+                        android:layout_marginLeft="0.5dip"
+                        android:layout_marginRight="0.5dip"
+                        android:layout_marginTop="0.5dip"
+                        android:layout_weight="5"
+                        android:background="#FFFFFF"
+                        android:text="" >
+                    </TextView>
+                </TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0.5dip"
+                    android:layout_marginLeft="0.5dip"
+                    android:layout_marginRight="0.5dip"
+                    android:layout_marginTop="0.5dip"
+                    android:background="#FFFFFF" />
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="0.5dip"
+                        android:layout_marginLeft="0.5dip"
+                        android:layout_marginRight="0.5dip"
+                        android:layout_marginTop="0.5dip"
+                        android:layout_weight="2"
+                        android:background="#FFDFA5"
+                        android:text="接種年月日"
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_immunization_write_b_ymd2"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="0.5dip"
+                        android:layout_marginLeft="0.5dip"
+                        android:layout_marginRight="0.5dip"
+                        android:layout_marginTop="0.5dip"
+                        android:layout_weight="5"
+                        android:background="#FFFFFF"
+                        android:text="" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="0.5dip"
+                        android:layout_marginLeft="0.5dip"
+                        android:layout_marginRight="0.5dip"
+                        android:layout_marginTop="0.5dip"
+                        android:layout_weight="2"
+                        android:background="#FFDFA5"
+                        android:text="メーカー/ロット"
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_immunization_write_b_lot2"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="0.5dip"
+                        android:layout_marginLeft="0.5dip"
+                        android:layout_marginRight="0.5dip"
+                        android:layout_marginTop="0.5dip"
+                        android:layout_weight="5"
+                        android:background="#FFFFFF"
+                        android:text="" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="0.5dip"
+                        android:layout_marginLeft="0.5dip"
+                        android:layout_marginRight="0.5dip"
+                        android:layout_marginTop="0.5dip"
+                        android:layout_weight="2"
+                        android:background="#FFDFA5"
+                        android:text="接種者署名"
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_immunization_write_b_name2"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="0.5dip"
+                        android:layout_marginLeft="0.5dip"
+                        android:layout_marginRight="0.5dip"
+                        android:layout_marginTop="0.5dip"
+                        android:layout_weight="5"
+                        android:background="#FFFFFF"
+                        android:text="" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="0.5dip"
+                        android:layout_marginLeft="0.5dip"
+                        android:layout_marginRight="0.5dip"
+                        android:layout_marginTop="0.5dip"
+                        android:layout_weight="2"
+                        android:background="#FFDFA5"
+                        android:text="備考"
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_immunization_write_b_other2"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="0.5dip"
+                        android:layout_marginLeft="0.5dip"
+                        android:layout_marginRight="0.5dip"
+                        android:layout_marginTop="0.5dip"
+                        android:layout_weight="5"
+                        android:background="#FFFFFF"
+                        android:text="" >
+                    </TextView>
+                </TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0.5dip"
+                    android:layout_marginLeft="0.5dip"
+                    android:layout_marginRight="0.5dip"
+                    android:layout_marginTop="0.5dip"
+                    android:background="#FFFFFF" />
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="0.5dip"
+                        android:layout_marginLeft="0.5dip"
+                        android:layout_marginRight="0.5dip"
+                        android:layout_marginTop="0.5dip"
+                        android:layout_weight="2"
+                        android:background="#FFDFA5"
+                        android:text="接種年月日"
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_immunization_write_b_ymd3"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="0.5dip"
+                        android:layout_marginLeft="0.5dip"
+                        android:layout_marginRight="0.5dip"
+                        android:layout_marginTop="0.5dip"
+                        android:layout_weight="5"
+                        android:background="#FFFFFF"
+                        android:text="" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="0.5dip"
+                        android:layout_marginLeft="0.5dip"
+                        android:layout_marginRight="0.5dip"
+                        android:layout_marginTop="0.5dip"
+                        android:layout_weight="2"
+                        android:background="#FFDFA5"
+                        android:text="メーカー/ロット"
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_immunization_write_b_lot3"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="0.5dip"
+                        android:layout_marginLeft="0.5dip"
+                        android:layout_marginRight="0.5dip"
+                        android:layout_marginTop="0.5dip"
+                        android:layout_weight="5"
+                        android:background="#FFFFFF"
+                        android:text="" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="0.5dip"
+                        android:layout_marginLeft="0.5dip"
+                        android:layout_marginRight="0.5dip"
+                        android:layout_marginTop="0.5dip"
+                        android:layout_weight="2"
+                        android:background="#FFDFA5"
+                        android:text="接種者署名"
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_immunization_write_b_name3"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="0.5dip"
+                        android:layout_marginLeft="0.5dip"
+                        android:layout_marginRight="0.5dip"
+                        android:layout_marginTop="0.5dip"
+                        android:layout_weight="5"
+                        android:background="#FFFFFF"
+                        android:text="" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="0.5dip"
+                        android:layout_marginLeft="0.5dip"
+                        android:layout_marginRight="0.5dip"
+                        android:layout_marginTop="0.5dip"
+                        android:layout_weight="2"
+                        android:background="#FFDFA5"
+                        android:text="備考"
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/TextView_immunization_write_b_other3"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="0.5dip"
+                        android:layout_marginLeft="0.5dip"
+                        android:layout_marginRight="0.5dip"
+                        android:layout_marginTop="0.5dip"
+                        android:layout_weight="5"
+                        android:background="#FFFFFF"
+                        android:text="" >
+                    </TextView>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/edit_layout" />
+
+</RelativeLayout>

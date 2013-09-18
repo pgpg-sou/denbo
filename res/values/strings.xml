@@ -1,0 +1,1490 @@
+<resources>
+
+    <string name="app_name">電子母子健康手帳</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">電子母子健康手帳V3</string>
+    <string name="empty_message">empty.</string>
+    <string name="button_read">読む</string>
+    <string name="button_write">記入</string>
+    <string name="Button01">記入する</string>
+    <string name="Button02">　読む　</string>
+    <string name="Button03">同期する</string>
+    <string name="Button04">終了する</string>
+    <string name="Button1"> 基 本 情 報 </string>
+    <string name="Button2">　 読　む 　</string>
+    <string name="Button3"> 妊婦の記録 </string>
+    <string name="Button4"> 子供の記録 </string>
+    <string name="Button5"> スケジュール </string>
+    <string name="Button6">　 同　期 　</string>
+    <string name="Button001">記入する</string>
+    <string name="Button002">　読む　</string>
+    <string name="Button003">同期する</string>
+    <string name="Button004">終了する</string>
+    <string name="ButtonNext">次の項目</string>
+    <string name="ButtonBack">前の項目</string>
+    <string name="ButtonMneu">目次へ</string>
+    <string name="ButtonHome">　ホ　ー　ム　</string>
+    <string name="TextView01">TextView</string>
+    <string name="TextView02">TextView</string>
+    <string name="TextView03">TextView</string>
+    <string name="TextView04">母</string>
+    <string name="TextView05">子</string>
+    <string name="TextView06">父</string>
+    <string name="Hatuiku">発育目安</string>
+    <string name="imageView1">電子母子健康手帳</string>
+    <string name="imageView2">image</string>
+    <string name="imageView01">読んでおきましょう</string>
+
+    <!-- ▼▼▼ 記入する メニューindex_write_0 ▼▼▼ -->
+    <string name="index_write_0_1">基本情報</string>
+    <string name="index_write_0_2">妊婦の記録</string>
+    <string name="index_write_0_3">子供の記録</string>
+
+    <!-- ▼▼▼ 記入する メニュー ▼▼▼ -->
+    <string name="index_write_1">保護者・出生届済み証明</string>
+    <string name="index_write_2">妊婦の健康状態など</string>
+    <string name="index_write_3">妊婦の職業と環境</string>
+    <string name="index_write_4">妊娠中の経過</string>
+    <string name="index_write_5">出産の状態と出産後の母体の経過</string>
+    <string name="index_write_6">妊娠中と産後の体重変化の記録</string>
+    <string name="index_write_7">妊娠中と産後の歯の状態</string>
+    <string name="index_write_8">母親（両親）学級受講記録</string>
+    <string name="index_write_9">保護者の記録（新生児～6歳）</string>
+    <string name="index_write_9s">健康診査等（新生児～6歳）</string>
+    <string name="index_write_10">乳幼児身体発育曲線</string>
+    <string name="index_write_11">幼児の身長体重曲線</string>
+    <string name="index_write_12">予防接種の記録</string>
+    <string name="index_write_13">今までにかかった主な病気</string>
+    <string name="index_write_14">歯の健康診査、保健指導、予防措置</string>
+    <string name="index_write_15">保護者の記録（7歳以降）</string>
+
+    <!-- ▼▼▼ 読む メニュー ▼▼▼ -->
+    <string name="index_read_1">1.すこやかな妊娠と出産のために</string>
+    <string name="index_read_2">2.妊娠中と産後の食事</string>
+    <string name="index_read_3">3.妊産婦のための食事バランスガイド</string>
+    <string name="index_read_4">4.子育てのスタート</string>
+    <string name="index_read_5">5.育児のしおり</string>
+    <string name="index_read_5no1">5.1.育児のしおり 新生児期（生後約4週間まで）</string>
+    <string name="index_read_5no2">5.2.育児のしおり 1～6か月</string>
+    <string name="index_read_5no3">5.3.育児のしおり 6か月～お誕生日</string>
+    <string name="index_read_5no4">5.4.育児のしおり 1歳ごろ</string>
+    <string name="index_read_5no5">5.5.育児のしおり 2歳ごろ</string>
+    <string name="index_read_5no6">5.6.育児のしおり 3～4歳ごろ</string>
+    <string name="index_read_5no7">5.7.育児のしおり 5～6歳ごろ</string>
+    <string name="index_read_6">6.子供を事故から守る</string>
+    <string name="index_read_7">7.乳幼児期の栄養</string>
+    <string name="index_read_8">8.予防接種</string>
+    <string name="index_read_9">9.歯の健康と歯みがき</string>
+    <string name="index_read_10_0">10.子育てのサポート</string>
+    <string name="index_read_10">10.1.子育てのサポート</string>
+    <string name="index_read_11">10.2.共働きの子育て</string>
+    <string name="index_read_12">10.3子育てを応援する制度</string>
+    <string name="index_read_12no1">10.3.1.一時金や手当・給付など</string>
+    <string name="index_read_12no2">10.3.2.働く女性・男性のための出産、育児に関する制度</string>
+    <string name="index_read_12no3">10.3.3.主な母子医療の公費負担制度</string>
+    <string name="index_read_13">母性健康管理指導事項連絡カード</string>
+    <string name="index_read_14">予備欄</string>
+    <string name="index_read_15">10.4知っておきたい救命手当（心肺蘇生法／誤飲・窒息の予防）</string>
+    <string name="index_read_16">連絡先・相談先メモ</string>
+
+    <!-- ▼▼▼▼▼ 記入する ▼▼▼▼▼ -->
+
+
+    <!-- よく使う項目 -->
+
+    <string name="write_year">年</string>
+    <string name="write_month">月</string>
+    <string name="write_monthabout">月頃</string>
+    <string name="write_date">日</string>
+    <string name="write_dateabout">日頃</string>
+    <string name="write_datekiroku">日記録</string>
+    <string name="write_g">g</string>
+    <string name="write_cm">cm</string>
+    <string name="write_period">.</string>
+    <string name="write_dot">・</string>
+    <string name="write_weight">体重</string>
+    <string name="write_height">身長</string>
+    <string name="write_chest">胸囲</string>
+    <string name="write_head">頭囲</string>
+    <string name="write_enforcement">実施</string>
+    <string name="write_kamonth">か月</string>
+    <string name="write_age">歳</string>
+    <string name="write_1_parent">子の保護者</string>
+    <string name="write_1_zokugara">続柄</string>
+    <string name="write_1_name">氏名</string>
+    <string name="write_1_hurigana">ふりがな</string>
+    <string name="write_1_birthday">生年月日（年齢）</string>
+    <string name="write_1_job">職業</string>
+    <string name="write_1_mother">母\n（妊婦）</string>
+    <string name="write_1_father">父</string>
+    <string name="write_1_year">年</string>
+    <string name="write_1_month">月</string>
+    <string name="write_1_date">日生（</string>
+    <string name="write_1_age">歳）</string>
+    <string name="write_1_domicile">居住地</string>
+    <string name="write_1_tel">電話</string>
+    <string name="write_1_"></string>
+    <string name="write_9_blank"></string>
+    <string name="write_9_save">保存</string>
+    <string name="write_9_load">読込</string>
+    <string name="write_9_yes">　　　はい</string>
+    <string name="write_9_no">　　　いいえ</string>
+    <string name="write_9_yesorno">　　　何ともいえない</string>
+    <string name="write_9_tsuki">月</string>
+    <string name="write_9_nichigoro">日頃</string>
+    <string name="write_9_title">保護者の記録</string>
+    <string name="write_9_1_title">生後4週間まで</string>
+    <string name="write_9_1_item1">●生まれたときの状態</string>
+    <string name="write_9_1_item2">（赤ちゃんのお誕生の記念に記入しておきましょう。）</string>
+    <string name="write_9_1_q1_1">●赤ちゃんに初めてお乳を飲ませたのは</string>
+    <string name="write_9_1_q1_2">生後</string>
+    <string name="write_9_1_q1_3">時間目です。</string>
+    <string name="write_9_1_q2_1">●そのとき、与えたお乳は</string>
+    <string name="write_9_1_q2_2">　　　母乳</string>
+    <string name="write_9_1_q2_3">　　　人工乳</string>
+    <string name="write_9_1_q2_4">です。</string>
+    <string name="write_9_1_q3">●先天性代謝異常等審査を受けましたか。</string>
+    <string name="write_9_1_q4">＊赤ちゃん誕生を迎えた両親の気持ちを記入しておきましょう。\nまた、心配なこと、相談したいことなども記入しておきましょう。</string>
+    <string name="write_9_2_title">1か月頃</string>
+    <string name="write_9_2_item1">で<b>１か月</b>になりました。</string>
+    <string name="write_9_2_q1">●裸にすると手足をよく動かしますか。</string>
+    <string name="write_9_2_q2">●お乳をよく飲みますか。</string>
+    <string name="write_9_2_q3">●大きな音にビクッと手足を伸ばしたり、泣き出すことがありますか。</string>
+    <string name="write_9_2_q4_1">●おへそはかわいていますか。</string>
+    <string name="write_9_2_q4_2">（ジクジクしている時は医師にみてもらいましょう。）</string>
+    <string name="write_9_2_q5_1">●うすい黄色、クリーム色、灰白色の便が続いていますか。※</string>
+    <string name="write_9_2_q5_2">※便の色がうすい黄色、クリーム色、灰白色で、白目（しろめ）や皮膚が黄色～黄緑色である場合は、胆汁が流れにくい状態が疑われるので、一日も早く、小児科医、小児外科医等の診察を受けてください。</string>
+    <string name="write_9_2_q6">●子育てについて困難を感じることはありますか。</string>
+    <string name="write_9_2_q7">●＊育児の心配、かかった病気、感想などを自由に記入しましょう。</string>
+    <string name="write_9_3_title">3～4か月頃</string>
+    <string name="write_9_3_q1_1">●首がすわりましたか。</string>
+    <string name="write_9_3_q1_2">すわった時期：</string>
+    <string name="write_9_3_q2">●あやすとよく笑いますか。</string>
+    <string name="write_9_3_q3">●目つきや目の動きがおかしいのではないかと気になりますか。</string>
+    <string name="write_9_3_q4">●見えない方向から声をかけてみると、そちらのほうを見ようとしますか。</string>
+    <string name="write_9_3_q5_1">●外気浴をしていますか。</string>
+    <string name="write_9_3_q5_2">（天気のよい日に薄着で散歩するなどしてあげましょう。）</string>
+    <string name="write_9_3_q6">●子育てについて困難を感じることはありますか。</string>
+    <string name="write_9_3_q7">＊育児の心配、かかった病気、感想などを自由に記入しましょう。</string>
+    <string name="write_9_4_title">6～7か月頃</string>
+    <string name="write_9_4_q1">●寝返りをしますか。</string>
+    <string name="write_9_4_q2_1">●おすわりをしますか。（7か月頃）</string>
+    <string name="write_9_4_q2_2">支えなくてもすわれるようになった時：</string>
+    <string name="write_9_4_q3">●からだのそばにあるおもちゃに手をのばしてつかみますか。</string>
+    <string name="write_9_4_q4">●家族といっしょにいるとき、話しかけるような声を出しますか。</string>
+    <string name="write_9_4_q5">●テレビやラジオの音がしはじめると、すぐそちらを見ますか。</string>
+    <string name="write_9_4_q6_1">●離乳食を始めましたか。</string>
+    <string name="write_9_4_q6_2">（離乳食を初めて1か月位したら1日2回食にし、食品の種類をふやしていきましょう。7、8か月頃から舌でつぶせる固さにします。）</string>
+    <string name="write_9_4_q7_1">●ひとみが白く見えたり、黄緑色に光って見えたりすることがありますか。※</string>
+    <string name="write_9_4_q7_2">※ひとみが白く見えたり、黄緑色に光って見えるときは目の病気の心配があります。すぐに眼科医の診察を受けてください。</string>
+    <string name="write_9_4_q8">＊育児の心配、かかった病気、感想などを自由に記入しましょう。</string>
+    <string name="write_9_5_title">9～10か月頃</string>
+    <string name="write_9_5_q1_1">●はいはいをしますか。</string>
+    <string name="write_9_5_q1_2">できるようになった時：</string>
+    <string name="write_9_5_q2_1">●つかまり立ちができますか。</string>
+    <string name="write_9_5_q2_2">できるようになった時：</string>
+    <string name="write_9_5_q3_1">●指で、小さい物をつまみますか。</string>
+    <string name="write_9_5_q3_2">（たばこや豆などの異物誤飲に注意しましょう。）</string>
+    <string name="write_9_5_q4">●機嫌よくひとり遊びができますか。</string>
+    <string name="write_9_5_q5_1">●離乳は順調に進んでいますか。</string>
+    <string name="write_9_5_q5_2">（離乳食を3回に進めましょう。9か月頃から歯ぐきでつぶせる固さにします。）</string>
+    <string name="write_9_5_q6">●そっと近づいて、ささやき声で呼びかけると振り向きますか。</string>
+    <string name="write_9_5_q7">●後追いをしますか。</string>
+    <string name="write_9_5_q8">●歯の生え方、形、色、歯肉などについて、気になることはありますか。</string>
+    <string name="write_9_5_q9">●子育てについて困難を感じることはありますか。</string>
+    <string name="write_9_5_q10">＊育児の心配、かかった病気、感想などを自由に記入しましょう。</string>
+    <string name="write_9_5_q11_1">歯の生えた月日を記入しましょう。</string>
+    <string name="write_9_5_q11_2">生え始め：</string>
+    <string name="write_9_5_q11_3">か月</string>
+    <string name="write_9_5_q11_4">むし歯など歯の異常に気づいたら右の図に×印をつけておきましょう。</string>
+    <string name="write_9_6_title">1歳の頃</string>
+    <string name="write_9_6_item1">で<b>１歳</b>になりました。</string>
+    <string name="write_9_6_q1_1">●つたい歩きをしますか。</string>
+    <string name="write_9_6_q1_2">できるようになった時：</string>
+    <string name="write_9_6_q2">●バイバイ、コンニチハなどの身振りをしますか。</string>
+    <string name="write_9_6_q3">●テレビなどの音楽に合わせて、からだを楽しそうに動かしますか。</string>
+    <string name="write_9_6_q4">●大人の言う簡単なことば（おいで、ちょうだいなど）がわかりますか。</string>
+    <string name="write_9_6_q5">●相手になって遊んでやると喜びますか。</string>
+    <string name="write_9_6_q6_1">●1日3回の食事のリズムがつきましたか。</string>
+    <string name="write_9_6_q6_2">（食欲をなくさぬよう、また、むし歯予防のために、砂糖の多い飲食物を控えましょう。）</string>
+    <string name="write_9_6_q7_1">●どんな遊びが好きですか。</string>
+    <string name="write_9_6_q7_2">遊びの例：</string>
+    <string name="write_9_6_q8">＊育児の心配、かかった病気、感想などを自由に記入しましょう。</string>
+    <string name="write_9_7_title">1歳6か月の頃</string>
+    <string name="write_9_7_q1_1">●ひとりでじょうずに歩きますか。</string>
+    <string name="write_9_7_q1_2">ひとり歩きができるようになった時：</string>
+    <string name="write_9_7_q2">●ママ、ブーブーなど意味のあることばをいくつか話しますか。</string>
+    <string name="write_9_7_q3">●自分でコップを持って水を飲めますか。</string>
+    <string name="write_9_7_q4_1">●哺乳ビンを使っていますか。</string>
+    <string name="write_9_7_q4_2">（哺乳ビンを使って飲むのは、むし歯予防などのためにやめるようにしましょう。）</string>
+    <string name="write_9_7_q5">●食事や間食（おやつ）の時間はだいたい決まっていますか。</string>
+    <string name="write_9_7_q6">●保護者が歯の仕上げみがきをしてあげていますか。</string>
+    <string name="write_9_7_q7_1">●極端にまぶしがったり、目の動きがおかしいのではないかと気になりますか。※</string>
+    <string name="write_9_7_q7_2">※極端にまぶしがったり、テレビを見るとき目を細めたり、首を傾けたりするときには、視力などが悪いことがあります。</string>
+    <string name="write_9_7_q8">●うしろから名前を呼んだとき、振り向きますか。</string>
+    <string name="write_9_7_q9_1">●どんな遊びが好きですか。</string>
+    <string name="write_9_7_q9_2">遊びの例：</string>
+    <string name="write_9_7_q10">●子育てについて困難を感じることはありますか。</string>
+    <string name="write_9_7_q11">＊育児の心配、かかった病気、感想などを自由に記入しましょう。</string>
+    <string name="write_9_7_q12">●むし歯など歯の異常に気づいたら右の図に×印をつけておきましょう。</string>
+    <string name="write_9_8_title">2歳の頃</string>
+    <string name="write_9_8_item1">で<b>２歳</b>になりました。</string>
+    <string name="write_9_8_q1">●走ることができますか。</string>
+    <string name="write_9_8_q2">●スプーンを使って自分で食べますか。</string>
+    <string name="write_9_8_q3">●積木で塔のようなものを作ったり、横に並べて電車などにみたてて遊ぶことをしますか。</string>
+    <string name="write_9_8_q4">●テレビや大人の身振りのまねをしますか。</string>
+    <string name="write_9_8_q5">●2語文（ワンワンキタ、マンマチョウダイ）などを言いますか。</string>
+    <string name="write_9_8_q6">●肉や繊維のある野菜を食べますか。</string>
+    <string name="write_9_8_q7">●歯みがきの練習をはじめていますか。</string>
+    <string name="write_9_8_q8">●保護者が歯の仕上げみがきをしてあげていますか。</string>
+    <string name="write_9_8_q9_1">●どんな遊びが好きですか。</string>
+    <string name="write_9_8_q9_2">（遊びの例：</string>
+    <string name="write_9_8_q10">＊育児の心配、かかった病気、感想などを自由に記入しましょう。</string>
+    <string name="write_9_9_title">3歳の頃</string>
+    <string name="write_9_9_item1">で<b>３歳</b>になりました。</string>
+    <string name="write_9_9_q1">●手を使わずにひとりで階段をのぼれますか。</string>
+    <string name="write_9_9_q2">●クレヨンなどで丸（円）を書きますか。</string>
+    <string name="write_9_9_q3">●衣服の着脱をひとりでしたがりますか。</string>
+    <string name="write_9_9_q4">●自分の名前が言えますか。</string>
+    <string name="write_9_9_q5">●歯みがきや手洗いをしていますか。</string>
+    <string name="write_9_9_q6">●保護者が歯の仕上げみがきをしてあげていますか。</string>
+    <string name="write_9_9_q7">●いつも指しゃぶりをしていますか。</string>
+    <string name="write_9_9_q8">●よくかんで食べる習慣はありますか。</string>
+    <string name="write_9_9_q9">●斜視はありますか。</string>
+    <string name="write_9_9_q10">●物を見るときに目を細めたり、極端に近づけて見たりしますか。</string>
+    <string name="write_9_9_q11">●耳の聞こえが悪いのではないかと気になりますか。</string>
+    <string name="write_9_9_q12">●ままごと、怪獣ごっこなど、ごっこ遊びができますか。</string>
+    <string name="write_9_9_q13">●遊び友だちがいますか。</string>
+    <string name="write_9_9_q14">●子育てについて困難を感じることはありますか。</string>
+    <string name="write_9_9_q15">＊育児の心配、かかった病気、感想などを自由に記入しましょう。</string>
+    <string name="write_9_10_title">4歳の頃</string>
+    <string name="write_9_10_item1">で<b>４歳</b>になりました。</string>
+    <string name="write_9_10_q1">●階段を2、3段の高さからとびおりたりしますか。</string>
+    <string name="write_9_10_q2">●片足でケンケンをしてとびますか。</string>
+    <string name="write_9_10_q3">●自分の経験したことをお母さんやお父さんに話しますか。</string>
+    <string name="write_9_10_q4">●お手本を見て十字が描けますか。</string>
+    <string name="write_9_10_q5">●はさみを上手に使えますか。</string>
+    <string name="write_9_10_q6">●衣服の着脱ができますか。</string>
+    <string name="write_9_10_q7">●友だちと、ごっこ遊びをしますか。</string>
+    <string name="write_9_10_q8">●歯みがき、口すすぎ、手洗いをしますか。</string>
+    <string name="write_9_10_q9">●保護者が歯の仕上げみがきをしてあげていますか。</string>
+    <string name="write_9_10_q10">●いつも指しゃぶりをしていますか。</string>
+    <string name="write_9_10_q11_1">●食べ物の好き嫌いはありますか。</string>
+    <string name="write_9_10_q11_2">嫌いなものの例：</string>
+    <string name="write_9_10_q12">●おしっこをひとりでしますか。</string>
+    <string name="write_9_10_q13">＊育児の心配、かかった病気、感想などを自由に記入しましょう。</string>
+    <string name="write_9_11_title">5歳の頃</string>
+    <string name="write_9_11_item1">で<b>５歳</b>になりました。</string>
+    <string name="write_9_11_q1">●でんぐり返しができますか。</string>
+    <string name="write_9_11_q2">●思い出して絵を書くことができますか。</string>
+    <string name="write_9_11_q3">●色（赤、黄、緑、青）がわかりますか。</string>
+    <string name="write_9_11_q4">●はっきりした発音で話ができますか。</string>
+    <string name="write_9_11_q5">●大便をひとりでしますか。</string>
+    <string name="write_9_11_q6">●幼稚園、保育所などの集団生活になじみ、楽しく過ごしていますか。</string>
+    <string name="write_9_11_q7">●動物や花をかわいがったり、他人を思いやる気持ちを持っているようですか。</string>
+    <string name="write_9_11_q8">●家族といっしょに食事を食べていますか。</string>
+    <string name="write_9_11_q9">●保護者が歯の仕上げみがきをしてあげていますか。</string>
+    <string name="write_9_11_q10">●いつも指しゃぶりをしていますか。</string>
+    <string name="write_9_11_q11">●お話を読んであげるとその内容がわかるようになりましたか。</string>
+    <string name="write_9_11_q12">＊育児の心配、かかった病気、感想などを自由に記入しましょう。</string>
+    <string name="write_9_12_title">6歳の頃</string>
+    <string name="write_9_12_item1">で<b>６歳</b>になりました。</string>
+    <string name="write_9_12_q1">●片足で5～10秒間立っていられますか。</string>
+    <string name="write_9_12_q2">●四角の形をまねて、書けますか。</string>
+    <string name="write_9_12_q3">●自分の「前後」「左右」がおおよそわかりますか。</string>
+    <string name="write_9_12_q4">●ひらがなの自分の名前を読んだり、書いたりできますか。</string>
+    <string name="write_9_12_q5">●おもちゃやお菓子などをほしくても我慢できるようになりましたか。</string>
+    <string name="write_9_12_q6">●約束やルールを守って遊べますか。</string>
+    <string name="write_9_12_q7">●6歳臼歯（乳歯列の奥に生える永久歯）は生えましたか。</string>
+    <string name="write_9_12_q8">●保護者が歯の仕上げみがきをしてあげていますか。</string>
+    <string name="write_9_12_q9">●朝食を毎日食べますか。</string>
+    <string name="write_9_12_q10">＊育児の心配、かかった病気、感想などを自由に記入しましょう。</string>
+    <string name="write_9s_nutrition">栄養状態</string>
+    <string name="write_9s_good">　　　良</string>
+    <string name="write_9s_bad">　　　要指導</string>
+    <string name="write_9s_nutritionway">栄養法</string>
+    <string name="write_9s_mothermilk">　　　母乳</string>
+    <string name="write_9s_mixmilk">　　　混合</string>
+    <string name="write_9s_artificial">　　　人工</string>
+    <string name="write_9s_healthy">　　　健康</string>
+    <string name="write_9s_observation">　　　要観察</string>
+    <string name="write_9s_coaching">指導事項</string>
+    <string name="write_9s_charge">施設名または担当者名</string>
+    <string name="write_9s_nexttitle">次の健康診査までの記録</string>
+    <string name="write_9s_nextdescription">（自宅で測定した身長・体重も記入しましょう。）</string>
+    <string name="write_9s_data">年月日</string>
+    <string name="write_9s_age">月齢</string>
+    <string name="write_9s_1_title1">早期新生児期【生後１週間以内】の経過</string>
+    <string name="write_9s_1_title2">退院時の記録</string>
+    <string name="write_9s_1_title3">晩期新生児期【生後１～４週】の経過</string>
+    <string name="write_9s_1_item1">日齢</string>
+    <string name="write_9s_1_item2">体重</string>
+    <string name="write_9s_1_item3">哺乳力</string>
+    <string name="write_9s_1_item4">黄疸</string>
+    <string name="write_9s_1_item5">その他</string>
+    <string name="write_9s_1_item6">　　　弱</string>
+    <string name="write_9s_1_item7">　　　普通</string>
+    <string name="write_9s_1_item8">　　　なし</string>
+    <string name="write_9s_1_item9">　　　強</string>
+    <string name="write_9s_1_item10">出生時の異常</string>
+    <string name="write_9s_1_item11">　　　あり</string>
+    <string name="write_9s_1_item12">その処置</string>
+    <string name="write_9s_1_item13">その後の経過中の異常</string>
+    <string name="write_9s_1_item14">引き続き観察を要する事項</string>
+    <string name="write_9s_1_item15">電話</string>
+    <string name="write_9s_1_item16">（※生まれた当日は0日。）</string>
+    <string name="write_9s_1_item17">生後</string>
+    <string name="write_9s_2_title">1か月健康診査</string>
+    <string name="write_9s_3_title">3～4か月健康診査</string>
+    <string name="write_9s_3_item1">股関節開排制限</string>
+    <string name="write_9s_3_item2">　　　なし</string>
+    <string name="write_9s_3_item3">　　　あり</string>
+    <string name="write_9s_4_title">6～7か月健康診査</string>
+    <string name="write_9s_4_item1">離乳</string>
+    <string name="write_9s_4_item2">　　　開始</string>
+    <string name="write_9s_4_item3">　　　未開始</string>
+    <string name="write_9s_4_item4">歯</string>
+    <string name="write_9s_4_item5">本</string>
+    <string name="write_9s_4_item6">口の中の疾患や異常</string>
+    <string name="write_9s_4_item7">※口の中の疾患や異常は、むし歯、歯ぐきの病気、不正交合等を含みます。</string>
+    <string name="write_9s_5_title">9～10か月健康診査</string>
+    <string name="write_9s_5_item1">離乳食は</string>
+    <string name="write_9s_5_item2">1日</string>
+    <string name="write_9s_5_item3">回</string>
+    <string name="write_9s_5_item4">歯</string>
+    <string name="write_9s_5_item5">本</string>
+    <string name="write_9s_6_title">1歳健康診査</string>
+    <string name="write_9s_6_item1">母乳</string>
+    <string name="write_9s_6_item2">　　　飲んでいない</string>
+    <string name="write_9s_6_item3">　　　飲んでいる</string>
+    <string name="write_9s_6_item4">一日に食事</string>
+    <string name="write_9s_6_item5">回</string>
+    <string name="write_9s_6_item6">間食（おやつ）</string>
+    <string name="write_9s_6_item7">目の異常</string>
+    <string name="write_9s_6_item8">　　　なし</string>
+    <string name="write_9s_6_item9">　　　あり</string>
+    <string name="write_9s_6_item10">　　　疑</string>
+    <string name="write_9s_6_item11">眼位・その他</string>
+    <string name="write_9s_6_item12">歯の状態</string>
+    <string name="write_9s_6_item13">要治療のむし歯</string>
+    <string name="write_9s_6_item14">本</string>
+    <string name="write_9s_6_item15">歯の汚れ</string>
+    <string name="write_9s_6_item16">　　　きれい</string>
+    <string name="write_9s_6_item17">　　　ふつう</string>
+    <string name="write_9s_6_item18">　　　きたない</string>
+    <string name="write_9s_6_item19">歯肉・粘膜</string>
+    <string name="write_9s_6_item20">　　　異常なし</string>
+    <string name="write_9s_6_item21">不正咬合</string>
+    <string name="write_9s_6_item22">　　　要注意</string>
+    <string name="write_9s_6_item23">日診査</string>
+    <string name="write_9s_7_title">1歳6か月健康診査</string>
+    <string name="write_9s_7_item1">離乳</string>
+    <string name="write_9s_7_item2">　　　完了</string>
+    <string name="write_9s_7_item3">　　　未完了</string>
+    <string name="write_9s_7_item4">耳の異常</string>
+    <string name="write_9s_7_item5">予防接種</string>
+    <string name="write_9s_7_item6">（受けているものにチェック）</string>
+    <string name="write_9s_7_item7">BCG</string>
+    <string name="write_9s_7_item8">ポリオ</string>
+    <string name="write_9s_7_item9">ジフテリア・百日せき・破傷風</string>
+    <string name="write_9s_7_item10">麻しん・風しん</string>
+    <string name="write_9s_7_item11">むし歯の罹患型</string>
+    <string name="write_9s_7_item12">O1</string>
+    <string name="write_9s_7_item13">O2</string>
+    <string name="write_9s_7_item14">A</string>
+    <string name="write_9s_7_item15">B</string>
+    <string name="write_9s_7_item16">C</string>
+    <string name="write_9s_7_item17">※むし歯の罹患型</string>
+    <string name="write_9s_7_item18">O1：むし歯なし、歯もきれい</string>
+    <string name="write_9s_7_item19">O2：むし歯なし、歯きたない</string>
+    <string name="write_9s_7_item20">A：奥歯または前歯にむし歯</string>
+    <string name="write_9s_7_item21">B：奥歯と前歯にむし歯</string>
+    <string name="write_9s_7_item22">C：下前歯にもむし歯</string>
+    <string name="write_9s_7_item23">要治療のむし歯</string>
+    <string name="write_9s_8_title">2歳健康診査</string>
+    <string name="write_9s_8_item1">栄養状態</string>
+    <string name="write_9s_8_item2">　　　ふとり気味</string>
+    <string name="write_9s_8_item3">　　　普通</string>
+    <string name="write_9s_8_item4">　　　やせ気味</string>
+    <string name="write_9s_9_title">3歳健康診査</string>
+    <string name="write_9s_9_item1">O</string>
+    <string name="write_9s_9_item2">A</string>
+    <string name="write_9s_9_item3">B</string>
+    <string name="write_9s_9_item4">C1</string>
+    <string name="write_9s_9_item5">C2</string>
+    <string name="write_9s_9_item6">O：むし歯なし</string>
+    <string name="write_9s_9_item7">A：奥歯または前歯にむし歯</string>
+    <string name="write_9s_9_item8">B：奥歯と前歯にむし歯</string>
+    <string name="write_9s_9_item9">C1：下前歯がむし歯</string>
+    <string name="write_9s_9_item10">C2：下前歯やその他にむし歯</string>
+    <string name="write_9s_10_title">4歳健康診査</string>
+    <string name="write_9s_10_item1">　　　眼位異常</string>
+    <string name="write_9s_10_item2">　　　視力</string>
+    <string name="write_9s_10_item3">右</string>
+    <string name="write_9s_10_item4">左</string>
+    <string name="write_9s_10_item5">　　　その他</string>
+    <string name="write_9s_11_title">5歳健康診査</string>
+    <string name="write_9s_11_item1">乳歯</string>
+    <string name="write_9s_11_item2">永久歯</string>
+    <string name="write_9s_11_item3">歯・口腔の疾病異常</string>
+    <string name="write_9s_12_title">6歳健康診査</string>
+    <string name="write_9s_12_item1">日本脳炎</string>
+
+    <!-- ▼▼▼▼▼ 読む ▼▼▼▼▼ -->
+
+
+    <!-- ▼▼▼ 読む 1章 ▼▼▼ -->
+    <string name="read_1_title">1.すこやかな妊娠と出産のために</string>
+    <string name="read_1_description">妊娠・出産は女性にとって大きなドラマです。からだの変化に気をつけながら、充実した毎日を送りましょう。</string>
+    <string name="read_1_1_title">●妊娠中は無理をしないで</string>
+    <string name="read_1_1_description">        　おなかの赤ちゃんの発育はめざましく、それにつれて母体にもいろいろな変化が起こってきます。特に妊娠初期である11週（第3月）ごろまでと、妊娠末期28週（第8月）以降はからだの調子も変わりやすい時期です。家事や仕事の合間に午前と午後の1回ずつ、少しの時間でも横になって休むなど、仕事の仕方や休息の方法を工夫しましょう。無理はせず、「ふだんの8割程度」を目安にペースダウンを。\n</string>
+    <string name="read_1_2_title">●妊婦健康診査は必ず受けましょう</string>
+    <string name="read_1_2_description">        　妊娠中はふだんよりいっそう健康に気をつけなければなりません。特に気がかりなことがなくとも、からだにはいろいろな変化が起こっています。少なくとも次のような間隔で定期的に産婦人科などで健康診査を受け、胎児の育ち具合や血圧・尿などをチェックしてもらいましょう。\n
+        　特に注意しなければならないのは貧血や妊娠高血圧症候群、妊娠糖尿病で、どれも胎児の発育に影響し、母体の健康を損なうことがあります。妊娠22週以降は早産にも注意しなければなりません。そのためにもきちんと健康診査を受け、医師の指導を守りましょう。\n
+        　\n　●妊娠23週まで … 4週に1回\n
+        　●妊娠24～35週まで … 2週に1回以上\n
+        　●妊娠36週以降出産まで … 毎週1回\n</string>
+    <string name="read_1_3_title">●専門家の指導を積極的に受けて</string>
+    <string name="read_1_3_description">        　妊娠中を健康に過ごし、お産を無事に迎えるためには、日常生活や環境、栄養などいろいろなことに気を配る必要があります。医師・歯科医師・助産師・保健師・歯科衛生士・栄養士などの指導を積極的に受け、妊娠や出産に関して悩みや不安があるときは遠慮せずに相談しましょう。\n
+        　両親学級・母親学級も役立つ情報を提供しています。\n</string>
+    <string name="read_1_4_title">●薬の影響について</string>
+    <string name="read_1_4_description">        　妊娠中の薬の服用については、事前に目的、必要性、効果、副作用など医師および薬剤師から十分な説明を受けましょう。また指示された使い方や量を守りましょう。また、出産時に使用される薬についても、必要性、効果、副作用などについて医師から十分な説明を受けましょう。\n</string>
+    <string name="read_1_5_title">●たばこ・お酒の害から赤ちゃんを守りましょう</string>
+    <string name="read_1_5_description">        　妊娠中の喫煙は、胎児の発育を遅延させ、妊婦や赤ちゃんのそばでの喫煙は乳幼児突然死症候群（SIDS）と関係することが知られています。妊婦自身の禁煙はもちろんのこと、お父さんなど周囲の人も、妊婦や赤ちゃんのそばで喫煙してはいけません。\n
+        　出産後に喫煙を再開してしまうお母さんもいますが、出産後もお母さん自身や赤ちゃんのために、たばこはひかえましょう。\n
+        　また、アルコールも胎盤を通過しやすく、胎児の発育に影響をおよぼします。妊娠したら、飲酒はしないようにしましょう。出産後も授乳中は飲酒をひかえましょう。\n</string>
+    <string name="read_1_6_title">●むし歯や歯周病に気をつけて</string>
+    <string name="read_1_6_description">        　むし歯や歯周病などの病気は妊娠中に悪くなりやすいものです。歯みがきなど口腔の清潔を十分心がけるとともに、つわりが終わったら歯の検診を受けましょう。歯科医師を受診するときは妊娠中であることを必ず伝えてください。\n</string>
+    <string name="read_1_7_title">●妊娠中の夫の役割</string>
+    <string name="read_1_7_description">        　妊娠中の女性の心身の安定には、夫や家族など周囲の人の理解と協力が必要です。夫は妻をいたわったり、ねぎらったりするほか、家事も積極的に行ないましょう。\n
+        　妻の妊娠の約40週間は、夫にとっても「父親」として育っていく大切な準備期間です。この時期に、ふたりにとって子どもとはどんな存在か、親になるとはどいういうことか、またお産のときや産後の育児で夫がどのような役割を持つのか、妊娠中からよく話しあい、準備しておきましょう。\n</string>
+    <string name="read_1_8_title">●赤ちゃんと家族のかかりつけ医</string>
+    <string name="read_1_8_description">        　赤ちゃんのために自宅近くで小児科のかかりつけ医を探しておきましょう。妊娠中に小児科を訪問して、育児についてアドバイスを受けておくのもいい方法です。\n</string>
+    <string name="read_1_8_footnote">        ※一部の自治体では無料の小児科アドバイスを実施しています。\n</string>
+    <string name="read_1_9_title">●母乳の準備を始めます</string>
+    <string name="read_1_9_description">        　赤ちゃんにいちばん適している栄養は母乳です。妊娠中から「母乳で育てよう」という心がまえをもち、胎動を感じたら医師や助産師などの指導を受けて乳首や脂肪の手入れを始めましょう。母乳は赤ちゃんのすこやかな成長によいだけでなく、産後の母体の回復も促してくれます。\n</string>
+    <string name="read_1_10_title">●里帰りのお産</string>
+    <string name="read_1_10_description">        　里帰り分娩を望むときは前の医師から紹介状をもらいます。また分娩前後を住所地以外で過ごす場合は、住所地および帰省先の市区町村の母子保健担当にその旨を申し出、その地域の母子保護サービスの説明を受けましょう。\n</string>
+    <string name="read_1_1_column_title">産後の健康にも注意して</string>
+    <string name="read_1_1_column_description">        　お産後は赤ちゃんの世話に追われて、自分のからだの不調やトラブルをあとに回しがちです。経過が順調と思われるときでも、お産後1～2か月目ごろには産婦人科医の診察を受けましょう。また、妊娠中や分娩のときに異常があった場合は、ひきつづきその治療を受けることが必要です。\n</string>
+
+    <!-- ▼▼▼ 読む 2章 ▼▼▼ -->
+    <string name="read_2_title">2.妊娠中と産後の食事</string>
+    <string name="read_2_description">育っていく赤ちゃんにはもちろん、お母さんのからだのためにも、妊娠中と産後の食事の内容に気をつけ、よい栄養を。</string>
+    <string name="read_2_1_title">●バランスのとれた食事を</string>
+    <string name="read_2_1_description">        　おなかの赤ちゃんの発育に必要な栄養は、すべて胎盤を通じて母体から与えられます。また母体にも、十分な栄養が必要です。食事は1日3食きちんととり、特定の料理や食品にかたよらないようにしましょう。『妊産婦のための食事バランスガイド』を参考に、「主食」「副菜」「主菜」「牛乳・乳製品」「果物」の5グループの料理や食品を組み合わせて、それぞれ適量をとりましょう。\n</string>
+    <string name="read_2_2_title">●望ましい体重増加量に</string>
+    <string name="read_2_2_description">        　妊娠中は、胎児の発育による「適正な体重増加」が必要です。太りすぎも、やせ過ぎも、よくありません。\n
+        　望ましい体重増加量は妊娠前の体型によっても異なります。以下の表を目安に、食事の内容、とり方、生活のしかたを考えましょう。また『体重変化の記録』に毎月体重を記入し、医師や助産師の助言を受けながら、変化を見守りましょう。\n</string>
+    <string name="read_2_3_title">●貧血予防のために</string>
+    <string name="read_2_3_description">        　貧血を防ぐためには、毎日、栄養バランスのとれた食事をきちんととることが大切です。良質のたんぱく質、鉄、ビタミンなどを多く含む食品、つまり卵、肉類、レバー、魚介類、大豆類（豆腐、納豆など）、緑黄色野菜類、果物、海藻（ひじきなど）をじょうずにとりいれましょう。\n</string>
+    <string name="read_2_4_title">●妊娠高血圧症候群の予防</string>
+    <string name="read_2_4_description">        　妊娠高血圧症候（妊娠中毒症）は、おもに妊娠30週ごろからあらわれる妊婦に特有の病気です。悪化すると早産や死産の原因となるばかりでなく、ときには母体の生命もおびやかすようになります。予防には、睡眠・休養を十分にとり、過労を避け、適正な体重増加（太りすぎない）が重要です。\n
+        　食事では主食類（炭水化物）、砂糖、菓子類はひかえめにします。良質のたんぱく質（脂肪の少ない肉や魚、乳製品、豆腐、納豆など）や野菜、果物を適度にとりましょう。塩分をひかえめにすることも大切です。味付けは「薄味」を心がけましょう。\n
+        　サインは下段コラムを参照してください。軽いうちに早く発見するためにも、定期的に産婦人科で診察を受けておくことが大切です。\n</string>
+    <string name="read_2_1_column_title">妊娠高血圧症候群のサイン</string>
+    <string name="read_2_1_column_description">        　高血圧、たんぱく尿が妊娠高血圧症候群（妊娠中毒症）のおもな症状です。ときには「むくみ」をともなうこともあります。血圧は最高血圧（収縮期血圧）140mmHg以上または最低血圧（拡張期血圧）90mmHg以上の場合です。「強い頭痛が続く」「目がちらちらする」などが高血圧のサインということもありますから、妊娠中、気になる症状があったら、急いで産婦人科を受診しましょう。\n</string>
+    <string name="read_2_5_title">●赤ちゃんの歯をじょうぶに</string>
+    <string name="read_2_5_description">        　妊娠中の母体のとる栄養は、生まれてくる赤ちゃんの歯の健康にも関係しています。赤ちゃんの歯をじょうぶにするために、妊娠中、カルシウムだけでなく、たんぱく質、リン、ビタミンA・C・Dの栄養素を含む食品をバランスよくとることが大切です。\n</string>
+    <string name="read_2_6_title">●葉酸（ようさん）をとりましょう</string>
+    <string name="read_2_6_description">        　妊婦の健康と胎児の健全な発育のためには、多様な食品を摂取することにより栄養のバランスを保つことが必要です。二分脊椎などの神経管閉鎖障害の発症を減らすためには、葉酸の摂取が重要であることが知られています。\n
+        　葉酸は、ほうれんそう、ブロッコリーなどの緑黄色野菜や、いちご、納豆など、身近な食品に多く含まれています。日ごろからこうした食品を多くとるように心がけましょう。\n</string>
+    <string name="read_2_6_footnote">        ※神経管閉鎖障害とは、赤ちゃんができてくる初期の段階で形成される脳や脊髄のもととなる神経管と呼ばれる部分がうまく形成されず、きちんとした管の形にならないことに起因して起こる障害であり、遺伝などを含めた多くの要因が複合して発症するものです。\n</string>
+    <string name="read_2_7_title">●魚介類に含まれる水銀について</string>
+    <string name="read_2_7_description">        　魚介類は良質なたんぱく質や微量栄養素を多く含み、すこやかな妊娠と出産に必要な「栄養のバランスのよい食事」に欠かせないものです。積極的にとりいれましょう。\n
+        　ただし、一部の魚介類には、自然界の食物連鎖を通じて、残留する水銀濃度が高いものがあり、妊婦を通じて胎児に影響があるおそれがあるという報告もあります（イルカ・クジラなどを含む）。一部の魚ばかりにかたよって毎日たくさん食べることは避けましょう。\n
+        　妊娠に気がついてから食生活に気をつければ、心配ありません。\n</string>
+    <string name="read_2_7_footnote">        ※魚介類に含まれる水銀については、くわしい情報を厚生労働省ホームページでも紹介しています。\n</string>
+    <string name="read_2_8_title">●産後の栄養について</string>
+    <string name="read_2_8_description">        　産後も母体の回復のため、また母乳の出をよくするために、3食きちんと食べましょう。良質のたんぱく質、鉄、ビタミンのほか、カルシウムを含む食品（乳製品や小魚など）も、バランスよくとってください。\n</string>
+
+    <!-- ▼▼▼ 読む 3章 ▼▼▼ -->
+    <string name="read_3_title">3.妊産婦のための食事バランスガイド</string>
+    <string name="read_3_description">「食事バランスガイド」とは、1日に「何を」「どれだけ」食べたらよいかがひと目でわかる食事の目安です。「主食」「副菜」「牛乳・乳製品」「果物」の5グループの料理や食品を組み合わせてとれるよう、コマにたとえてそれぞれの適量をイラストで示しています。</string>
+
+    <!-- ▼▼▼ 読む 4章 ▼▼▼ -->
+    <string name="read_4_title">4.子育てのスタート</string>
+    <string name="read_4_description">ゆっくり、ゆったりが子育てのコツです。あせらず赤ちゃんとの暮らしに慣れていきましょう。赤ちゃんの発育や発達は個人差が大きく、個性もあります。よその赤ちゃんとの違いを気にしすぎないで。</string>
+    <string name="read_4_1_title">●気がかりは遠慮せずに相談を</string>
+    <string name="read_4_1_description">        　いよいよ赤ちゃんとの暮らしのスタートです。楽しいこともあるし、大変なこともあります。苦楽ともにあるのが子育てといえるでしょう。\n
+        　また、子育ては心や体を通常よりとても多く使うものです。お母さん・お父さんにとっても、心身の健康が一番大切です。心と体をいたわり、休養をできるだけとって、なにより健康であるよう心がけましょう。\n
+        　心配ごとがあるときは、遠慮せずに医師や保健師などに相談してください。保健所や市町村保健センターなどでは電話による相談も受けつけています。また、保健師、助産師、子育て経験者などによる家庭訪問を利用して、子育てのうえでのわからないことや困ったことなど気軽に相談しましょう。\n</string>
+    <string name="read_4_2_title">●お父さんも積極的に子育てを</string>
+    <string name="read_4_2_description">        　女性にくらべると、男性は親になった実感がなかなかわかないもののようです。けれど子育ては母親ひとりではできません。子育ては母親まかせ、というのではなく、ふたりで育てるという気持ちを持つことが大切です。父親も、おむつを替えたり、赤ちゃんをお風呂に入れたり、あやしたりなど、積極的に子育てをしましょう。\n
+        　子育て中の母親が育児不安に陥る最大の原因は、孤立することです。ですから母親をひとりぼっちにせず、精神的に支え、いたわることが大切です。仕事などの事情でふだんは子育てにあまりかかわれなくても、よく話し、ふたりで育てていくのだという意識を持つことがとても大切です。\n
+        　子育ては楽しく豊かな営みです。親としての責任を分かち合うためにも、できるだけ子どもとかかわってください。\n</string>
+
+    <!-- ▼▼▼ 読む 5章 1節 ▼▼▼ -->
+    <string name="read_5_title">5.育児のしおり</string>
+    <string name="read_5no1_title">5.1.育児のしおり　新生児期（生後約4週間まで）</string>
+    <string name="read_5no1_description">生まれてからの約4週間を新生児期といいます。特に最初の2週間はお母さんの体内とはまったく違う環境の中で自分の力で育っていくことに慣れるのに大切な時期。次のような点に配慮しましょう。</string>
+    <string name="read_5no1_1_title">●静かな環境に寝かせてあげて</string>
+    <string name="read_5no1_1_description">        　おっぱいを飲むときのほかはうつらうつらしている子もいるし、小さな音にも反応してすぐ目を覚ます子もいます。赤ちゃんもこのころから個性があるのですね。母体を離れての生活に無理なく慣れるよう、赤ちゃんは清潔で静かな場所にゆったり寝かせましょう。\n
+        　医学上の理由で医師からうつぶせ寝をすすめられている場合以外は、赤ちゃんの顔が見えるあおむけに寝かせましょう。また、できるだけ赤ちゃんをひとりにしないようにしましょう。これらのことは、窒息や誤飲、けがなどの事故を未然に防ぐことにつながります。\n</string>
+    <string name="read_5no1_2_title">●部屋の温度</string>
+    <string name="read_5no1_2_description">        　赤ちゃんは自分で体温を調節することがまだうまくできないので、室温はなるべく20℃以下にならないように保ちます。暑すぎたり寒すぎたりしないようにします。暑い季節は除湿機能や冷房もじょうずに使いましょう。風は、赤ちゃんに直接あたらないように気をつけます。こまめに換気し、室内の空気を新鮮に保つことも忘れないでください。\n</string>
+    <string name="read_5no1_3_title">●清潔を保ち、病気から守りましょう</string>
+    <string name="read_5no1_3_description">        　新生児期は細菌やウイルスなど病原体に対する抵抗力が特に弱いものです。赤ちゃんのお世話をする前には手を洗い、寝具や衣類、おむつなどはいつも清潔なものを使いましょう。沐浴は毎日して、皮膚を清潔に保ってあげましょう。\n
+        　かぜなど感染症が疑われる大人は赤ちゃんに近づいたり抱いたりしない、むやみに赤ちゃんを連れて人混みに出ないなども、この時期は大切です。\n</string>
+    <string name="read_5no1_4_title">●母乳が出なくてもあせらずに</string>
+    <string name="read_5no1_4_description">        　新生児には母乳が第一です。母乳栄養は赤ちゃんの病気を防ぎ、赤ちゃんとお母さんのきずなを強くします。また、かむ力の発達に大切です。\n
+        　特に初乳は赤ちゃんが初めて口にする食物としてかけがえのないものですから、ぜひ与えたいものです。母乳が出ないようでも、あせらずに、赤ちゃんが欲しがるにまかせて根気よく吸わせていると出るようになります。母乳の出をよくするためには、お母さんがバランスのよい栄養と休息をとることも大切です。\n
+        　授乳中はテレビなども消して、ゆったりした気持ちで赤ちゃんと向きあいましょう。\n</string>
+    <string name="read_5no1_4_footnote">        ※母乳育児の悩みや乳房のトラブルには、産婦人科医だけでなく助産師もよい相談役です。最近は「母乳外来」「助産師外来」などを設けている医療機関もありますから、気軽に相談しましょう。\n</string>
+    <string name="read_5no1_5_title">●先天性代謝異常等の検査を受けましょう</string>
+    <string name="read_5no1_5_description">        　すべての新生児を対象として、血液を用いてフェニールケトン尿症（PKU）などの先天性代謝異常検査や先天性甲状腺機能低下症の検査が行われています。これらの病気は早期に発見することによって、特殊ミルクや甲状腺ホルモンなどで治療することができます。なお、小児の先天性代謝異常のための特殊ミルクは無償で提供されます（小児科のかかりつけ医に相談してください）。\n</string>
+    <string name="read_5no1_5_footnote">        ※PKUの女性は、妊娠にあたっては、胎児の障害を予防するため、医師の治療・管理を受ける必要があります。PKUの女児の保護者の方は、将来お子さんが子供を産む年齢に達したら、妊娠する前に医師に相談するようお子さんをご指導ください。\n</string>
+    <string name="read_5no1_1_column_title">新生児聴覚スクリーニング検査</string>
+    <string name="read_5no1_1_column_description">        　生まれつきの難聴や新生児期に発生する聴覚障害は1000人に1～2人といわれています。聴覚障害は早く発見し、早期に適切な療育指導を始めることで言葉の発達の遅れなども防ぐことが可能です。そのため、現在は「新生児聴覚スクリーニング検査」を行っている医療機関もあります。赤ちゃんが眠っている間に行える検査です。希望する場合は、医師などにたずねてみるといいでしょう。\n</string>
+    <string name="read_5no1_6_title">●乳幼児突然死症候群（SIDS）の予防のために</string>
+    <string name="read_5no1_6_description">        　１：赤ちゃんを寝かせるときは、あおむけ寝にしましょう。ただし、医学上の理由から医師がうつぶせ寝をすすめる場合もあるので、このようなときは医師の指導を守りましょう。\n
+        　２：妊婦自身はもちろん、妊娠中の女性や赤ちゃんの周囲で、お父さんなど家族や周囲の人はたばこを吸ってはいけません。\n
+        　３：できるだけ母乳で育てましょう。\n</string>
+    <string name="read_5no1_6_footnote">        ※SIDSとは、それまで元気であった赤ちゃんが睡眠中に何の前ぶれもなく亡くなってしまう病気で、窒息などの事故によるものとは違います。毎年300～500人の赤ちゃんがこの病気で亡くなっており、乳児期の死亡原因としては第3位となっています。原因はあまりわかっていませんが、上述の1から3の点を日ごろから心がけることで、この病気の発生を減らせることがわかっています。\n</string>
+    <string name="read_5no1_2_column_title">こんなときは小児科へ！</string>
+    <string name="read_5no1_2_column_description">        　赤ちゃんが次のような様子のときは、すみやかに小児科を受信しましょう。\n
+        　●発熱した\n
+        　●顔色が悪い\n
+        　●呼吸が苦しそう\n
+        　●ぐったりしている\n
+        　●せきがおさまらない\n
+        　●下痢や嘔吐がある\n
+        　●便が白い・赤い・黒い\n
+        　●皮膚や白目が黄色い（強い黄疸）\n
+        　●いつもにくらべて食欲がない・元気がない・反応が鈍い\n
+        　●授乳のたびに勢いよく吐き、体重が増えない・吐き方が激しくなる\n
+        　●けいれんを起こした\n</string>
+    <string name="read_5no1_2_column_footnote">        　出生体重が2500g未満の赤ちゃんや、病気などがある子は保健所や市町村保健センターの指導が受けられるので、出産後連絡をしましょう。公費による医療が受けられることもありますから、積極的に相談してください。\n</string>
+
+    <!-- ▼▼▼ 読む 5章 2節 ▼▼▼ -->
+    <string name="read_5no2_title">5.2.育児のしおり　1～6か月</string>
+    <string name="read_5no2_description">泣きやまない、寝ないなどに悩まされる人も多いですが、これは時間とともに解決することがほとんど。もう少しのしんぼうです。</string>
+    <string name="read_5no2_1_title">●泣きやまないときは抱っこしてあげましょう</string>
+    <string name="read_5no2_1_description">        　おむつは替えたし、おっぱいもあげたのに、何をしても泣きやまない。1～2か月ごろの赤ちゃんにはこうしたこともよくあります。「ここにいますよ」と声をかけ、お母さん・お父さんが抱っこしてあげましょう。抱きぐせがつくと心配しなくてもいいのです。こわがったり不安そうなときも抱いてなだめてあげてください。\n</string>
+    <string name="read_5no2_2_title">●目覚めているときは相手をしてあげて</string>
+    <string name="read_5no2_2_description">        　赤ちゃんが目覚めているときは、積極的に相手をしてあげましょう。赤ちゃんも相手をしてもらうのは大好きです。顔をのぞきこんだり、話しかけたり。うつぶせにして手を取って遊んであげると、よろこんで顔をあげるようにもなります。こうした遊びは赤ちゃんのよい運動。お父さんもたくさん遊んであげてください。\n
+        　また、赤ちゃんは自分の手指をしゃぶったり、おもちゃを口に入れたりなめたりして遊びます。食べる・話すなど口の発達が促されますので、おもちゃなどは清潔にして与えましょう（誤飲・窒息には十分な注意を）。\n</string>
+    <string name="read_5no2_3_title">●きょうだいのための時間も大切に</string>
+    <string name="read_5no2_3_description">        　きょうだいにとって、赤ちゃんの誕生はうれしいものですが、お母さん・お父さんをとられたような気がしてさびしく感じることもあります。幼児は”赤ちゃん返り”をすることもあります。上の子のための時間も十分にとってあげましょう。\n</string>
+    <string name="read_5no2_4_title">●予防接種のスケジュールを確認しましょう</string>
+    <string name="read_5no2_4_description">        　生後3か月ごろになったら、予防接種のこれからの予定について、かかりつけの小児科医と相談して決めましょう。地域の集団接種のスケジュールなども確認しておきましょう。\n</string>
+
+    <!-- ▼▼▼ 読む 5章 3節 ▼▼▼ -->
+    <string name="read_5no3_title">5.3.育児のしおり　6か月～お誕生日</string>
+    <string name="read_5no3_description">発育や発達に個人差が目立ち始める時期です。よその子とくらべず、全体の様子を見ながらその子なりの成長を見守ってあげることが大切です。</string>
+    <string name="read_5no3_1_title">●夜泣き・人見知り</string>
+    <string name="read_5no3_1_description">        　生後6か月ごろから、夜泣きをする子が増えてきますが、けっしてずっとつづくものではありません。母乳やミルクをあげてもかまいません。話しかけたり抱いたり、相手をしてあげることで乗り切ってください。\n
+        　人見知りの時期はまちまちですが、家族と見慣れない人の区別がつくようになったということです。抱いてなだめてあげれば赤ちゃんも安心です。\n</string>
+    <string name="read_5no3_2_title">●歯が生えてきます</string>
+    <string name="read_5no3_2_description">        　乳歯が生えてくるころ（生後7～8か月）には口や口の周辺に触れたり、機嫌のよいときにはガーゼなどで歯をふいて、歯みがき習慣の準備をしましょう。歯の生えてきた日にちは、以下のページに記入しましょう。\n</string>
+    <string name="read_5no3_3_title">●おもちゃ遊びも好きになってきます</string>
+    <string name="read_5no3_3_description">        　おすわりの時期に入るとおもちゃ遊びも楽しくなります。9か月ごろになると、おもちゃを目の前からかくすと、探すようになったりもします。同じくらいの子とふれあう機会も、少しずつつくってあげるといいでしょう。\n</string>
+    <string name="read_5no3_4_title">●事故の防止は親のつとめです</string>
+    <string name="read_5no3_4_description">        　おすわりからはいはい、そしてあんよへと育っていく赤ちゃん。好奇心もいっぱいで、何にでも手を出したり、口に入れたりします。たばこやボタンなどの誤飲、家電製品によるやけどが大変多いので、危険なものは赤ちゃんの手の届かないところに移しましょう。また、行動範囲が広がると階段やベランダからの転落事故、水の事故も増えます。事故防止につとめましょう。\n</string>
+
+    <!-- ▼▼▼ 読む 5章 4節 ▼▼▼ -->
+    <string name="read_5no4_title">5.4.育児のしおり　1歳ごろ</string>
+    <string name="read_5no4_description">遊び食べ、食用のムラなども出てきますが、このころの子どもはそれもあたりまえ。しからず、意欲と好奇心を育むような接し方をしてあげましょう。</string>
+    <string name="read_5no4_1_title">●言葉の発達には個人差があります</string>
+    <string name="read_5no4_1_description">        　「マンマ」などの単語も少しずつ出始めます。しかし言葉の発達はからだ以上に個人差が大きいものです。単語の数だけで判断せず、全体の様子をみましょう。話の相手をしてあげるほか、絵本などで遊んであげるのもいいでしょう。\n
+        　1歳6か月ごろになると、絵本を見せて、動物や物の名前を聞くと、それを指して教えてくれるようにもなります。大人の言っていることや簡単ないいつけも成長とともに少しずつ理解できるようになります。うまくできたときはほめてあげ、意欲を育ててあげましょう。\n</string>
+    <string name="read_5no4_2_title">●外遊びを十分にしましょう</string>
+    <string name="read_5no4_2_description">        　歩いたり走ったり、自分のからだを動かしていきいきと楽しめる機会を少しずつ増やしていきましょう。休日などはお父さんもいっしょに積極的に遊んであげましょう。\n
+        　また、忙しいなどの理由で子どもに長時間テレビやビデオを見せないようにしましょう。子どもひとりきりで見せない、食事中はテレビをつけないなども大切です。\n</string>
+    <string name="read_5no4_3_title">●食事や歯の健康、おしゃぶりについて</string>
+    <string name="read_5no4_3_description">        　1歳ごろになると、おやつや食事をさかんに手づかみで食べるようになります。前歯でかみとって一口で食べられる量を覚えられるよう、メニューも工夫するといいでしょう。また、乳歯の前歯が生えそろい、奥歯が生えてきて、むし歯ができやすくなります。食後の歯の清潔に注意しましょう。機嫌のよいときに、歯みがきの練習を始めましょう。\n</string>
+    <string name="read_5no4_3_footnote">        ※長時間にわたり、長い期間おしゃぶりを使用すると、歯ならびやかみ合わせが悪くなる場合があります。声や言葉を出す機会も減ってしまいます。おしゃぶりは早めに卒業しましょう。また、歯の生え方や色、歯ならび、口の形などが気になるときは、早めに歯科医師など専門家に相談しましょう。\n</string>
+
+    <!-- ▼▼▼ 読む 5章 5節 ▼▼▼ -->
+    <string name="read_5no5_title">5.5.育児のしおり　2歳ごろ</string>
+    <string name="read_5no5_description">走ったり、からだを動かすことがますます好きになります。危険のない場所で自由に遊ばせてあげましょう。</string>
+    <string name="read_5no5_1_title">●さらに世界は広がっていきます</string>
+    <string name="read_5no5_1_description">        　このころの子どもは小さな冒険家。公園などではしだいにお母さん・お父さんから離れて遊ぶことを応援してあげましょう。怖いことや新しいことに出会って親を求めてきたときは、抱っこなどしてやさしく受け入れ、なだめてあげましょう。\n
+        　やけどや水の事故、転落事故のほか、交通事故も増えてくる時期です。三輪車遊び、自転車の補助いすに乗せるときはヘルメットをつけましょう。道路への飛び出しにも気をつけ、必ず手をつないで歩きましょう。\n</string>
+    <string name="read_5no5_2_title">●いっしょに遊ぶのも大切</string>
+    <string name="read_5no5_2_description">        　家の中では、クレヨンなどでなぐりがきも楽しめるようになります。積み木やブロック遊びも楽しい遊びです。いっしょに遊んであげてください。\n</string>
+    <string name="read_5no5_3_title">●食事はできるだけ自分でやらせてあげて</string>
+    <string name="read_5no5_3_description">        　スプーンやフォークを使うのもじょうずになってきます。まだこぼしますが、汚してもいいようにしておいて、自分でやらせてあげましょう。歯みがきは小さなうちからの習慣づけが重要です。食後は家族みんなで歯みがきをして、歯の大切さを教えましょう。また仕上げみがきが楽しくできる工夫をしましょう。早寝・早起きや規則正しい食事など、生活リズムを整えることも大切です。\n</string>
+    <string name="read_5no5_4_title">●おむつは「はずれるもの」です</string>
+    <string name="read_5no5_4_description">        　おむつは親が教えてはずれるものではなく、子どもが自分でできるようになることです。いつかはとれますから、親はサインを見ながらじょうずに手伝ってあげてください。\n</string>
+
+    <!-- ▼▼▼ 読む 5章 6節 ▼▼▼ -->
+    <string name="read_5no6_title">5.6.育児のしおり　3～4歳ごろ</string>
+    <string name="read_5no6_description">何でも自分でしたがり、がんばるようになります。親はあまり手を出さず、じょうずにできたら心からよろこんであげましょう。</string>
+    <string name="read_5no6_1_title">●「自分でやりたい」を応援してあげて</string>
+    <string name="read_5no6_1_description">        　3歳ごろになると、衣服の着替えなど何でも自分でやりたがるようになります。時間にゆとりを見てできるだけ自分でやらせ、うまくできなくてもしからず、はげましてあげましょう。\n
+        　好き嫌いや自己主張、自分本位な要求も多くなりますが、一方的に拒否せず、子どもの言い分にも耳を傾けてあげましょう。そのうえで、けじめのある対応を、適切にやさしくしてあげてください。危ないこと、してはいけないことは、子どもがかんしゃくを起こしても、しっかり抱いて言い聞かせ、やめさせましょう。場所を変えるなど、気分をそらすのもいいでしょう。\n</string>
+    <string name="read_5no6_2_title">●お友だちと遊ぶ機会</string>
+    <string name="read_5no6_2_description">        　お友だちと遊ぶ機会も積極的につくってあげましょう。4歳ごろになると、役割を持ったごっこ遊び（ままごとや怪獣ごっこ、自動車ごっこ）も楽しむようになります。\n</string>
+    <string name="read_5no6_2_footnote">        ※笛を吹くなど深く呼吸しているときに、一瞬気を失うような症状が見られたら、医療機関（小児科）を受診しましょう（もやもや病などかもしれません）。\n</string>
+    <string name="read_5no6_3_title">●指しゃぶりについて</string>
+    <string name="read_5no6_3_description">        　心細いとき、さびしいとき、ちょっと不安を感じるときに指を吸うと気持ちが落ち着きます。指しゃぶりにはこのような心の働きがあります。一方、指にたこができるほどの過度の指しゃぶりは、不正咬合（開咬）やあごの発育に障害をきたすことがあります。こうしたときは、直接指しゃぶりをやめさせようとせずに、吸っているときに声をかけたり、いっしょに遊んであげましょう。どうしてもやめないようなら、かかりつけの歯科医に相談してみましょう。\n</string>
+
+    <!-- ▼▼▼ 読む 5章 7節 ▼▼▼ -->
+    <string name="read_5no7_title">5.7.育児のしおり　5～6歳ごろ</string>
+    <string name="read_5no7_description">毎日の暮らしの中で、子どもの感性や社会性が育まれていきます。お正月や七夕など四季の行事も大切にしましょう。</string>
+    <string name="read_5no7_1_title">●楽しくおしゃべりをしましょう</string>
+    <string name="read_5no7_1_description">        　5歳になると発音がはっきりしてきます。しかしサ行とタ行が混乱したり、言葉がつかえることもよくあります。言い直しをさせたりせず、ゆっくり聞いてあげましょう。大人は正確な発音で、ゆっくり話してあげてください。\n</string>
+    <string name="read_5no7_2_title">●「がまん」も少しずつできるようになります</string>
+    <string name="read_5no7_2_description">        　仲良しの友だちができ、よくいっしょに遊ぶことができるようになります。約束やルールも少しずつ理解していきます。お友だちとの間でさまざまな体験をする中で、社会性も身につけていきます。自分の好き嫌いだけで行動することから卒業できるよう、はげましてあげましょう。人への思いやりの気持ちも、親がやさしく子どもの気持ちになってあげることで育まれていきます。\n
+        　6歳ごろになると自分でお話をつくったりして、想像遊び、空想遊びをすることも多くなります。絵本や童話なども読み聞かせてあげましょう。\n</string>
+    <string name="read_5no7_3_title">●家のお手伝いもやらせてみて</string>
+    <string name="read_5no7_3_description">        　5～6歳になると、うんちの始末も自分でできるようになってきます。不十分なときは少しずつ手伝いながら、練習させましょう。衣服の着脱も、はげましながらできるだけ自分でやらせてあげます。\n
+        　遊んだ後のおもちゃの片づけなども初めは親といっしょにして、少しずつ自分でできる習慣をつけます。また食器を並べたり片づけたりなど、家のお手伝いも楽しくさせてみましょう。\n</string>
+
+    <!-- ▼▼▼ 読む 6章 ▼▼▼ -->
+    <string name="read_6_title">6.子どもを事故から守る</string>
+    <string name="read_6_description">幼児期～小学生にかけて、子どもの死亡原因の第1位は「不慮の事故」です。0歳児では窒息が多く、1～4歳児では交通事故や溺水が多くなっています。こうした事故を未然に防ぐには、子どもの発達過程と、月齢によってどんな事故が起こりやすいかをよく知ることが大切です。子どもを事故から守るのは大人の責任。家族全員で事故防止につとめましょう。</string>
+    <string name="read_6_footnote">※国立保健医療科学院「子どもに安全をプレゼント～事故防止支援サイト」で事故を防ぐための情報と教材を提供しています。</string>
+    <string name="read_6_1_title">●月齢・年齢別で見る起こりやすい事故</string>
+    <string name="read_6_1_index1">月・年齢</string>
+    <string name="read_6_1_index2">起きやすい事故</string>
+    <string name="read_6_1_index3">予防ポイント</string>
+    <string name="read_6_1_age1">新生児</string>
+    <string name="read_6_1_age2">1～6か月</string>
+    <string name="read_6_1_age3">7～12か月</string>
+    <string name="read_6_1_age4">1～4歳</string>
+    <string name="read_6_1_accident1no1">周囲の\n不注意に\nよる事故</string>
+    <string name="read_6_1_accident1no2">●誤って上から物を落とす\n●クーファンごと赤ちゃんを落とす\n●上の子が抱き上げて落としたり、物を食べさせる\n</string>
+    <string name="read_6_1_accident1no3">赤ちゃんの周囲には何も置かない／抱いたまま転倒しないよう、足元も片づける／安定した靴を履く／赤ちゃんから目を離さない</string>
+    <string name="read_6_1_accident2no1">転落</string>
+    <string name="read_6_1_accident2no2">●ベッド、ソファなどから落ちる</string>
+    <string name="read_6_1_accident2no3">ベッドの柵は必ず上げる／ひとりでソファ、椅子などに寝かさない</string>
+    <string name="read_6_1_accident3no1">やけど</string>
+    <string name="read_6_1_accident3no2">●誤って上から熱い物を落とす・こぼす\n●熱い湯のシャワーをかけてしまう</string>
+    <string name="read_6_1_accident3no3">赤ちゃんが近くにいるときや、抱いたまま熱いものを扱わない／風呂やシャワーは必ず湯温を確認</string>
+    <string name="read_6_1_accident4no1">誤飲\n中毒\n窒息</string>
+    <string name="read_6_1_accident4no2">●たばこ、医薬品、化粧品、洗剤、コイン、豆などを誤って飲む</string>
+    <string name="read_6_1_accident4no3">多いのはタバコの誤飲。危険なものは赤ちゃんの手の届かない場所へ置く／引き出しなどにはストッパーを</string>
+    <string name="read_6_1_accident5no1">やけど</string>
+    <string name="read_6_1_accident5no2">●炊飯器や加湿器の蒸気にさわる\n●アイロン、ストーブにさわる\n●ポット、鍋をひっくり返す\n●テーブルクロスをひっぱり、スープやコーヒーなどをかぶる</string>
+    <string name="read_6_1_accident5no3">熱源は床に置かず、すべて赤ちゃんの手の届かないところへ／ストーブに安全柵をつける／食べ物・飲み物をテーブルの端に置かない／テーブルクロスをしない／台所に赤ちゃんが入れないよう柵などをつける</string>
+    <string name="read_6_1_accident6no1">転落・転倒</string>
+    <string name="read_6_1_accident6no2">●階段、玄関、ベッド、ベビーカーなどからの転落</string>
+    <string name="read_6_1_accident6no3">階段や段差のあるところには柵など転落防止対策を必ずする</string>
+    <string name="read_6_1_accident7no1">溺れる</string>
+    <string name="read_6_1_accident7no2">●浴槽や洗濯機に落ちて溺れる</string>
+    <string name="read_6_1_accident7no3">わずかな水でも残し湯はしない／浴室に鍵を／入浴時、水遊び時は目を離さない・ひとりにしない</string>
+    <string name="read_6_1_accident8no1">車中のけが</string>
+    <string name="read_6_1_accident8no2">●座席からの転落\n●交通事故</string>
+    <string name="read_6_1_accident8no3">必ずチャイルドシートを使用する</string>
+    <string name="read_6_1_accident9no1">転落・転倒</string>
+    <string name="read_6_1_accident9no2">●ベランダや階段などからの転落</string>
+    <string name="read_6_1_accident9no3">箱・家具など踏み台になるようなものをベランダや窓際に置かない</string>
+    <string name="read_6_1_accident10no1">やけど</string>
+    <string name="read_6_1_accident10no2">●炊飯器や加湿器の蒸気にさわる\n●アイロン、ストーブにさわる\n●ポット、鍋をひっくり返す\n●スープやコーヒーなどをかぶる</string>
+    <string name="read_6_1_accident10no3">ストーブ、アイロン、ポット、鍋などやけどの原因になるものに子どもがふれないようにする／ストーブなどには安全柵をつける</string>
+    <string name="read_6_1_accident11no1">溺れる</string>
+    <string name="read_6_1_accident11no2">●浴槽に落ちて溺れる\n●水遊び中の事故</string>
+    <string name="read_6_1_accident11no3">わずかな水でも残し湯はしない／浴槽に鍵を／水遊び時はライフジャケットをつける・目を離さない</string>
+    <string name="read_6_1_accident12no1">誤飲\n中毒\n窒息</string>
+    <string name="read_6_1_accident12no2">●医薬品、化粧品、洗剤、コイン、豆などを誤って飲む</string>
+    <string name="read_6_1_accident12no3">危険なものは子どもの手の届かないところへ／ピーナッツなど乾いた豆類を食べさせない</string>
+    <string name="read_6_1_accident13no1">自転車事故\n交通事故</string>
+    <string name="read_6_1_accident13no2">●補助いすからの転落・自転車ごとの転倒\n●道路への飛び出し</string>
+    <string name="read_6_1_accident13no3">自転車の補助いすに乗せるときは自転車専用ヘルメットを着用させる／手をつないで歩く</string>
+    <string name="read_6_2_title">●チャイルドシートは必ず使用しましょう</string>
+    <string name="read_6_2_description">        　6歳未満の乳幼児を乗せて車を運転する場合は、チャイルドシートを使うことが義務づけられています（病気や障害などでチャイルドシートを使用するのがその子の療育にとって適当でないときのみ、免除されます）。チャイルドシートを使用していないと、使用しているときにくらべて事故のときに死亡したり、重傷となる率が著しく高くなります。大切な子どもの命を守るため、また事故による被害を防止・軽減するために、赤ちゃん・子供を自転車に乗せるときは必ずチャイルドシートを使用しましょう。\n</string>
+    <string name="read_6_2_footnote">        ※生まれた赤ちゃんを医療機関から車で連れ帰るとき（初めて車に乗せるとき）からチャイルドシートが必要です。出産前から準備しておきましょう。車種に合ったものを選び、正しく車に取りつけ、しっかりと固定し、正しく装着することが重要です。\n
+        ※どんなに短い時間でも、けっして赤ちゃん・子どもだけ車内に残して車から離れてはいけません。暑い季節でなくても、車内温度が上昇して脱水症・熱中症を起こし、命を落とすことがあります。また、子どもが車内の機能をいたずらして事故になることもあります。\n</string>
+    <string name="read_6_3_title">●異物を飲み込んだら</string>
+    <string name="read_6_3_description">        　○＝してよい　×＝してはいけない\n</string>
+    <string name="read_6_3_index1">品目</string>
+    <string name="read_6_3_index2">水か牛乳を飲ませる</string>
+    <string name="read_6_3_index3">吐かせる</string>
+    <string name="read_6_3_index4">その後の処置</string>
+    <string name="read_6_3_item1no1">たばこ（2cm以上は危険）、灰皿の水</string>
+    <string name="read_6_3_item1no2">何も飲ませない</string>
+    <string name="read_6_3_item1no3">○</string>
+    <string name="read_6_3_item1no4">すぐに病院へ</string>
+    <string name="read_6_3_item2no1">漂白剤、かびとり剤</string>
+    <string name="read_6_3_item2no2">○</string>
+    <string name="read_6_3_item2no3">×</string>
+    <string name="read_6_3_item2no4">すぐに病院へ</string>
+    <string name="read_6_3_item3no1">トイレ用洗剤、タイル用洗浄剤など</string>
+    <string name="read_6_3_item3no2">○</string>
+    <string name="read_6_3_item3no3">×</string>
+    <string name="read_6_3_item3no4">すぐに病院へ</string>
+    <string name="read_6_3_item4no1">医薬品</string>
+    <string name="read_6_3_item4no2">○</string>
+    <string name="read_6_3_item4no3">○</string>
+    <string name="read_6_3_item4no4">すぐに病院へ</string>
+    <string name="read_6_3_item5no1">ボタン電池</string>
+    <string name="read_6_3_item5no2">何も飲ませない</string>
+    <string name="read_6_3_item5no3">×</string>
+    <string name="read_6_3_item5no4">すぐに病院へ</string>
+    <string name="read_6_3_item6no1">マニキュア、除光液</string>
+    <string name="read_6_3_item6no2">何も飲ませない</string>
+    <string name="read_6_3_item6no3">×</string>
+    <string name="read_6_3_item6no4">すぐに病院へ</string>
+    <string name="read_6_3_item7no1">農薬、殺虫剤</string>
+    <string name="read_6_3_item7no2">何も飲ませない</string>
+    <string name="read_6_3_item7no3">×</string>
+    <string name="read_6_3_item7no4">すぐに病院へ</string>
+    <string name="read_6_3_item8no1">灯油、ベンジン、シンナー、ガソリン</string>
+    <string name="read_6_3_item8no2">何も飲ませない</string>
+    <string name="read_6_3_item8no3">×</string>
+    <string name="read_6_3_item8no4">すぐに病院へ</string>
+    <string name="read_6_3_item9no1">ガラスの破片、針、ヘアピンなど</string>
+    <string name="read_6_3_item9no2">何も飲ませない</string>
+    <string name="read_6_3_item9no3">×</string>
+    <string name="read_6_3_item9no4">すぐに病院へ</string>
+    <string name="read_6_3_item10no1">香水、ヘアトニック</string>
+    <string name="read_6_3_item10no2">○</string>
+    <string name="read_6_3_item10no3">○</string>
+    <string name="read_6_3_item10no4">病院へ</string>
+    <string name="read_6_3_item11no1">ナフタリン</string>
+    <string name="read_6_3_item11no2">水は○、牛乳は×</string>
+    <string name="read_6_3_item11no3">○</string>
+    <string name="read_6_3_item11no4">病院へ</string>
+    <string name="read_6_3_item12no1">芳香剤、消臭剤</string>
+    <string name="read_6_3_item12no2">○</string>
+    <string name="read_6_3_item12no3">○</string>
+    <string name="read_6_3_item12no4">病院へ</string>
+    <string name="read_6_3_item13no1">入浴剤、洗濯用洗剤、台所用洗剤</string>
+    <string name="read_6_3_item13no2">○</string>
+    <string name="read_6_3_item13no3">○</string>
+    <string name="read_6_3_item13no4"></string>
+    <string name="read_6_3_item14no1">石けん、シャンプー、リンス</string>
+    <string name="read_6_3_item14no2">○</string>
+    <string name="read_6_3_item14no3">○</string>
+    <string name="read_6_3_item14no4"></string>
+    <string name="read_6_3_item15no1">クリーム、ファウンデーション、口紅</string>
+    <string name="read_6_3_item15no2">○</string>
+    <string name="read_6_3_item15no3">○</string>
+    <string name="read_6_3_item15no4"></string>
+    <string name="read_6_3_item16no1">歯磨き剤</string>
+    <string name="read_6_3_item16no2">○</string>
+    <string name="read_6_3_item16no3">○</string>
+    <string name="read_6_3_item16no4"></string>
+    <string name="read_6_3_item17no1">蚊取り線香、香取りマット</string>
+    <string name="read_6_3_item17no2">○</string>
+    <string name="read_6_3_item17no3">○</string>
+    <string name="read_6_3_item17no4"></string>
+    <string name="read_6_3_item18no1">紙おむつ</string>
+    <string name="read_6_3_item18no2">○</string>
+    <string name="read_6_3_item18no3">○</string>
+    <string name="read_6_3_item18no4"></string>
+    <string name="read_6_3_item19no1">インク、鉛筆、クレヨン</string>
+    <string name="read_6_3_item19no2">○</string>
+    <string name="read_6_3_item19no3">○</string>
+    <string name="read_6_3_item19no4"></string>
+    <string name="read_6_4_title">●処置がわからないときは、かかりつけの医師や「中毒110番」へ</string>
+    <string name="read_6_4_description">        ※中毒110番は化学物質（タバコ、家庭用品など）、医薬品、動植物の毒などによって起こる急性中毒について、実際に事故が発生している場合に限定し情報提供しております。食中毒（細菌性）、慢性の中毒、小石・ビー玉などの異物誤飲については受けつけていませんので、もよりの医療機関にご相談ください。\n
+        \n（財）日本中毒情報センター／一般市民専用・無料（通話料は相談者負担）\n
+        　●大阪中毒110番…Tel.072-727-2499（365日：24時間）\n
+        　●つくば中毒110番…Tel.029-852-9999（365日：9～21時）\n
+        　●タバコ専用電話…Tel.072-726-9922（365日：24時間／テープによる情報提供）\n
+        \n相談するときのポイント…①赤ちゃんの月例　②いつ　③何を　④どのくらいの量を飲んだか　⑤現在の容態\n</string>
+
+    <!-- ▼▼▼ 読む 7章 ▼▼▼ -->
+    <string name="read_7_title">7.乳幼児期の栄養</string>
+    <string name="read_7_description">お乳に頼っていた赤ちゃんも、生後5、6か月ごろから離乳食を始めます。思うように食べてくれないときもありますが、あせらないで少しずつ進めましょう。</string>
+    <string name="read_7_1_title">●母乳栄養と人工栄養</string>
+    <string name="read_7_1_description">        　赤ちゃんの栄養は母乳が基本です。なるべく母乳で育てるように心がけましょう。母乳が足りないときや、お母さん自身の病気や飲んでいる薬の影響で母乳をあげられないとき、また、お母さんの仕事の都合によっては粉ミルク（人口乳）を足したり、粉ミルクだけになります。\n
+        　粉ミルクのつくり方は、製品によって決められた通りの濃さに溶かすことが大切です。飲む量は赤ちゃんによって個体差がありますから、無理に飲ませることはしないでください。よろこんでの飲み、体重が順調に増えているなら心配ありません。</string>
+    <string name="read_7_2_title">●粉ミルクに使う水のこと</string>
+    <string name="read_7_2_description">        　井戸水やわき水は大人には影響がなくても、雑菌によって赤ちゃんが体調をくずすことがあります。粉ミルクや赤ちゃんの水分補給には、水道水または水質基準に合格した井戸水を、一度煮沸させてから用いましょう（ミネラルウォーターは粉ミルクのミネラル濃度を損なうおそれがあるといわれています）。</string>
+    <string name="read_7_2_footnote">        ＊粉ミルクの調乳の前には必ず手を洗い、やけどに注意しながら、一度煮沸させた70℃以上のお湯でミルクを溶かし、十分に冷まして体温ぐらいになっていることを確認してから赤ちゃんに飲ませましょう。飲み残しや調乳後2時間以上たったミルクは必ず捨ててください（与えないでください）。</string>
+    <string name="read_7_3_title">●離乳</string>
+    <string name="read_7_3_description">        　お乳だけに頼っていた赤ちゃんに、なめらかにすりつぶした状態の食べ物を与え始め、しだいに食物の固さと量、種類を増やして幼児の食事に近づけていくことを「離乳」といいます。なめらかにすりつぶした食物をあげ始めるのは、生後5、6か月ごろが適当です。なお、離乳開始前の乳児にとって最適な栄養源は乳汁（母乳または育児用ミルク）であり、離乳の開始前に果汁を与えることについて栄養学的な意義は認められていません。</string>
+    <string name="read_7_3_title2">●食事の目安</string>
+    <string name="read_7_3_footnote">        ●食品の種類と組み合わせ\n
+        　与える食品は、離乳の進行に応じて、食品の種類を増やしていく。\n
+        ①離乳の開始では、アレルギーの心配の少ないおかゆ（米）から始める。新しい食品を始めるときには1さじずつ与え、乳児の様子を見ながら量を増やしていく。なれてきたらじゃがいもや野菜、果物、さらになれてきたら豆腐や白身魚など、種類を増やしていく。\n
+        ②離乳が進むにつれ、卵は卵黄（固ゆで）から全卵へ、魚は白身魚から赤身魚、青皮魚へと進めていく。ヨーグルト、塩分や脂肪の少ないチーズも用いてよい。食べやすく調理した脂肪の少ない鶏肉、豆類、各種野菜、海藻と種類を増やしていく。脂肪の多い肉類は少し遅らせる。野菜類には緑黄色野菜も用いる。
+        ③生後9か月以降は、鉄が不足しやすいので、赤身の魚や肉、レバーを取り入れ、調理用に使用する牛乳・乳製品のかわりに育児用ミルクを使用するなど工夫する。フォローアップミルクは、母乳または育児用ミルクの代替品ではない。必要に応じて（離乳食が順調に進まず、鉄の不足のリスクが高い場合など）使用するのであれば、9か月以降とする。\n
+        このほか、離乳の進行に応じてベビーフードを適切に利用することができる。\n
+        離乳食に慣れ、1日2回食に進むころには、穀類、野菜、果物、たんぱく質性食品を組み合わせた食事とする。\n
+        ●調理形態・調理方法\n
+        　離乳の進行に応じて食べやすく調理したものを与える。子どもは細菌への抵抗力が弱いので、調理を行う際には衛生面に十分配慮する。\n
+        ①米がゆは、乳児が口の中で押しつぶせるように十分に煮る。初めは「つぶしがゆ」とし、慣れてきたら粗つぶし、つぶさないままへと進み、軟飯へと移行する。\n
+        ②野菜類やたんぱく質性食品などは、初めはなめらかに調理し、しだいに粗くしていく。\n
+        ③調味について、離乳の開始ごろでは調味料は必要ない。離乳の進行に応じて、食塩、砂糖など調味料を使用する場合は、そえぞれの食品のもつ味を生かしながら薄味でおいしく調理する。油脂類も少量の使用とする。</string>
+    <string name="read_7_3_title3">●離乳食の進め方の目安</string>
+    <string name="read_7_3_description3">        　子どもにはそれぞれ個性があるので、赤ちゃんの様子を見ながら離乳を進めていきましょう。また、生活リズムを身につけ、食べる楽しさを体験していくことができるように、家族みんなで生活を見直し、工夫していきましょう。</string>
+    <string name="read_7_4_title">●離乳の完了</string>
+    <string name="read_7_4_description">        　離乳の完了とは、形のある食物をかみつぶすことができるようになり、エネルギーや栄養素の大部分が母乳または育児用ミルク以外からとれるようになった状態をいいます。その時期は、12か月～18か月ごろです。このころには食事は1日3回となり、その他に1日1～2回の間食を目安とします。咀しゃく機能は、奥歯が生えるのにともない、乳歯の生えそろう3歳ごろまでに獲得されます。</string>
+    <string name="read_7_5_title">●幼児期の食生活</string>
+    <string name="read_7_5_description">        　幼児期は、食生活の基礎ができる時期です。規則正しく食事をする習慣をつけること、食事の一部としておやつに気をつけること、食べ物の好き嫌いを少なくすることが大切です。これには、家族そろって楽しい食事の雰囲気をつくることが大切です。また、この時期は食べ方のムラがあるものです。機嫌がよく、日常生活がふだんとかわらないようであれば、食事を無理じいすることや、だらだら食べさせることはやめましょう。また、積極的に外遊びをさせることも必要です。早寝早起きの習慣をつけ、しっかり朝食を食べることも大切です。</string>
+    <string name="read_7_5_footnote">        ●次のようなことを心がけましょう。
+        ①食事は3食きちんと、規則正しく食べましょう。\n
+        ②何でも食べられる元気な子にしましょう。\n
+        ③薄味と和風料理に慣れさせましょう。\n
+        ④牛乳・乳製品を十分に与えましょう。\n
+        ⑤家族そろって楽しく食事をしましょう。\n
+        ⑥市販のスナック菓子や甘いおやつは避け、\n
+        　おやつはできるだけ手づくりしましょう。\n
+        ⑦保育所や幼稚園での食事にも関心を。\n
+        ⑧親子そろっての外遊びを習慣にしましょう。\n</string>
+
+    <!-- ▼▼▼ 読む 8章 ▼▼▼ -->
+    <string name="read_8_title">8.予防接種</string>
+    <string name="read_8_description">乳幼児は病気にかかりやすく、かかると重くなることもあります。子どもの命を守るため、その効果と副反応をよく理解して予防接種を受けましょう。</string>
+    <string name="read_8_1_title">●予防接種って何ですか？</string>
+    <string name="read_8_1_description">        　感染症は、世界的にみても子どもの死亡原因の第1位。日本でも、百日せきやはしかなど乳幼児の命にかかわるもの、後遺症を残すおそれのある病気がたくさんあります。予防接種はこうした感染症に対する免疫をつけるもので、感染症から子どもの命を守るための非常に効果の高い手段の一つです。自分の子ども、そしてまわりの子どもたちの健康を守るためにも、きちんと受けましょう。</string>
+    <string name="read_8_2_title">●受ける時期や場所、通知方法などを事前に確認</string>
+    <string name="read_8_2_description">        　予防接種は、基本的にかかりつけの医療機関で受けます（個別接種）。赤ちゃんの場合は、かかりつけの小児科医と相談してスケジュールを組みましょう。\n
+        　BCG、ポリオなどは、受けられる日時や場所が決められている市区町村もあります。これらの日程や会場については、役場から各家庭に通知する地域や、広報誌などで告知する地域があります（最近はホームページに予防接種の案内を掲載している役場もあります）。予防接種には何回かにわたって受けなければいけないものもあるので、接種の機会をのがさないよう、地域の告知方法を確認しましょう。また、指定日に受けられなかったときは、かかりつけの医師に相談しましょう。\n
+        　なお、自治体によっては赤ちゃんの誕生した家庭に『予防接種と子どもの健康』という小冊子を配布しています。それぞれの予防接種の目的や、注意事項、副反応などくわしく書かれていますので、事前によく読み、理解して受けましょう。</string>
+    <string name="read_8_3_title">●赤ちゃんの体調のよいときに</string>
+    <string name="read_8_3_description">        　予防接種は赤ちゃんの体調のよいときに受けましょう。心配のあるときは、かかりつけの医師か、市区町村の役場、保健所・市町村保護センターの担当者に相談してください。</string>
+    <string name="read_8_4_title">●こんなときは見合わせて</string>
+    <string name="read_8_4_description">        　次のような場合は、予防接種を受けることができません。\n
+        　　１　発熱している（当日、接種前にも体温測定をします）。\n
+        　　２　急性の病気にかかっている（体調のよいときが原則。よくなるまで延期を）。\n
+        　　３　これから受けようとする予防接種のワクチンに含まれる成分で、強いアレルギー反応を起こしたことがある。</string>
+    <string name="read_8_4_description2">        　このほかにも、予防接種を受けるのに不適当な場合があります。逆に、病気があっても受けたほうがよい場合もあります。その子の健康状態や体質をよく知っているかかりつけの小児科医に相談してください。</string>
+    <string name="read_8_5_title">●当日は…</string>
+    <string name="read_8_5_description">        　あらかじめ配布された予診票の注意事項をよく読み、予診票に正確に記入し、母子健康手帳とともに持参します。これらは予防接種をしてもよいかどうかを判断するのに重要です。気になることがあるときは医師に伝え、よく相談してください。当日は朝、自宅で一度体温をはかり、子どものふだんの健康状態をよく知っている保護者が連れていきましょう。</string>
+    <string name="read_8_6_title">●予防接種を受けたあとに</string>
+    <string name="read_8_6_description">        　予防接種を受けた後はすぐ帰らず、30分間は接種医療機関か、医師とすぐ連絡をとれるところで様子を見ます。当日は激しい運動や遠出は避けます。入浴はさしつかえありませんが、接種部位をこすらないようにします。\n
+        　高熱やけいれん、発疹、接種部位の激しい腫れなどがあったら、すぐに医師の診察を受けてください。</string>
+
+    <!-- ▼▼▼ 読む 9章 ▼▼▼ -->
+    <string name="read_9_title">9.歯の健康と歯みがき</string>
+    <string name="read_9_description">永久歯はその名の通り一生使う歯です。これを健やかに保つには、まず乳歯をむし歯にしないことがポイントです。</string>
+    <string name="read_9_1_title">●歯の名称と生える時期</string>
+    <string name="read_9_1_description">        　乳歯は上下10歯ずつ、合計20歯あります。図のように、生後7～8か月で下の前歯から生え始め、2歳半～3歳ごろで20歯が生えそろいます。歯の生え方には個人差があり、生える時期がやや遅かったり、生える順番が異なることがあります。\n
+        　永久歯は上下16歯ずつ、合計32歯あります。最初に生えてくる永久歯は下の前歯の場合が多く、その前後にかむ力の大きい第1大臼歯（6歳臼歯）が生え始め、12～13歳ごろまでに第3大臼歯（親知らず）をのぞくすべての歯が生えそろいます。親知らずは生えないこともあります。\n
+        　乳歯から永久歯への交換の時期は、混合歯列期（図）といい、乳歯と永久歯が共存する時期が12～13歳ごろまでつづきます。また、乳歯は永久歯が生える際にも重要な働きをするので、むし歯にならないよう注意することが大切です。</string>
+    <string name="read_9_1_footnote">        永久歯は一生使う大切な歯ですから、生え換わりをとらえて自分から歯みがきをする自主性を養いましょう。奥に生える第1大臼歯（6歳臼歯）は生えたことに気づきにくく、また歯ブラシが届きにくいので、たいへんむし歯になりやすい歯です。いっしょにみがき方の練習をしてあげましょう。</string>
+    <string name="read_9_2_title">●初めての歯みがきのポイント</string>
+    <string name="read_9_2_description">        　子どもの口腔の健康増進のためには、口の中を清潔な状態に保つことが大切です。そのためには歯みがきをしなければなりません。しかし、口の中はとても敏感なので、乳幼児は歯みがきに慣れるまでは、泣いたり、口を開けなくなったり、歯みがきをいやがって逃げまわることもあり、苦労するお母さん、お父さんも少なくありません。\n
+        　いやがらず、楽しい歯みがきが習慣づけられるよう、以下のような手順でまず歯みがき練習から始めていきましょう。</string>
+    <string name="read_9_2_item1no1">１</string>
+    <string name="read_9_2_item2no1">２</string>
+    <string name="read_9_2_item3no1">３</string>
+    <string name="read_9_2_item4no1">４</string>
+    <string name="read_9_2_item5no1">５</string>
+    <string name="read_9_2_item1no2">        子どもの目の前で、親が楽しそうに歯をみがくようにしましょう。</string>
+    <string name="read_9_2_item2no2">        最初から歯ブラシでみがこうとせず、まず生後8か月ごろから、子どもをあおむけに寝かせ頭を親のひざにのせ、子どもの歯を観察する（歯を数える）ことから始めましょう。観察が終わったら、必ずほめてあげましょう。これを1か月ほど、つづけます。</string>
+    <string name="read_9_2_item3no2">        歯の観察がいやがらずにできるようになれば、乳児用の歯ブラシで1～2回、歯に触れる練習をしましょう。まだみがこうとしてはいけません。いやがればすぐにやめ、歌を歌う、お気に入りのおもちゃを持たせるなど、できるだけ泣かせず楽しい雰囲気でできるような工夫もしましょう。練習が終われば、必ずほめてあげましょう。これも1か月ほどつづけます。</string>
+    <string name="read_9_2_item4no2">        歯ブラシを口に入れることに慣れてきたら、初めて歯みがきを始めます。しかし、この時点では歯をきれいにみがくことではなく、あくまで歯ブラシの刺激に慣れさせ、歯みがきを好きになってもらうことが目的です。子どもをあやしながら1本ずつやさしくみがきます。1本5秒くらいで十分です。強くみがいたり長い時間をかけたりして、子どもを泣かせないよう気をつけましょう。また、じょうずにできたことをほめてあげることを忘れないようにしましょう。</string>
+    <string name="read_9_2_item5no2">        1歳6か月健診までに、お父さん、お母さんも子どもも歯みがきがじょうずにできるよう、練習をしてみてください。</string>
+
+    <!-- ▼▼▼ 読む 10章 ▼▼▼ -->
+    <string name="read_10_0_title">10.子育てのサポート</string>
+    <string name="read_10_title">10.1.子育てのサポート</string>
+    <string name="read_10_description">慣れない育児は心身ともに負担が大きく、つらさやストレスを感じることもあるでしょう。そのつらさをひとりでかかえこまず、遠慮せず助けを求めてください。</string>
+    <string name="read_10_1_title">●周囲の人に積極的に相談を</string>
+    <string name="read_10_1_description">        　自分の健康や子育てについて不安や悩みがあるときは、家族や夫に自分の気持ちを言葉にして伝え、話しあってみてください。特に夫は妻を孤立させないよう、ふだんからよく話をすることがとても大切です。</string>
+    <string name="read_10_2_title">●地域の子育てネットワークを</string>
+    <string name="read_10_2_description">        　家族以外にも、子育ての助けになる人を探してみましょう。子どもは多くの人に支えられて育っていきます。お母さん・お父さんだけで悩まず、地域の保健所・保健センターの医師、助産師、保健師や、かかりつけの小児科医などに気軽に相談してみましょう。\n
+        　また、母親（両親）学級で知り合った親子、近隣の子育てボランティアなどは、身近なところで子育てをいっしょに考えてくれる仲間です。育児相談や地域の子育て教室、子育てサークルなどを利用して、こうした知りあいをつくるのも、お母さん・お父さんのストレス軽減に役立ちます。</string>
+    <string name="read_10_2_footnote"><b>インターネットで子育て情報をチェック</b>\n
+        子育てを応援するさまざまなサイトもあります。\n</string>
+    <string name="read_10_2_column_title">ストレスを感じていませんか？</string>
+    <string name="read_10_2_column_description">        次のようなことを感じるときは、周囲の人にぜひ相談してください。\n<b>●不安になったり、気分がおちこむ　●不眠・イライラがある　●なぜか疲れる　●体調がすぐれない　●子育てが楽しくない　●子どもがかわいいと思えない　●子どもの遊ばせ方がわからない・どう接したらいいのかわからない</b></string>
+    <string name="read_10_3_title">●赤ちゃんのことでイライラしてしまったら</string>
+    <string name="read_10_3_description">        　言葉を話すことのできない赤ちゃんは、「おなかがすいた」「おむつが汚れて気持ちが悪い」「暑い・寒い」「抱っこしてほしい」などの気持ちを泣くことで伝えています。慣れてくると、だんだんなぜ泣いているのか、何をしてほしいのかもわかるようになるでしょう。\n
+        　でも、赤ちゃんの泣き声をつらく感じたり、何をしても泣きやまないときに、ついイライラして、自制心を失いそうになることもあります。\n
+        　こんなときは、「何度か深呼吸をする」、「赤ちゃんを安全なところにひとまず寝かせて自分はその場をいったん離れる」、「誰かと言葉をかわす」などして、自分の気持ちをまず落ち着かせましょう。保健所・保健センターの医師、助産師、保健師やかかりつけの小児科医に相談しましょう。</string>
+    <string name="read_10_3_footnote">        ※赤ちゃんや小さな子どもは、激しくゆさぶられたり、たたかれたりするような大きな衝撃を与えられると、身体（特に脳や視神経）が損傷を受け、重大な障害が残ったり死亡することもあります。ぜったいにしないでください。軽症の場合でも、食用の低下、ぐずりが多いなど、はっきりしない症状がつづくこともあります。気になることがあったら、かかりつけの小児科医に相談しましょう。</string>
+    <string name="read_10_4_title">●産後、気分が落ち込むときは</string>
+    <string name="read_10_4_description">        　産後のお母さんは、イライラや不安、涙もろい、疲労感、さらに食欲不振や頭痛などを感じることが少なくありません。これはホルモンなど産後のからだの変化や、慣れない育児の疲れなどが原因とされています。\n
+        　しかし、ほとんど１日じゅう気分がしずむ、赤ちゃんに何の感情もわいてこない、自分に価値がないと感じる、疲れがとれない、気力がわかない、食欲の低下・増加、不眠・過眠がつづくようでしたら、「産後うつ病」の心配があります。\n
+        　お母さん自身も赤ちゃんの世話に追われていたり、お父さんなど周囲の人も赤ちゃんのことで頭がいっぱいで、こうしたお母さんの変化を見過ごしがちです。「気分が落ち込む」「産後うつ病かもしれない」と自分で思ったとき、あるいや周囲が気づいたときは、迷わず医師、助産師、保健師に相談しましょう。</string>
+    <string name="read_10_5_title">●地域の相談機関を十分に活用して</string>
+    <string name="read_10_5_description">        　地域には、お母さん・お父さんのいろいろな悩みを聞いたり、子育てに関する相談にのってくれるところがあります。そこでは保健・医療・福祉の専門家が電話、面接などで相談にのるほか、保健師などが自宅を訪問してお話をうかがうことができる場合もあります。これらは気軽に利用できますし、担当者は秘密を守る義務があります。悩んだり、困ったりしたら、まず相談してみましょう。\n\n<b>●お母さん・お父さんの体や心の悩み、子どもの発育や発達、子育てのしかたに関する相談は……</b>かかりつけ医療機関／市町村保健センター／保健所／精神保健福祉センター\n\n<b>●養育上の悩みやしつけなどに関する相談は……</b>地域子育て支援センター／保育所／児童館／主任児童委員／民生・児童委員／福祉事務所／児童相談所\n\n<b>●地域の育児サポート……</b>育児に疲れてしまったときや、保護者が病気になったときなど、保育所などで子供を一時的にあずかる「一時預かり」や、地域における育児の相互援助活動を行う「ファミリー・サポート・センター」、ほか家事支援や育児指導などを行う家庭訪問を行っている地域もあります。</string>
+    <string name="read_10_5_footnote">        ＊地域によって、このほかさまざまな行政サービスを利用できる場合もあります。居住地の行政サービスのガイド冊子（『暮らしの手帳』など）も参考にして、市区町村の保健・福祉の担当課に気軽にお問い合わせください。\n\n
+        ＊あなたの子育ての情報源や相談先を、巻末の「連絡用メモ」に記入しておきましょう。</string>
+    <string name="read_10_5_column_title">不安に思っていませんか？</string>
+    <string name="read_10_5_column_description">        子どものことで不安に思っていることはありませんか。積極的にかかりつけ小児科医や、地域の保健所・保健センターなどに相談を。\n<b>●発育・発達の不安　●寝つきが悪い、母乳や離乳食など育児上の悩み　●保育園・幼稚園の友だちや先生になじめない　●言葉がはっきりしない　●呼んでも振り向かない　●興味を示すものが限られている　●集団の中で落ち着いていられない　●同じ言葉をくり返す　……など</b></string>
+
+    <!-- ▼▼▼ 読む 11章 ▼▼▼ -->
+    <string name="read_11_title">10.2.共働きの子育て</string>
+    <string name="read_11_description">赤ちゃんと接する時間がとれないなど、仕事をしながらの子育てに不安を持つ人も少なくありません。けれど、仕事をしているために親子の結びつきが弱まるとか、親子のきずながつくれないかというと、けっしてそんなことはありません。</string>
+    <string name="read_11_1_title">●自信を持って働きながらの子育てを</string>
+    <string name="read_11_1_description">        　仕事をしている間、子どもは保育施設で過ごすことになりますが、保育士に見守られ、たくさんの子どもと共に育つのは、子どもにとっても成長の糧となります。お母さん・お父さんは安心して、自信を持って働きながらの子育てをしてください。\n
+        　もちろん、忘れてならないのは、赤ちゃんにとってお母さん・お父さんはかけがえのない存在であるということです。接する時間の短さは、知恵と工夫でカバーするようにしましょう。たとえば仕事から帰ったら抱いたり、語りかけたりして、たっぷり赤ちゃんとふれあうことです。仕事が休みの日は、ふだんできない分、赤ちゃんと接する時間を十分持ってあげるといいでしょう。</string>
+    <string name="read_11_2_title">●夫の協力は不可欠</string>
+    <string name="read_11_2_description">        　子育ては夫婦が協力しあって行うものですし、仕事をつづけるという選択をした女性の暮らしをパートナーとして支えるためにも、夫は積極的に家事・子育てをしましょう。「共に働き、共に育てる」という気持ちが大切です。保育所の送り迎え、子どもが病気のときなど、互いの仕事を調整し、母親ひとりに負担がかからないようにすることが重要です。</string>
+    <string name="read_11_3_title">●保育施設の選び方</string>
+    <string name="read_11_3_description">        　まず、地域の保育事情（空き状況や条件など）を事前によく調べましょう。担当は市区町村の保育担当課です。妊娠中に、一度相談に行きましょう。候補の施設は、決める前に必ず見学します。保育室にも入り、子どもたちが生き生きしているかを見てみましょう。保育士の数が十分か、子どもが過ごすのにふさわしい環境か、清潔かなどもチェックポイントです。このほか保育の方針や給食の内容、家庭との連絡方法なども聞いてみましょう。</string>
+
+    <!-- ▼▼▼ 読む 12章 ▼▼▼ -->
+    <string name="read_12_title">10.3.子育てを応援する制度</string>
+    <string name="read_12no1_title">一時金や手当・給付など</string>
+    <string name="read_12no1_1_title">●出産育児一時金</string>
+    <string name="read_12no1_1_description">        産後、本人または夫の加入している医療保険（社会保険、国民健康保険など）から一時金が降りる制度です。申請期間は出産の日から2年間です。流産や死産になった場合も、妊娠85日以上であれば対象です。\n<b>問い合わせ先…</b>勤務先、健康保険組合、市区町村の国保担当窓口など</string>
+    <string name="read_12no1_2_title">●出産手当金</string>
+    <string name="read_12no1_2_description">        働いていた女性が出産のために休職し、収入がなくなったときに支給される手当金です。\n<b>問い合わせ先…</b>勤務先、加入の社会保険組合</string>
+    <string name="read_12no1_3_title">●育児休業給付金</string>
+    <string name="read_12no1_3_description">        育児休業を取得したときは、一定の条件を満たした場合、雇用保険から休業前賃金の50％相当額の育児休業給付が支給される制度があります。男女は問いません。また、育児休業期間中には、社会保険料が免除される制度もあります。\n<b>問い合わせ先…</b>給付金は公共職業安定所（ハローワーク）\n
+        　　　　　　　社会保険料免除は勤務先、社会保険組合など</string>
+    <string name="read_12no1_footnote">        ＊制度は法令等により変更になることがあります。</string>
+    <string name="read_12no2_title">10.3.2.働く女性・男性のための出産、育児に関する制度</string>
+    <string name="read_12no2_1_title">●産前・産後の健康管理</string>
+    <string name="read_12no2_1_description">        妊産婦（妊娠中及び出産後１年を経過しない女性）は、事業主に申し出ることにより、次の保健指導または健康診査を受けるために必要な時間を確保することができます。\n<b>●妊娠23週までは4週に1回\n
+        ●妊娠24週から妊娠35週までは2週に1回\n
+        ●妊娠36週以降出産までは1週に1回</b>\n
+        ただし、医師や助産師の指示でこれを上回ることもあります。\n\n
+        妊産婦が医師などの指導を受けた場合には、その指導事項を守ることができるよう、事業主は、勤務時間の変更、勤務の軽減など必要な措置を講じなければなりません。\n
+        　これらの措置には、妊娠中の通勤緩和、休憩に関する措置、つわりや切迫流・早産の症状などに対応する措置が含まれます。\n\n
+        ＊医師などから母体または胎児の健康保持等について受けた指導を職場に的確に伝達するために「母性健康管理指導事項連絡カード」をご利用ください。</string>
+    <string name="read_12no2_2_title">●産前・産後・育児期の労働</string>
+    <string name="read_12no2_2_description">        　妊産婦は、事業主に請求することにより、時間外労働、休日労働、深夜業（午後10時から午前5時までの間の労働）が免除されます。\n
+        　妊産婦は、重量物を取り扱う業務などの一定の有害な業務への就業が制限されています。\n
+        　妊娠中は、事業主に請求することにより、他の軽易な業務に替わることができます。\n
+        　1歳未満の子を育てる女性は、事業主に請求することにより、1日2回少なくとも各30分の育児時間をとることができます。</string>
+    <string name="read_12no2_3_title">●産前・産後の休業</string>
+    <string name="read_12no2_3_description">        　産前6週間（多胎妊娠の場合は14週間）は、事業主に請求することにより、休業することができます。\n
+        　産後8週間は、事業主は、その者を就業させることができません。ただし、産後6週経過後に医師が支障がないと認めた業務については、本人の請求により、就業させることができます。\n
+        　妊娠、出産、産休取得等を理由とした解雇その他の不利益な取り扱いは禁止されています。</string>
+    <string name="read_12no2_4_title">●育児休業など男女労働者の育児のための制度</string>
+    <string name="read_12no2_4_description">        　子が1歳に達するまでの間（特別な理由がある場合には子が1歳6か月に達するまでの間）は、事業主に申し出ることにより、父親、母親のいずれでも育児休業をとることができます。\n\n<b>＊父親の育児休業について</b>\n
+        ・妻が専業主婦である場合には、労使協定の定めにより、育児休業を取得できない場合があります。\n
+        しかし、この場合であっても、少なくとも産後8週間は育児休業を取得することができます。\n
+        ・事業主は、3歳未満の子を養育する男女労働者について、次のいずれかの措置を講じなければなりません。\n
+        ○短時間勤務制度　○フレックスタイム制　○始業・終業時刻の繰り上げ・繰り下げ　○所定外労働の免除　○託児施設の設置運営、育児費用の援助措置\n
+        ・なお、1歳（1歳6か月まで育児休業が取得できる場合については1歳6か月）以上の子を養育する労働者については、これらの措置の代わりに育児休業に準ずる措置を講ずることもさしつかえありません。\n
+        ・小学校入学までの子を養育する男女労働者は、一定の条件を満たす場合、事業主に請求することにより、深夜業（午後10時から午前5時までの間の労働）が免除されます。\n
+        ・小学校入学までの子を養育する男女労働者は、一定の条件を満たす場合、事業主に請求することにより、1年につき150時間、1か月に付き24時間を超える時間外労働が免除されます。\n
+        ・小学校入学までの子を養育する男女労働者は、1年に5日まで、病気・けがをした子の看護のために休暇をとることができます。\n
+        ・育児休業を取得したこと等を理由とした解雇その他の不利益な取扱いは禁止されています。\n<b>以上の問い合わせ・相談先…</b>各都道府県労働局雇用均等室</string>
+    <string name="read_12no3_title">10.3.3.主な母子医療の公費負担制度</string>
+    <string name="read_12no3_1_title">●妊産婦に対して</string>
+    <string name="read_12no3_1_description">        低所得世帯に対して、妊産婦が妊娠高血圧症候群（妊娠中毒症）などで入院した場合の医療費の支給、入院による分娩・助産の援助などを実施している市区町村もあります。</string>
+    <string name="read_12no3_2_title">●未熟児に対して</string>
+    <string name="read_12no3_2_description">        体の発育が未熟なままで生まれてきた新生児で、入院が必要な場合、公費で医療が受けられます。</string>
+    <string name="read_12no3_3_title">●小児慢性特定疾患に対して</string>
+    <string name="read_12no3_3_description">        次の病気にかかった場合、公費で医療が受けられます。また、日常生活用具が支給されます。\n<b>悪性新生物／慢性腎疾患／慢性呼吸器疾患／慢性心疾患／内分泌疾患／膠原病（こうげんびょう）／糖尿病／先天性代謝異常／血友病等血液・免疫疾患／神経・筋疾患／慢性消化器疾患</b></string>
+    <string name="read_12no3_4_title">●身体障害児に対して</string>
+    <string name="read_12no3_4_description">        公費で身体の障害についての医療が受けられます。また補装具が支給されます。</string>
+    <string name="read_12no3_footnote">        ＊いずれの事業も、病気の内容や所得に応じて制限があります。地域により制度は違いがありますし、独自の援助が受けられる場合もありますので、保健所、市町村保健センターなどに相談してください。\n
+        ＊かかりつけの医療機関でも、障害や病気のある子どもの療育の相談に応じています。遠慮なく相談してください。</string>
+    <string name="read_12no3_column_title">育児等のために退職した方への再就職支援</string>
+    <string name="read_12no3_column_description">        　育児等により退職し、将来的に再就職を希望する方に対し、情報提供、再就職セミナー、再就職に向けたプラン作りの支援などを実施しています。\n
+        ●財団法人２１世紀職業財団 www.jiwe.or.jp/\n
+        フレーフレーネット www.2020net.jp/ でも再就職準備の情報提供をしています。</string>
+    <string name="read_18_1">10.4.1.心肺蘇生法</string>
+    <string name="read_18_2">10.4.2.誤飲・窒息の予防</string>
+    <string name="read_18_1_title">10.4.1.心肺蘇生法</string>
+    <string name="read_18_1_main">「意識が鈍い」「呼吸が鈍い」など異変に気づいたら，まず大声で名前を呼んでみたり，肩や足の裏をたたいたりして反応をみます．可能ならかたい床の上に下ろします．反応がなければ大声で人を呼び119番通報を依頼します．</string>
+    <string name="read_18_1_1_title">１．気道確保→呼吸の確認</string>
+    <string name="read_18_1_1_main">①ひたいの上に手を置き，あごのかたい骨の上をひとさし指で持ち上げる。　乳児：あごの先にかける指は1本　幼児：あごの先にかける指は2本\n　②ほおを口・鼻に寄せて，息をしているか10秒以内に調べる．\n　呼吸があれば，気道確保したまま救急車を待つ．\n　「意識がない」「呼吸が不十分・わからない」ばあいは，ただちに人工呼吸と胸骨圧迫を行う．</string>
+    <string name="read_18_1_2_title">２．人工呼吸（息を2回吹きこむ）</string>
+    <string name="read_18_1_2_main">　乳児：子の口と鼻を大人の口でおおい，胸が軽く上がるくらいの量を1秒かけて2回吹きこむ．\n　幼児：子の鼻をつまみ，胸が軽く上がるくらいの量を1秒かけて2回吹きこむ．\n吹き込まない時は鼻をつまんでいた指を離す．</string>
+    <string name="read_18_1_3_title">３．胸骨圧迫（心臓マッサージ）</string>
+    <string name="read_18_1_3_main">　2回の人工呼吸の後，ただちに行う．\n　乳児：両方の乳首を結んだ線の中央より指1本分下を，2本の指で胸の厚さの1/3がしずむ強さで，1分間に約100回のリズムで30回押し，人工呼吸を2回．\n　幼児：両方の乳首を結んだ線上（胸骨の中央から下半分）を，手のひらの付け根で胸の厚さの1/3がしずむ強さで，1分間に約100回のリズムで30回押し，人工呼吸を2回．\n　救急隊が到着するまで，呼吸が戻るまで繰り返す．</string>
+    <string name="read_18_2_title">10.4.2.誤飲・窒息の予防</string>
+    <string name="read_18_2_main">　この円(直径39ミリメートル)の中を通るものは赤ちゃんの口の中に入ります．\n　右図は3歳児の口腔を表しています．この筒の中に入るものは誤飲や窒息のおそれがあります．\n　＊赤ちゃんや小さな子供は手にしたものをすぐに口に入れてしまいます．たばこ，硬貨などの小物は赤ちゃんの手の届かないよう，床面より1m以上の高さに置くようにしましょう．また気管支に入るのを防ぐため，3歳になるまでピーナッツなど乾いた豆類は食べさせないようにしましょう．</string>
+    <string name="read_18_2_1_title">乳児</string>
+    <string name="read_18_2_1_main">①赤ちゃんをうつぶせにして，おなかの下に腕を通して指であごを支え，頭を低く保ちながら腹ばいの姿勢にさせる．\n　②手のひら全体で，肩甲骨と肩甲骨の間を，異物が取れなくなるまで，強くたたく．\n\n　意識がないとき・異物が取れず意識がなくなってしまったとき\n　背中をたたくなどはせず，ただちに心肺蘇生法を始める．ただし，人工呼吸のとき異物が見えれば慎重に取り除く</string>
+    <string name="read_18_2_2_main">　子供の背後から両腕を回し，にぎりこぶしをみぞおちとへその間(真ん中よりへそにちかいほう)におき，いきおいよく上方へ突きあげる．意識が戻らない時はただちに心肺蘇生法を始める．</string>
+    <string name="read_18_2_2_title">幼児</string>
+    <string name="read_18_2_3_main">　ここに紹介した例と異なる方法もあります．\n　講習会などの機会を利用して，ぜひ見につけておきましょう．</string>
+
+    <string-array name="blood_type">
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="mother_condition">
+        <item>-</item>
+        <item>+</item>
+        <item>++</item>
+    </string-array>
+    <string-array name="goto_hospital">
+        <item>自家用車</item>
+        <item>タクシー</item>
+        <item>徒歩</item>
+        <item>その他</item>
+    </string-array>
+
+    <!-- 出産の状況と出産後の母体の経過 -->
+    <string-array name="am_pm">
+        <item>午前</item>
+        <item>午後</item>
+    </string-array>
+    <string-array name="child_direction">
+        <item>頭位</item>
+        <item>骨盤位</item>
+        <item>その他</item>
+    </string-array>
+    <string-array name="lose_blood">
+        <item>少量</item>
+        <item>中量</item>
+        <item>多量</item>
+    </string-array>
+    <string-array name="sex">
+        <item>男</item>
+        <item>女</item>
+        <item>不明</item>
+    </string-array>
+    <string-array name="number">
+        <item>単</item>
+        <item>多</item>
+    </string-array>
+    <string-array name="death">
+        <item>蘇生</item>
+        <item>死亡</item>
+        <item>死産</item>
+    </string-array>
+    <string-array name="proof">
+        <item>出生証明書</item>
+        <item>死産証明書(死胎検案書)</item>
+        <item>出生証明書および死亡診断書</item>
+    </string-array>
+    <string-array name="womb">
+        <item>良</item>
+        <item>否</item>
+    </string-array>
+    <string-array name="lochia">
+        <item>正</item>
+        <item>否</item>
+    </string-array>
+    <string-array name="no_0_yes">
+        <item>いいえ</item>
+        <item>はい</item>
+        <item>何ともいえない</item>
+    </string-array>
+    <string-array name="nashi_ari">
+        <item>なし</item>
+        <item>あり</item>
+    </string-array>
+    <string-array name="who_tell">
+        <item>医師</item>
+        <item>受胎調節実地指導員</item>
+        <item>助産師</item>
+    </string-array>
+
+    <!-- 妊娠中と産後の歯の状態 -->
+    <string-array name="ninshin_sango">
+        <item>妊娠</item>
+        <item>産後</item>
+    </string-array>
+    <string-array name="tooth_condition">
+        <item>／</item>
+        <item>△</item>
+        <item>○</item>
+        <item>Ｃ</item>
+    </string-array>
+    <string-array name="yes_no">
+        <item>はい</item>
+        <item>いいえ</item>
+    </string-array>
+    <string-array name="health">
+        <item>健康</item>
+        <item>よくない</item>
+    </string-array>
+    <string-array name="isnormal">
+        <item>正常</item>
+        <item>異常</item>
+    </string-array>
+    <string-array name="work_type">
+        <item>勤め(常勤)</item>
+        <item>勤め(その他)</item>
+        <item>自営業主</item>
+        <item>家族従業者</item>
+        <item>その他</item>
+        <item>なし</item>
+    </string-array>
+    <string-array name="house_type">
+        <item>独立家屋</item>
+        <item>集合住宅</item>
+        <item>その他</item>
+    </string-array>
+    <string-array name="noise_type">
+        <item>静か</item>
+        <item>普通</item>
+        <item>騒がしい</item>
+    </string-array>
+    <string-array name="lay_type">
+        <item>良い</item>
+        <item>普通</item>
+        <item>悪い</item>
+    </string-array>
+
+    <!-- 4週間まで -->
+    <string-array name="milk_type">
+        <item>母乳</item>
+        <item>人工乳</item>
+    </string-array>
+    <string-array name="getmilk_power">
+        <item>普通</item>
+        <item>弱い</item>
+    </string-array>
+    <string-array name="oudan">
+        <item>なし</item>
+        <item>普通</item>
+        <item>強い</item>
+    </string-array>
+    <string-array name="milk_type_3">
+        <item>母乳</item>
+        <item>混合</item>
+        <item>人工</item>
+    </string-array>
+    <string-array name="eiyou_condition">
+        <item>ふとり気味</item>
+        <item>普通</item>
+        <item>やせ気味</item>
+    </string-array>
+    <string-array name="health_condition">
+        <item>健康</item>
+        <item>要観察</item>
+    </string-array>
+    <string-array name="teeth">
+        <item>きれい</item>
+        <item>普通</item>
+        <item>汚い</item>
+    </string-array>
+    <string-array name="error">
+        <item>異常なし</item>
+        <item>異常あり</item>
+    </string-array>
+    <string-array name="husei_kougou">
+        <item>なし</item>
+        <item>要注意</item>
+    </string-array>
+    <string-array name="diet_1month">
+        <item>良い</item>
+        <item>要指導</item>
+    </string-array>
+    <string-array name="start">
+        <item>開始</item>
+        <item>未開始</item>
+    </string-array>
+    <string-array name="drink">
+        <item>飲んでいる</item>
+        <item>飲んでいない</item>
+    </string-array>
+    <string-array name="gani">
+        <item>なし</item>
+        <item>あり</item>
+        <item>疑いあり</item>
+    </string-array>
+    <string-array name="complite">
+        <item>完了</item>
+        <item>未完了</item>
+    </string-array>
+    <string-array name="rikan">
+        <item>O1</item>
+        <item>O2</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+    </string-array>
+    <string-array name="child_num">
+        <item>1人</item>
+        <item>2人</item>
+        <item>3人</item>
+        <item>4人</item>
+        <item>5人</item>
+    </string-array>
+    <string-array name="means_of_Transport_tohospital">
+        <item>自家用車</item>
+        <item>タクシー</item>
+        <item>徒歩</item>
+        <item>その他</item>
+    </string-array>
+    <string-array name="blood_type_abo">
+        <item>A型</item>
+        <item>B型</item>
+        <item>AB型</item>
+        <item>O型</item>
+        <item>その他</item>
+    </string-array>
+    <string-array name="blood_type_rh">
+        <item>RH+</item>
+        <item>RH-</item>
+    </string-array>
+
+    <!-- BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting…</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+
+    <!-- DeviceListActivity -->
+    <string name="scanning">scanning for devices…</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="connect">Connect a device</string>
+    <string name="discoverable">Make discoverable</string>
+
+    <!-- ！■■■■■■■■■■■■ここから2013年■■■■■■■■■■■■！ -->
+
+
+    <!-- ！■予防接種■！ -->
+    <string name="write_checkup_immunization">健康診査定期確認予防接種</string>
+
+    <string-array name="write_checkup_immunization_label">
+        <item>ジフテリア</item>
+        <item>百日せき</item>
+        <item>破傷風</item>
+        <item>ポリオ</item>
+        <item>BCG</item>
+        <item>麻しん</item>
+        <item>風しん</item>
+    </string-array>
+
+    <!-- ！■病気■！ -->
+    <string name="pregnancy_write_illnesses">かかったことのある病気</string>
+
+    <string-array name="pregnancy_write_illnesses_label">
+        <item>高血圧</item>
+        <item>慢性腎炎</item>
+        <item>糖尿病</item>
+        <item>肝炎</item>
+        <item>心臓病</item>
+        <item>甲状腺の病気</item>
+        <item>精神疾患(心の病気)</item>
+    </string-array>
+
+    <!-- ！■同居■！ -->
+    <string name="pregnancy_write_home">かかったことのある病気</string>
+
+    <string-array name="pregnancy_write_home">
+        <item>夫</item>
+        <item>夫の父</item>
+        <item>夫の母</item>
+        <item>実父</item>
+        <item>実母</item>
+    </string-array>
+
+
+    <!-- ！■スピナー■！ -->
+    <string name="none">なし/あり</string>
+
+    <string-array name="none_label">
+        <item>なし</item>
+        <item>あり</item>
+    </string-array>
+
+    <string name="jaundice">黄疸</string>
+
+    <string-array name="jaundice_label">
+        <item>なし</item>
+        <item>普通</item>
+        <item>強</item>
+    </string-array>
+
+    <string name="nursing">哺乳力</string>
+
+    <string-array name="nursing_label">
+        <item>弱</item>
+        <item>普通</item>
+    </string-array>
+
+    <string name="feeding">栄養法</string>
+
+    <string-array name="feeding_label">
+        <item>母乳</item>
+        <item>混合</item>
+        <item>人工乳</item>
+    </string-array>
+
+    <string name="diet">栄養状態(1歳6ヶ月まで)</string>
+
+    <string-array name="diet_label">
+        <item>良</item>
+        <item>要指導</item>
+    </string-array>
+
+    <string name="diet2">栄養状態(1歳6ヶ月から)</string>
+
+    <string-array name="diet2_label">
+        <item>ふとり気味</item>
+        <item>普通</item>
+        <item>やせ気味</item>
+    </string-array>
+
+    <string name="milk">離乳</string>
+
+    <string-array name="milk_label">
+        <item>開始</item>
+        <item>未開始</item>
+    </string-array>
+
+    <string name="mother_milk">母乳</string>
+
+    <string-array name="mother_milk_label">
+        <item>飲んでいない</item>
+        <item>飲んでいる</item>
+    </string-array>
+
+    <string name="fully_milk">離乳</string>
+
+    <string-array name="fully_milk_label">
+        <item>完了</item>
+        <item>未完了</item>
+    </string-array>
+
+    <string name="eye">目(耳)の異常</string>
+
+    <string-array name="eye_label">
+        <item>なし</item>
+        <item>あり</item>
+        <item>疑</item>
+    </string-array>
+
+    <string name="tooth_hygiene">歯の汚れ</string>
+
+    <string-array name="tooth_hygiene_label">
+        <item>きれい</item>
+        <item>少ない</item>
+        <item>多い</item>
+    </string-array>
+
+    <string name="tooth_gums">歯肉・粘膜</string>
+
+    <string-array name="tooth_gums_label">
+        <item>異常なし</item>
+        <item>あり</item>
+    </string-array>
+
+    <string name="tooth_occlusion">かみ合わせ</string>
+
+    <string-array name="tooth_occlusion_label">
+        <item>よい</item>
+        <item>経過観察</item>
+    </string-array>
+
+    <string name="tooth_pattern">虫歯の罹患型</string>
+
+    <string-array name="tooth_pattern_label">
+        <item>O1</item>
+        <item>O2</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+    </string-array>
+
+    <string name="plusminus">プラスマイナス</string>
+
+    <string-array name="plusminus_label">
+        <item>-</item>
+        <item>+</item>
+        <item>±</item>
+    </string-array>
+
+    <string name="infectious">感染症</string>
+
+    <string-array name="infectious_label">
+        <item>はい</item>
+        <item>いいえ</item>
+        <item>予防接種を受けた</item>
+    </string-array>
+
+    <string name="type">分娩経過</string>
+
+    <string-array name="type_label">
+        <item>頭囲</item>
+        <item>骨盤位</item>
+        <item>その他</item>
+    </string-array>
+
+    <string name="bleeding">出血量</string>
+
+    <string-array name="bleeding_label">
+        <item>少量</item>
+        <item>中量</item>
+        <item>大量</item>
+    </string-array>
+
+    <string name="blood_transfusion">輸血</string>
+
+    <string-array name="blood_transfusion_label">
+        <item>無し</item>
+        <item>有り</item>
+        <item>その他</item>
+    </string-array>
+
+    <string name="sex">性別</string>
+
+    <string-array name="sex_label">
+        <item>男</item>
+        <item>女</item>
+        <item>不明</item>
+    </string-array>
+
+    <string name="delivery_number">数</string>
+
+    <string-array name="delivery_number_label">
+        <item>1人</item>
+        <item>2人</item>
+        <item>多</item>
+    </string-array>
+
+    <string name="certificate">証明</string>
+
+    <string-array name="certificate_label">
+        <item>出生証明書</item>
+        <item>死産証書(死胎健案書)</item>
+        <item>出生証明書及び死亡診断書</item>
+    </string-array>
+
+    <string name="tooth_calculus">歯の健康</string>
+
+    <string-array name="tooth_calculus_label">
+        <item>なし</item>
+        <item>あり</item>
+        <item>不明</item>
+    </string-array>
+
+    <string name="inflammation">歯肉の炎症</string>
+
+    <string-array name="inflammation_label">
+        <item>なし</item>
+        <item>あり(要指導)</item>
+        <item>あり(要治療)</item>
+    </string-array>
+
+    <string name="pregnancy_after">妊娠産後</string>
+
+    <string-array name="pregnancy_after_label">
+        <item>妊娠</item>
+        <item>産後</item>
+    </string-array>
+
+    <string name="crowded">混雑の程度</string>
+
+    <string-array name="crowded_label">
+        <item>とても混んでいる</item>
+        <item>混んでいる</item>
+        <item>普通</item>
+        <item>空いている</item>
+         <item>乗り物を使わない</item>
+    </string-array>
+
+    <string name="living">住居の種類</string>
+
+    <string-array name="living_label">
+        <item>一戸建て</item>
+        <item>集合住宅</item>
+        <item>その他</item>
+    </string-array>
+
+    <string name="noise">騒音</string>
+
+    <string-array name="noise_label">
+        <item>静か</item>
+        <item>普通</item>
+        <item>騒がしい</item>
+    </string-array>
+
+    <string-array name="sun_label">
+        <item>良い</item>
+        <item>普通</item>
+        <item>悪い</item>
+    </string-array>
+
+    <string name="button_back">戻る</string>
+    <string name="button_forward">進む</string>
+    <string name="button_home">ホーム</string>
+    <string name="previous">←</string>
+	<string name="next">→</string>
+</resources>

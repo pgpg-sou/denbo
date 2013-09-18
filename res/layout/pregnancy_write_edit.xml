@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+<ScrollView
+	android:id="@+id/ScrollView01"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_alignParentTop="true">
+
+
+<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="vertical">
+
+	<TextView
+            android:text="妊娠中の経過"
+            android:id="@+id/write_9_1_title"
+            style="@style/write_9_title"
+            android:gravity="center"/>
+
+	<LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		        android:layout_marginBottom="1dip" >
+
+		        <TextView
+		            android:id="@+id/write_day"
+		            style="@style/write_9_question"
+				    android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:text="診察月日" />
+		        <Button
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="2"
+		android:text="日付を入力"
+		android:onClick="datePickerShow1"
+		/>
+		        <EditText
+				    android:id="@+id/pregnancy_write_edit_examination"
+				    style="@style/write_9s_edittext"
+				    android:layout_width="0dp"
+				    android:layout_weight="3"
+				     />
+				<TextView
+		            style="@style/write_9_question"
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:text="妊娠週数" />
+		        <TextView
+		            android:id="@+id/pregnancy_write_edit_week"
+		            style="@style/blackOnly"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="----" >
+		        </TextView>
+
+		        <TextView
+		            style="@style/write_9_question"
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:text="日" />
+</LinearLayout>
+<!-- ダミー -->
+<TextView
+	      android:layout_width="fill_parent"
+	      android:layout_height="fill_parent"
+	      android:text="　"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      >
+	    </TextView>
+
+
+<TableLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+      <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="子宮底長(cm)"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+		  android:layout_marginBottom="1dip"
+	      android:layout_marginTop="1dip"
+		  >
+	    </TextView>
+	     <EditText
+	 	 android:id="@+id/pregnancy_write_edit_uterus"
+	     style="@style/write_9s_edittext"
+		 android:layout_width="0dp"
+    	 android:layout_weight="2"
+		 android:inputType="number"
+		 android:maxLength="3"
+				    />
+
+	     	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="腹囲(cm)"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginTop="1dip"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+	    <EditText
+	 	 android:id="@+id/pregnancy_write_edit_abdomen"
+	     style="@style/write_9s_edittext"
+		 android:layout_width="0dp"
+    	 android:layout_weight="2"
+		 android:inputType="number"
+		 android:maxLength="3"
+				    />
+	  </TableRow>
+	 <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="体重(kg)"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+		  android:layout_marginBottom="1dip"
+		  >
+	    </TextView>
+	     <EditText
+	 	 android:id="@+id/pregnancy_write_edit_weight"
+	     style="@style/write_9s_edittext"
+		 android:layout_width="0dp"
+    	 android:layout_weight="2"
+		 android:inputType="number"
+		 android:maxLength="2"
+				    />
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="血圧"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+	    <EditText
+	 	 android:id="@+id/pregnancy_write_edit_blood_top"
+	     style="@style/write_9s_edittext"
+		 android:layout_width="0dp"
+    	 android:layout_weight="1"
+		 android:inputType="number"
+		 android:maxLength="3"
+		 android:hint="上"
+				    />
+	    <EditText
+	 	 android:id="@+id/pregnancy_write_edit_blood_bottom"
+	     style="@style/write_9s_edittext"
+		 android:layout_width="0dp"
+    	 android:layout_weight="1"
+		 android:inputType="number"
+		 android:maxLength="3"
+		 android:hint="下"
+				    />
+	  </TableRow>
+	 <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="浮腫"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+		  android:layout_marginBottom="1dip"
+		  >
+	    </TextView>
+	     <Spinner
+                    android:layout_height="wrap_content"
+				    android:layout_width="0dp"
+                    style="@style/write_9s_edittext"
+                    android:id="@+id/pregnancy_write_edit_edema"
+                    android:layout_weight="2"/>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="尿蛋白"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+	   <Spinner
+                    android:layout_height="wrap_content"
+				    android:layout_width="0dp"
+                    style="@style/write_9s_edittext"
+                    android:id="@+id/pregnancy_write_edit_protein"
+                    android:layout_weight="2"/>
+	 </TableRow>
+	 <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="尿糖"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+	<Spinner
+                    android:layout_height="wrap_content"
+				    android:layout_width="0dp"
+                    style="@style/write_9s_edittext"
+                    android:id="@+id/pregnancy_write_edit_sugar"
+                    android:layout_weight="2"/>
+	<TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text=" "
+	      android:layout_weight="3"
+	      android:gravity="center">
+	    </TextView>
+	 </TableRow>
+	  <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="その他の検査"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+	<EditText
+	 	 android:id="@+id/pregnancy_write_edit_other"
+	     style="@style/write_9s_edittext"
+		 android:layout_width="0dp"
+    	 android:layout_weight="5"
+		 android:inputType="text"
+				    />
+	 </TableRow>
+
+	  <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="血液検査、血糖、超音波など"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+</TableRow>
+	  <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="特記事項"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+	<EditText
+	 	 android:id="@+id/pregnancy_write_edit_instructions"
+	     style="@style/write_9s_edittext"
+		 android:layout_width="0dp"
+    	 android:layout_weight="5"
+		 android:inputType="text"
+				    />
+	 </TableRow>
+
+	   <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="安静・休業などの指示や、切迫早産等の参加疾患や合併症など"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+
+	 </TableRow>
+	 <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="施設名又は担当者名"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+	<EditText
+	 	 android:id="@+id/pregnancy_write_edit_name"
+	     style="@style/write_9s_edittext"
+		 android:layout_width="0dp"
+    	 android:layout_weight="5"
+		 android:inputType="text"
+				    />
+	 </TableRow>
+
+</TableLayout>
+<LinearLayout
+			          android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+			  android:orientation="horizontal">
+			<Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/pregnancy_write_edit_camera"
+			android:text="写真を撮る" />
+			<Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/pregnancy_write_edit_gallery"
+			android:text="ギャラリーから選択" />
+</LinearLayout>
+<ImageView
+    	android:id="@+id/imageview_pregnancy_write"
+	    android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	android:src="@drawable/noimage"
+    	android:layout_weight="1" />
+	<!-- ダミー -->
+	<TextView
+	      android:layout_width="fill_parent"
+	      android:layout_height="fill_parent"
+	      android:text="　"
+	      android:layout_weight="1"
+	      android:gravity="center"/>
+
+
+<include layout="@layout/write_save_cancel" />
+
+
+		    <!-- 縦長の画像を選択すると下までスクロールされないのでダミースペース -->
+				<TextView
+					android:text=" "
+					android:layout_width="wrap_content"
+					style="@style/write_9_question"/>
+				<TextView
+					android:text=" "
+					android:layout_width="wrap_content"
+					style="@style/write_9_question"/>
+		</LinearLayout>
+
+
+
+</ScrollView>
+
+
+
+<!-- TextView 1～9 -->
+</RelativeLayout>

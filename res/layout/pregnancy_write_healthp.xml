@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+<ScrollView
+	android:id="@+id/ScrollView01"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_alignParentTop="true">
+
+
+<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="vertical"
+		>
+
+	<TextView
+            android:text="妊婦の健康状態等"
+            android:id="@+id/write_9_1_title"
+            style="@style/write_9_title"
+            android:gravity="center"
+            android:background="#FFDFA5"/>
+<!-- ダミー -->
+<TextView
+	      android:layout_width="fill_parent"
+	      android:layout_height="fill_parent"
+	      android:text="　"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      >
+	    </TextView>
+
+
+<TableLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+      <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="ふだんの体重(kg)"
+	      android:background="#FFDFA5"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+		  android:layout_marginBottom="2dip"
+	      android:layout_marginTop="1dip"
+		  >
+	    </TextView>
+	    <EditText
+		  android:id="@+id/EditText_write_pregnancy_write_weight"
+    	  style="@style/write_9s_edittext"
+    	  android:layout_width="0dp"
+	      android:layout_weight="2"
+	      android:inputType="number"
+		  android:maxLength="3"
+				     />
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="身長(cm)"
+	      android:background="#FFDFA5"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginTop="1dip"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="2dip">
+	    </TextView>
+	    <EditText
+		  android:id="@+id/EditText_write_pregnancy_write_height"
+    	  style="@style/write_9s_edittext"
+    	  android:layout_width="0dp"
+	      android:layout_weight="2"
+	      android:inputType="number"
+		  android:maxLength="3"
+				     />
+	  </TableRow>
+	 <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="結婚年齢"
+	      android:background="#FFDFA5"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+		  android:layout_marginBottom="2dip"
+		  >
+	    </TextView>
+	    <EditText
+		  android:id="@+id/EditText_write_pregnancy_write_marriage"
+    	  style="@style/write_9s_edittext"
+    	  android:layout_width="0dp"
+	      android:layout_weight="2"
+	      android:inputType="number"
+		  android:maxLength="3"
+				     />
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="BMI"
+	      android:background="#FFDFA5"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginRight="1dip"
+	      android:layout_marginBottom="2dip">
+	    </TextView>
+	    <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:id="@+id/TextView_pregnancy_write_bmi_p"
+	     android:text="体重÷身長÷身長"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="2"
+	     android:gravity="center"
+	     android:layout_marginRight="1dip"
+	  android:layout_marginBottom="2dip">
+	 </TextView>
+	  </TableRow>
+	 <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text=" "
+	      android:background="#ffffff"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+	      android:layout_marginBottom="2dip"
+		  >
+	    </TextView>
+
+	 </TableRow>
+	 <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="次の病気にかかったことがありますか。"
+	      android:background="#FFDFA5"
+	      android:layout_weight="1"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+		  >
+	    </TextView>
+	    <Button
+                    android:layout_height="wrap_content"
+				    android:layout_width="0dp"
+				    android:text="あるものにチェック"
+                    style="@style/write_9s_edittext"
+                    android:id="@+id/Button_pregnancy_write_illnesses"
+                    android:onClick="alertDialogShow_immunization"
+                    android:layout_weight="2"/>
+	     <EditText
+		  android:id="@+id/EditText_write_pregnancy_write_illnesses"
+    	  style="@style/write_9s_edittext"
+    	  android:layout_width="0dp"
+	      android:layout_weight="3"
+	      android:editable="false"
+	      android:text="自動で記入されます"
+				     />
+	  </TableRow>
+
+	 <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="(その他病気)"
+	      android:background="#FFDFA5"
+	      android:layout_weight="1"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+		  android:layout_marginBottom="2dip"
+		  >
+	    </TextView>
+
+	    <EditText
+		  android:id="@+id/EditText_write_pregnancy_write_illnesses_other"
+    	  style="@style/write_9s_edittext"
+    	  android:layout_width="0dp"
+	      android:layout_weight="5"/>
+
+	  </TableRow>
+
+
+		 <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="次の感染病にかかったことがありますか。"
+	      android:background="#FFDFA5"
+	      android:layout_weight="1"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+		  >
+	    </TextView>
+	     <TextView
+	 	 android:id="@+id/TextView_pregnancy_write_infectious"
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:text=""
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="1"
+	     android:gravity="center"
+	  android:layout_marginRight="1dip"
+	  android:layout_marginBottom="2dip">
+	 </TextView>
+	  </TableRow>
+
+		 <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="・風しん(三日はしか)"
+	      android:background="#FFDFA5"
+	      android:layout_weight="3"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+		  >
+	    </TextView>
+	    <Spinner
+                    android:layout_height="wrap_content"
+				    android:layout_width="0dp"
+                    style="@style/write_9s_edittext"
+                    android:id="@+id/Spinner_pregnancy_write_infectious_rubella"
+                    android:layout_weight="1.5"/>
+
+	    <EditText
+	 	 android:id="@+id/EditText_pregnancy_write_infectious_rubella_old"
+	     style="@style/write_9s_edittext"
+		 android:layout_width="0dp"
+    	 android:layout_weight="1"
+		 android:inputType="number"
+		 android:maxLength="2" />
+	 <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:text="歳"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="0.5"
+	     android:gravity="center"
+	  android:layout_marginRight="1dip"
+	  android:layout_marginBottom="2dip">
+	 </TextView>
+	  </TableRow>
+
+		 <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="・ましん(はしか)"
+	      android:background="#FFDFA5"
+	      android:layout_weight="3"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+		  >
+	    </TextView>
+	    <Spinner
+                    android:layout_height="wrap_content"
+				    android:layout_width="0dp"
+                    style="@style/write_9s_edittext"
+                    android:id="@+id/Spinner_pregnancy_write_infectious_measles"
+                    android:layout_weight="1.5"/>
+
+	    <EditText
+	 	 android:id="@+id/EditText_pregnancy_write_infectious_measles_old"
+	     style="@style/write_9s_edittext"
+		 android:layout_width="0dp"
+    	 android:layout_weight="1"
+		 android:inputType="number"
+		 android:maxLength="2" />
+	 <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:text="歳"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="0.5"
+	     android:gravity="center"
+	  android:layout_marginRight="1dip"
+	  android:layout_marginBottom="2dip">
+	 </TextView>
+	  </TableRow>
+
+		 <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="・水疱(水ぼうそう)"
+	      android:background="#FFDFA5"
+	      android:layout_weight="3"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+	      android:layout_marginBottom="2dip"
+		  >
+	    </TextView>
+	    <Spinner
+                    android:layout_height="wrap_content"
+				    android:layout_width="0dp"
+                    style="@style/write_9s_edittext"
+                    android:id="@+id/Spinner_pregnancy_write_infectious_pox"
+                    android:layout_weight="1.5"/>
+
+	    <EditText
+	 	 android:id="@+id/EditText_pregnancy_write_infectious_pox_old"
+	     style="@style/write_9s_edittext"
+		 android:layout_width="0dp"
+    	 android:layout_weight="1"
+		 android:inputType="number"
+		 android:maxLength="2" />
+	 <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:text="歳"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="0.5"
+	     android:gravity="center"
+	  android:layout_marginRight="1dip"
+	  android:layout_marginBottom="2dip">
+	 </TextView>
+	  </TableRow>
+
+		 <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="今までに手術を受けたことがありますか。"
+	      android:background="#FFDFA5"
+	      android:layout_weight="3"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+		  >
+	    </TextView>
+
+	    <RadioGroup
+	        android:id="@+id/radio_pregnancy_write_operation"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="3"
+	        android:orientation="horizontal"
+	        android:gravity="center"
+	        >
+	        <RadioButton
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:id="@+id/radio_pregnancy_write_operation_no"
+				style="@style/left_no_orange_radiobutton"/>
+	        <RadioButton
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:id="@+id/radio_pregnancy_write_operation_yes"
+	        	style="@style/right_yes_orange_radiobutton"/>
+	    </RadioGroup>
+	 </TableRow>
+
+	     <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="(病名)"
+	      android:background="#FFDFA5"
+	      android:layout_weight="3"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+	      android:layout_marginBottom="2dip"
+		  >
+	    </TextView>
+	    <EditText
+	 	 android:id="@+id/EditText_pregnancy_write_operation_for"
+	     style="@style/write_9s_edittext"
+		 android:layout_width="0dp" />
+
+	  </TableRow>
+
+		 <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="服用中の薬"
+	      android:background="#FFDFA5"
+	      android:layout_weight="3"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+	      android:layout_marginBottom="2dip"
+		  >
+	    </TextView>
+	    <EditText
+	 	 android:id="@+id/EditText_pregnancy_write_medicine"
+	     style="@style/write_9s_edittext"
+		 android:layout_width="0dp"
+    	 android:layout_weight="3"
+		 android:inputType="text" />
+	  </TableRow>
+
+	 <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text=" "
+	      android:background="#ffffff"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+	      android:layout_marginBottom="2dip"
+		  >
+	    </TextView>
+	 </TableRow>
+
+	 <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="家庭や仕事など日常生活で強いストレスを感じていますか。"
+	      android:background="#FFDFA5"
+	      android:layout_weight="3"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+	      android:layout_marginBottom="2dip"
+		  >
+	    </TextView>
+	    <RadioGroup
+	        android:id="@+id/radio_pregnancy_write_stress"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="3"
+	        android:orientation="horizontal"
+	        android:gravity="center"
+	        >
+	        <RadioButton
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+
+	            android:id="@+id/radio_pregnancy_write_stress_no"
+				style="@style/left_no_orange_radiobutton"/>
+	        <RadioButton
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:id="@+id/radio_pregnancy_write_stress_yes"
+	        	style="@style/right_yes_orange_radiobutton"/>
+	    </RadioGroup>
+
+	  </TableRow>
+
+	 <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="今回の妊娠に際し、過去の妊娠・分娩に関連して心配なことはありますか。"
+	      android:background="#FFDFA5"
+	      android:layout_weight="3"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+	      android:layout_marginBottom="2dip"
+		  >
+	    </TextView>
+	    <RadioGroup
+	        android:id="@+id/radio_pregnancy_write_anxiety"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="3"
+	        android:orientation="horizontal"
+	        android:gravity="center"
+	        >
+	        <RadioButton
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:id="@+id/radio_pregnancy_write_anxiety_no"
+				style="@style/left_no_orange_radiobutton"/>
+	        <RadioButton
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:id="@+id/radio_pregnancy_write_anxiety_yes"
+	        	style="@style/right_yes_orange_radiobutton"/>
+	    </RadioGroup>
+
+	  </TableRow>
+
+	 <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="その他心配なこと"
+	      android:background="#FFDFA5"
+	      android:layout_weight="3"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+	      android:layout_marginBottom="2dip"
+		  >
+	    </TextView>
+	    <EditText
+	 	 android:id="@+id/EditText_pregnancy_write_anxiety_other"
+	     style="@style/write_9s_edittext"
+		 android:layout_width="0dp"
+    	 android:layout_weight="3"
+		 android:inputType="text" />
+	  </TableRow>
+
+	  <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text=" "
+	      android:background="#ffffff"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+	      android:layout_marginBottom="2dip"
+		  >
+	    </TextView>
+	 </TableRow>
+
+	 <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="タバコを吸いますか。"
+	      android:background="#FFDFA5"
+	      android:layout_weight="2"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+	      android:layout_marginBottom="2dip"
+		  >
+	    </TextView>
+	    <RadioGroup
+	        android:id="@+id/radio_pregnancy_write_smoke"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="2"
+	        android:orientation="horizontal"
+	        android:gravity="center"
+	        >
+	        <RadioButton
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:id="@+id/radio_pregnancy_write_smoke_no"
+				style="@style/left_no_orange_radiobutton"/>
+	        <RadioButton
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:id="@+id/radio_pregnancy_write_smoke_yes"
+	        	style="@style/right_yes_orange_radiobutton"/>
+	    </RadioGroup>
+	 <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:text="１日"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="0.5"
+	     android:gravity="center"
+	  android:layout_marginBottom="2dip">
+	 </TextView>
+
+	 <EditText
+	 	 android:id="@+id/EditText_pregnancy_write_smoke_cigarettes"
+	     style="@style/write_9s_edittext"
+		 android:layout_width="0dp"
+		 android:layout_height="fill_parent"
+    	 android:layout_weight="1"
+		 android:inputType="number"
+		 android:maxLength="3" />
+	 <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:text="本"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="0.5"
+	     android:gravity="center"
+	  android:layout_marginRight="1dip"
+	  android:layout_marginBottom="2dip">
+	 </TextView>
+	  </TableRow>
+
+	 <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="同居者は同室でタバコを吸いますか。"
+	      android:background="#FFDFA5"
+	      android:layout_weight="2"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+	      android:layout_marginBottom="2dip"
+		  >
+	    </TextView>
+	    <RadioGroup
+	        android:id="@+id/radio_pregnancy_write_smoke_same"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="2"
+	        android:orientation="horizontal"
+	        android:gravity="center"
+	        >
+	        <RadioButton
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:id="@+id/radio_pregnancy_write_smoke_same_no"
+				style="@style/left_no_orange_radiobutton"/>
+	        <RadioButton
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:id="@+id/radio_pregnancy_write_smoke_same_yes"
+	        	style="@style/right_yes_orange_radiobutton"/>
+	    </RadioGroup>
+	 <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:text="１日"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="0.5"
+	     android:gravity="center"
+	  android:layout_marginBottom="2dip"
+	  >
+	 </TextView>
+
+	 <EditText
+	 	 android:id="@+id/EditText_pregnancy_write_smoke_same_cigarettes"
+	     style="@style/write_9s_edittext"
+		 android:layout_width="0dp"
+		 android:layout_height="fill_parent"
+    	 android:layout_weight="1"
+		 android:inputType="number"
+		 android:maxLength="3" />
+	 <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:text="本"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="0.5"
+	     android:gravity="center"
+	  android:layout_marginRight="1dip"
+	  android:layout_marginBottom="2dip">
+	 </TextView>
+	  </TableRow>
+
+	 <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="酒類を飲みますか。"
+	      android:background="#FFDFA5"
+	      android:layout_weight="2"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+	      android:layout_marginBottom="2dip"
+		  >
+	    </TextView>
+	    <RadioGroup
+	        android:id="@+id/radio_pregnancy_write_alcohol"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="2"
+	        android:orientation="horizontal"
+	        android:gravity="center"
+	        >
+	        <RadioButton
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:id="@+id/radio_pregnancy_write_alcohol_no"
+				style="@style/left_no_orange_radiobutton"/>
+	        <RadioButton
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:id="@+id/radio_pregnancy_write_alcohol_yes"
+	        	style="@style/right_yes_orange_radiobutton"/>
+	    </RadioGroup>
+	 <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:text="１日"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="0.5"
+	     android:gravity="center"
+	  android:layout_marginBottom="2dip">
+	 </TextView>
+
+	 <EditText
+	 	 android:id="@+id/EditText_pregnancy_write_alcohol_glasses"
+	     style="@style/write_9s_edittext"
+		 android:layout_width="0dp"
+		 android:layout_height="fill_parent"
+    	 android:layout_weight="1"
+		 android:inputType="text" />
+	 <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:text="程度"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="0.5"
+	     android:gravity="center"
+	  android:layout_marginRight="1dip"
+	  android:layout_marginBottom="2dip">
+	 </TextView>
+
+	  </TableRow>
+
+	  <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+
+
+	   <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:id="@+id/TextView_pregnancy_write_ears"
+	     android:text=""
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="2"
+	     android:gravity="center"
+	  android:layout_marginBottom="2dip"
+	  android:layout_marginRight="1dip">
+	 </TextView>
+
+	 </TableRow>
+
+	  <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="夫の健康状態"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+		  >
+	    </TextView>
+	    <EditText
+	 	 android:id="@+id/EditText_pregnancy_write_spouse"
+	     style="@style/write_9s_edittext"
+		 android:layout_width="0dp"
+    	 android:layout_weight="5"
+		 android:inputType="text" />
+	 </TableRow>
+
+	     <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="(病名)"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+	      android:layout_marginBottom="2dip"
+		  >
+	    </TextView>
+	    <EditText
+	 	 android:id="@+id/EditText_pregnancy_write_spouse_poor"
+	     style="@style/write_9s_edittext"
+		 android:layout_width="0dp"
+    	 android:layout_weight="5"
+		 android:inputType="text" />
+	  </TableRow>
+
+
+</TableLayout>
+
+
+		    <!-- 縦長の画像を選択すると下までスクロールされないのでダミースペース -->
+				<TextView
+					android:text=" "
+					android:layout_width="wrap_content"
+					style="@style/write_9_question"/>
+				<TextView
+					android:text=" "
+					android:layout_width="wrap_content"
+					style="@style/write_9_question"/>
+		</LinearLayout>
+
+
+
+</ScrollView>
+
+
+<include layout="@layout/write_save_cancel" />
+
+<!-- TextView 1～9 -->
+
+
+</RelativeLayout>

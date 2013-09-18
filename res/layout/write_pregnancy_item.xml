@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:padding="2dip"
+  >
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:paddingTop="8dip"
+    android:paddingBottom="8dip"
+    android:paddingLeft="14dip"
+    android:paddingRight="14dip"
+    >
+    <ImageView
+      android:id="@+id/imageview"
+      android:layout_width="85dip"
+      android:layout_height="85dip"
+      android:scaleType="centerCrop"
+      android:padding="8dip"
+      />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginLeft="16dip"
+        android:layout_marginTop="8dip"
+        android:layout_weight="0.91"
+        android:background="#ffffff" />
+
+  </LinearLayout>
+</FrameLayout>

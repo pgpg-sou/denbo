@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:background="@drawable/background_pink">
+
+
+
+	<ImageView
+		android:id="@+id/ImageView01"
+		android:src="@drawable/index_write_title"
+	    android:padding="10dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"></ImageView>
+
+	
+	
+	<!--ホーム画面に戻るボタン開始-->
+
+                <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:gravity="center" >
+
+
+        <Button
+            android:id="@+id/index_read_home"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ButtonHome" />
+ 
+
+
+
+
+
+    </LinearLayout>
+	<!--ホーム画面に戻るボタン完了-->
+	
+
+<ScrollView android:id="@+id/ScrollView01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+</ScrollView>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/write_button_pregnant_1"
+        style="@style/button_style"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/index_write_4" />
+
+    <Button
+        android:id="@+id/write_button_pregnant_2"
+        style="@style/button_style"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/index_write_5" />
+
+    <Button
+        android:id="@+id/write_button_pregnant_3"
+        style="@style/button_style"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/index_write_6" />
+    
+        <Button
+        android:id="@+id/write_button_pregnant_4"
+        style="@style/button_style"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/index_write_7" />
+        
+            <Button
+        android:id="@+id/write_button_pregnant_5"
+        style="@style/button_style"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/index_write_8" />
+
+</LinearLayout>
+
+</LinearLayout>

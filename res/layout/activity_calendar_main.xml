@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/outline"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/previous" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#33cc33"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:id="@+id/tableRow">
+				
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="日" />
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="月" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="火" />
+
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="水" />
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="木" />
+
+                <TextView
+                    android:id="@+id/text6"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="金" />
+
+                <TextView
+                    android:id="@+id/text7"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="土" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>

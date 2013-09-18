@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/write_9_1_title"
+                style="@style/write_9_title"
+                android:background="#FFDFA5"
+                android:gravity="center"
+                android:text="保護者の記録[１歳の頃]" />
+            <!-- ダミー -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="　" >
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center" >
+
+                <!-- ソース側で自動記入します -->
+
+                <EditText
+                    android:id="@+id/EditText_write_condition_day_record"
+                    style="@style/write_9s_edittext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number" >
+                </EditText>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=" 記録" >
+                </TextView>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageview_write_condition_day_record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:src="@drawable/noimage" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/Button_write_checkup_9p_camera"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="写真を撮る" />
+
+                <Button
+                    android:id="@+id/Button_write_checkup_9p_gallery"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="ギャラリーから選択" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#ffffff" >
+
+                    <TextView
+                        android:id="@+id/TextView_write_condition_day_old"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="2"
+                        android:gravity="right"
+                        android:text="----年--月--日"
+                        android:textColor="#000000" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="2"
+                        android:gravity="left"
+                        android:text="で１歳になりました"
+                        android:textColor="#000000" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#ffffff" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="4"
+                        android:text="両親から１歳の誕生日のメッセージを記入しましょう。" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#ffffff" >
+
+                    <!-- デフォルトであえて高さをとるためのダミービュー -->
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:background="#ffffff" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/EditText_write_condition_message"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2" >
+                    </EditText>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#ffffff" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="4"
+                        android:background="#FFDFA5"
+                        android:text="つたい歩きをしたのはいつですか。 " >
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/Button_write_condition1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="datePickerShow1"
+                        android:text="日付を入力" />
+
+                    <EditText
+                        android:id="@+id/EditText_write_condition1"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_weight="2" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_marginTop="1dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="頃" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#ffffff" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFDFA5"
+                        android:text="バイバイ、コンニチハなどの身振りをしますか｡" >
+                    </TextView>
+
+                    <RadioGroup
+                        android:id="@+id/radio_write_condition2"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/radio_write_condition2_yes"
+                            style="@style/left_yes_orange_radiobutton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1" />
+
+                        <RadioButton
+                            android:id="@+id/radio_write_condition2_no"
+                            style="@style/right_no_orange_radiobutton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#ffffff" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFDFA5"
+                        android:text="音楽に合わせて、からだを楽しそうに動かしますか。" >
+                    </TextView>
+
+                    <RadioGroup
+                        android:id="@+id/radio_write_condition3"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/radio_write_condition3_yes"
+                            style="@style/left_yes_orange_radiobutton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1" />
+
+                        <RadioButton
+                            android:id="@+id/radio_write_condition3_no"
+                            style="@style/right_no_orange_radiobutton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#ffffff" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFDFA5"
+                        android:text="大人の言う簡単なことば（おいで､ちょうだいなど）がわかりますか｡" >
+                    </TextView>
+
+                    <RadioGroup
+                        android:id="@+id/radio_write_condition4"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/radio_write_condition4_yes"
+                            style="@style/left_yes_orange_radiobutton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1" />
+
+                        <RadioButton
+                            android:id="@+id/radio_write_condition4_no"
+                            style="@style/right_no_orange_radiobutton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#ffffff" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFDFA5"
+                        android:text="部屋の離れたところにあるおもちゃを指さすと、その方向をみますか。" >
+                    </TextView>
+
+                    <RadioGroup
+                        android:id="@+id/radio_write_condition5"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/radio_write_condition5_yes"
+                            style="@style/left_yes_orange_radiobutton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1" />
+
+                        <RadioButton
+                            android:id="@+id/radio_write_condition5_no"
+                            style="@style/right_no_orange_radiobutton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#ffffff" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFDFA5"
+                        android:text="一緒に遊ぶと喜びますか｡ " >
+                    </TextView>
+
+                    <RadioGroup
+                        android:id="@+id/radio_write_condition6"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/radio_write_condition6_yes"
+                            style="@style/left_yes_orange_radiobutton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1" />
+
+                        <RadioButton
+                            android:id="@+id/radio_write_condition6_no"
+                            style="@style/right_no_orange_radiobutton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#ffffff" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFDFA5"
+                        android:text="どんな遊びが好きですか。" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="遊びの例 :" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/EditText_write_condition7"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.5" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#ffffff" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFDFA5"
+                        android:text="１日３回の食事のリズムがつきましたか｡（食欲をなくさぬよう、また、むし歯予防のために、砂糖の多い飲食物を控えましょう｡） " >
+                    </TextView>
+
+                    <RadioGroup
+                        android:id="@+id/radio_write_condition8"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/radio_write_condition8_yes"
+                            style="@style/left_yes_orange_radiobutton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1" />
+
+                        <RadioButton
+                            android:id="@+id/radio_write_condition8_no"
+                            style="@style/right_no_orange_radiobutton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#ffffff" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFDFA5"
+                        android:text="歯みがきの練習をはじめていますか｡" >
+                    </TextView>
+
+                    <RadioGroup
+                        android:id="@+id/radio_write_condition9"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/radio_write_condition9_yes"
+                            style="@style/left_yes_orange_radiobutton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1" />
+
+                        <RadioButton
+                            android:id="@+id/radio_write_condition9_no"
+                            style="@style/right_no_orange_radiobutton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#ffffff" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFDFA5"
+                        android:text="子育てについて気軽に相談できる人はいますか。" >
+                    </TextView>
+
+                    <RadioGroup
+                        android:id="@+id/radio_write_condition10"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/radio_write_condition10_yes"
+                            style="@style/left_yes_orange_radiobutton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1" />
+
+                        <RadioButton
+                            android:id="@+id/radio_write_condition10_no"
+                            style="@style/right_no_orange_radiobutton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#ffffff" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="2"
+                        android:background="#FFDFA5"
+                        android:text="子育てについて不安や困難を感じることがありますか。" >
+                    </TextView>
+
+                    <RadioGroup
+                        android:id="@+id/radio_write_condition11"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/radio_write_condition11_no"
+                            style="@style/left_no_orange_radiobutton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1" />
+
+                        <RadioButton
+                            android:id="@+id/radio_write_condition11_yes"
+                            style="@style/center_yes_orange_radiobutton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1" />
+
+                        <RadioButton
+                            android:id="@+id/radio_write_condition11_none"
+                            style="@style/right_none_orange_radiobutton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#ffffff" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:layout_marginRight="1dip"
+                        android:layout_weight="4"
+                        android:background="#FFDFA5"
+                        android:text="成長の様子、育児の心配、かかった病気、感想などを自由に記入しましょう。" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#ffffff" >
+
+                    <!-- デフォルトであえて高さをとるためのダミービュー -->
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginLeft="1dip"
+                        android:background="#ffffff" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/EditText_write_condition_other"
+                        style="@style/write_9s_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2" >
+                    </EditText>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="1dip"
+                        android:layout_marginRight="1dip"
+                        android:background="#ffffff" >
+                    </TextView>
+                </TableRow>
+            </TableLayout>
+
+            <!-- 縦長の画像を選択すると下までスクロールされないのでダミースペース -->
+
+            <include layout="@layout/write_save_cancel" />
+
+            <TextView
+                style="@style/write_9_question"
+                android:layout_width="wrap_content"
+                android:text=" " />
+
+            <TextView
+                style="@style/write_9_question"
+                android:layout_width="wrap_content"
+                android:text=" " />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- TextView 1～9 -->
+
+</RelativeLayout>

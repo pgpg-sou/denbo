@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/background_pink">
+
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:gravity="center" >
+
+
+        <Button
+            android:id="@+id/read_button_2_back"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ButtonBack" />
+
+
+
+        <Button
+            android:id="@+id/read_button_2_mneu"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ButtonMneu" >
+
+        </Button>
+
+
+
+        <Button
+            android:id="@+id/read_button_2_next"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:text="@string/ButtonNext" >
+
+        </Button>
+        >
+
+    </LinearLayout>
+    
+    
+    
+    
+<ScrollView
+	android:id="@+id/ScrollView01"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:orientation="vertical">
+
+	<TextView
+		android:text="@string/read_2_title"
+		android:id="@+id/read_2_title"
+		style="@style/read_x_title" />
+
+	<TextView
+		 android:text="@string/read_2_description"
+		 android:id="@+id/read_2_description"
+		 style="@style/read_x_description"/>
+
+	<TextView
+		android:text="@string/read_2_1_title"
+		android:id="@+id/read_2_1_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		 android:text="@string/read_2_1_description"
+		 android:id="@+id/read_2_1_description"
+		 style="@style/read_x_x_description"/>
+
+	<TextView
+		android:text="@string/read_2_2_title"
+		android:id="@+id/read_2_2_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		 android:text="@string/read_2_2_description"
+		 android:id="@+id/read_2_2_description"
+		 style="@style/read_x_x_description"/>
+	<TextView android:layout_height="wrap_content" style="@style/read_x_x_column_title" android:text="BMI(Body Mass Index)" android:id="@+id/TextView01"></TextView>
+	<TextView android:layout_height="wrap_content" style="@style/read_x_x_column_description" android:text="BMI=体重[kg]÷身長[m]÷身長[m]" android:id="@+id/TextView02"></TextView>
+	<HorizontalScrollView android:id="@+id/horizontalScrollView1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="horizontal">
+			<TableLayout android:layout_height="match_parent" android:id="@+id/tableLayout1" android:layout_width="wrap_content">
+				<TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView android:layout_span="2"
+					android:layout_height="wrap_content" android:text="体格区分(非妊娠時)" android:id="@+id/textView1" android:layout_width="wrap_content" style="@style/blackOnly"></TextView>
+					<TextView android:layout_height="wrap_content" android:text="妊娠全期間を通じての推奨体重増加量" android:id="@+id/TextView01" android:layout_width="wrap_content" style="@style/blackOnly"></TextView>
+					<TextView android:layout_height="wrap_content" android:text="妊娠中期から後期の1週間あたりの推奨体重増加量" android:id="@+id/TextView02" android:layout_width="wrap_content" style="@style/blackOnly"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView android:layout_height="wrap_content" android:text="低体重（やせ）" android:id="@+id/TextView03" android:layout_width="wrap_content" style="@style/blackOnly"></TextView>
+					<TextView android:layout_height="wrap_content" android:text="BMI18.5未満" android:id="@+id/TextView05" android:layout_width="wrap_content" style="@style/blackOnly"></TextView>
+					<TextView android:layout_height="wrap_content" android:text="9～12kg" android:id="@+id/TextView04" android:layout_width="wrap_content" style="@style/blackOnly"></TextView>
+					<TextView android:layout_height="wrap_content" android:text="0.3～0.5kg/週" android:id="@+id/TextView06" android:layout_width="wrap_content" style="@style/blackOnly"></TextView>
+				</TableRow>
+				<TableRow android:layout_height="wrap_content" android:id="@+id/TableRow01" android:layout_width="wrap_content">
+					<TextView android:layout_width="wrap_content" android:id="@+id/TextView10" android:layout_height="wrap_content" android:text="ふつう" style="@style/blackOnly"></TextView>
+					<TextView android:layout_width="wrap_content" android:id="@+id/TextView09" android:layout_height="wrap_content" android:text="BMI18.5～24.9*" style="@style/blackOnly"></TextView>
+					<TextView android:layout_width="wrap_content" android:id="@+id/TextView08" android:layout_height="wrap_content" android:text="7～12kg" style="@style/blackOnly"></TextView>
+					<TextView android:layout_width="wrap_content" android:text="0.3～0.5kg/週" android:id="@+id/TextView07" android:layout_height="wrap_content" style="@style/blackOnly"></TextView>
+				</TableRow>
+				<TableRow android:layout_height="wrap_content" android:id="@+id/TableRow02" android:layout_width="wrap_content">
+					<TextView android:layout_width="wrap_content" android:id="@+id/TextView11" android:layout_height="wrap_content" android:text="肥満" style="@style/blackOnly"></TextView>
+					<TextView android:layout_width="wrap_content" android:id="@+id/TextView12" android:layout_height="wrap_content" android:text="BMI25.0以上" style="@style/blackOnly"></TextView>
+					<TextView android:layout_width="wrap_content" android:id="@+id/TextView13" android:layout_height="wrap_content" android:text="個別に対応**" style="@style/blackOnly"></TextView>
+					<TextView android:layout_width="wrap_content" android:id="@+id/TextView14" android:layout_height="wrap_content" android:text="個別に対応" style="@style/blackOnly"></TextView>
+				</TableRow>
+			</TableLayout>
+		</LinearLayout>
+	</HorizontalScrollView>
+	<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" style="@style/read_x_x_footnote" android:text="*体格区分が「ふつう」でBMIが「低体重」に近い場合には上限値に近い範囲を、「肥満」に近い場合は下限側に近い範囲が望ましい。" android:id="@+id/read_2_6_footnote"></TextView>
+	<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" style="@style/read_x_x_footnote" android:text="**BMIが25.0をやや超える程度の場合はおおよそ5kgが目安。著しく超える場合は他のリスクなどを考慮しながら、体の状況を踏まえ、個別に考える。" android:id="@+id/TextView15"></TextView>
+
+	<TextView
+		android:text="@string/read_2_3_title"
+		android:id="@+id/read_2_3_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		 android:text="@string/read_2_3_description"
+		 android:id="@+id/read_2_3_description"
+		 style="@style/read_x_x_description"/>
+
+	<TextView
+		android:text="@string/read_2_4_title"
+		android:id="@+id/read_2_4_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		 android:text="@string/read_2_4_description"
+		 android:id="@+id/read_2_4_description"
+		 style="@style/read_x_x_description"/>
+
+	<TextView
+		android:text="@string/read_2_1_column_title"
+		android:id="@+id/read_2_1_title"
+		style="@style/read_x_x_column_title" />
+
+	<TextView
+		 android:text="@string/read_2_1_column_description"
+		 android:id="@+id/read_2_1_description"
+		 style="@style/read_x_x_column_description"/>
+
+	<TextView
+		android:text="@string/read_2_5_title"
+		android:id="@+id/read_2_5_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		 android:text="@string/read_2_5_description"
+		 android:id="@+id/read_2_5_description"
+		 style="@style/read_x_x_description"/>
+
+	<TextView
+		android:text="@string/read_2_6_title"
+		android:id="@+id/read_2_6_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		 android:text="@string/read_2_6_description"
+		 android:id="@+id/read_2_6_description"
+		 style="@style/read_x_x_description"/>
+
+	<TextView
+		android:text="@string/read_2_7_title"
+		android:id="@+id/read_2_7_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		 android:text="@string/read_2_7_description"
+		 android:id="@+id/read_2_7_description"
+		 style="@style/read_x_x_description"/>
+
+	<TextView
+		 android:text="@string/read_2_7_footnote"
+		 android:id="@+id/read_2_7_footnote"
+		 style="@style/read_x_x_footnote"/>
+
+	<TextView
+		android:text="@string/read_2_8_title"
+		android:id="@+id/read_2_8_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		 android:text="@string/read_2_8_description"
+		 android:id="@+id/read_2_8_description"
+		 style="@style/read_x_x_description"/>
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/background_pink">
+
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:gravity="center" >
+
+
+        <Button
+            android:id="@+id/read_button_10_back"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ButtonBack" />
+
+
+
+        <Button
+            android:id="@+id/read_button_10_mneu"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ButtonMneu" >
+
+        </Button>
+
+
+
+        <Button
+            android:id="@+id/read_button_10_next"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:text="@string/ButtonNext" >
+
+        </Button>
+        >
+
+    </LinearLayout>
+    
+    
+    
+<ScrollView
+	android:id="@+id/ScrollView01"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:orientation="vertical">
+
+	<TextView
+		android:text="@string/read_10_title"
+		android:id="@+id/read_10_title"
+		style="@style/read_x_title" />
+
+	<TextView
+		 android:text="@string/read_10_description"
+		 android:id="@+id/read_10_description"
+		 style="@style/read_x_description"/>
+
+	<TextView
+		android:text="@string/read_10_1_title"
+		android:id="@+id/read_10_1_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		android:text="@string/read_10_1_description"
+		android:id="@+id/read_10_1_description"
+		style="@style/read_x_x_description" />
+
+	<TextView
+		android:text="@string/read_10_2_title"
+		android:id="@+id/read_10_2_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		android:text="@string/read_10_2_description"
+		android:id="@+id/read_10_2_description"
+		style="@style/read_x_x_description" />
+
+	<TextView
+		android:text="@string/read_10_2_footnote"
+		android:id="@+id/read_10_2_footnote"
+		style="@style/read_x_x_footnote" />
+
+	<TextView
+		android:text="@string/read_10_2_column_title"
+		android:id="@+id/read_10_2_column_title"
+		style="@style/read_x_x_column_title" />
+
+	<TextView
+		 android:text="@string/read_10_2_column_description"
+		 android:id="@+id/read_10_2_column_description"
+		 style="@style/read_x_x_column_description"/>
+
+	<TextView
+		android:text="@string/read_10_3_title"
+		android:id="@+id/read_10_3_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		android:text="@string/read_10_3_description"
+		android:id="@+id/read_10_3_description"
+		style="@style/read_x_x_description" />
+
+	<TextView
+		android:text="@string/read_10_3_footnote"
+		android:id="@+id/read_10_3_footnote"
+		style="@style/read_x_x_footnote" />
+
+	<TextView
+		android:text="@string/read_10_4_title"
+		android:id="@+id/read_10_4_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		android:text="@string/read_10_4_description"
+		android:id="@+id/read_10_4_description"
+		style="@style/read_x_x_description" />
+
+	<TextView
+		android:text="@string/read_10_5_title"
+		android:id="@+id/read_10_5_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		android:text="@string/read_10_5_description"
+		android:id="@+id/read_10_5_description"
+		style="@style/read_x_x_description" />
+
+	<TextView
+		android:text="@string/read_10_5_footnote"
+		android:id="@+id/read_10_5_footnote"
+		style="@style/read_x_x_footnote" />
+
+	<TextView
+		android:text="@string/read_10_5_column_title"
+		android:id="@+id/read_10_5_column_title"
+		style="@style/read_x_x_column_title" />
+
+	<TextView
+		 android:text="@string/read_10_5_column_description"
+		 android:id="@+id/read_10_5_column_description"
+		 style="@style/read_x_x_column_description"/>
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

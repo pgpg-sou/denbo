@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!-- ボタンが押されている -->
+<!-- フォーカスされていない -->
+<item android:state_pressed="true"
+        android:state_focused="false">
+<layer-list>
+        <item>
+        <shape
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:shape="rectangle">
+                <gradient
+                android:angle="270"
+                android:startColor="#a9db80"
+                android:endColor="#96c56f"
+                android:type="linear" />
+                <corners
+                        android:radius="20dip" />
+    </shape>
+        </item>
+</layer-list>
+</item>
+
+<!-- ボタンが押されていない -->
+<!-- フォーカスされていない -->
+<item android:state_pressed="false"
+        android:state_focused="false">
+        <layer-list>
+        <item>
+        <shape
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:shape="rectangle">
+                <gradient
+                android:angle="270"
+                android:startColor="#8ed058"
+                android:endColor="#7bb64b"
+                android:type="linear" />
+                <corners
+                        android:radius="20dip" />
+    </shape>
+        </item>
+</layer-list>
+</item>
+
+
+<!-- ボタンが押されている -->
+<!-- フォーカスされた -->
+<item android:state_pressed="true"
+        android:state_focused="true">
+<layer-list>
+        <item>
+        <shape
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:shape="rectangle">
+                <gradient
+                android:angle="270"
+                android:startColor="#a9db80"
+                android:endColor="#96c56f"
+                android:type="linear" />
+                <corners
+                        android:radius="20dip" />
+    </shape>
+        </item>
+</layer-list>
+</item>
+
+<!-- ボタンが押されていない -->
+<!-- フォーカスされた -->
+<item android:state_pressed="false"
+        android:state_focused="true">
+        <layer-list>
+        <item>
+        <shape
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:shape="rectangle">
+                <gradient
+                android:angle="270"
+                android:startColor="#8ed058"
+                android:endColor="#7bb64b"
+                android:type="linear" />
+                <corners
+                        android:radius="20dip" />
+    </shape>
+        </item>
+</layer-list>
+</item>
+
+</selector>

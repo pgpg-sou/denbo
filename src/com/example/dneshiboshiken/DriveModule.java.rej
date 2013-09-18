@@ -1,0 +1,9 @@
+diff a/DDDD/src/com/example/dneshiboshiken/DriveModule.java b/DDDD/src/com/example/dneshiboshiken/DriveModule.java	(rejected hunks)
+@@ -291,7 +291,6 @@
+ 			g_Folder = service.files().insert(folder).execute();
+ 			Log.i("", "g_Folder=service.files().insert(folder).execute()");
+ 			Permission permission = new Permission();
+-			 permission.setValue(null);
+ 			 permission.setValue("");
+ 			 permission.setType("user");
+ 			 permission.setRole("owner");

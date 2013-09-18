@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/background_pink">
+
+            <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:gravity="center" >
+
+
+        <Button
+            android:id="@+id/read_button_5_7_back"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ButtonBack" />
+
+
+
+        <Button
+            android:id="@+id/read_button_5_7_mneu"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ButtonMneu" >
+
+        </Button>
+
+
+
+        <Button
+            android:id="@+id/read_button_5_7_next"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:text="@string/ButtonNext" >
+
+        </Button>
+        >
+
+    </LinearLayout>
+    
+<ScrollView
+	android:id="@+id/ScrollView01"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:orientation="vertical">
+
+	<TextView
+		android:text="@string/read_5no7_title"
+		android:id="@+id/read_5no7_title"
+		style="@style/read_x_title" />
+
+	<TextView
+		 android:text="@string/read_5no7_description"
+		 android:id="@+id/read_5no7_description"
+		 style="@style/read_x_description"/>
+
+	<TextView
+		android:text="@string/read_5no7_1_title"
+		android:id="@+id/read_5no7_1_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		 android:text="@string/read_5no7_1_description"
+		 android:id="@+id/read_5no7_1_description"
+		 style="@style/read_x_x_description"/>
+
+	<TextView
+		android:text="@string/read_5no7_2_title"
+		android:id="@+id/read_5no7_2_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		 android:text="@string/read_5no7_2_description"
+		 android:id="@+id/read_5no7_2_description"
+		 style="@style/read_x_x_description"/>
+
+	<TextView
+		android:text="@string/read_5no7_3_title"
+		android:id="@+id/read_5no7_3_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		 android:text="@string/read_5no7_3_description"
+		 android:id="@+id/read_5no7_3_description"
+		 style="@style/read_x_x_description"/>
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

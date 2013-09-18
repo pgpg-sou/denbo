@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+<ScrollView
+	android:id="@+id/ScrollView01"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_alignParentTop="true">
+
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="vertical">
+
+	<TextView
+            android:text="生まれた時"
+            android:id="@+id/write_9_1_title"
+            style="@style/write_9_title"
+            android:gravity="center"/>
+
+	<ImageView
+    	android:id="@+id/imageview_write_checkup_0"
+	    android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	android:src="@drawable/noimage"
+    	android:layout_weight="1" />
+
+
+		<!-- 体重・身長・胸囲・頭囲 -->
+
+
+		    <LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal" >
+
+		        <TextView
+		            android:id="@+id/write_weight"
+		            style="@style/write_9_question"
+		            android:layout_weight="1"
+		            android:text="@string/write_weight" />
+
+		        <TextView
+		            android:id="@+id/TextView_write_checkup_0_weight"
+		            style="@style/blackOnly"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="----">
+		        </TextView>
+
+		        <TextView
+		            android:id="@+id/write_g"
+		            style="@style/write_9_question"
+		            android:layout_width="wrap_content"
+		            android:text="グラム" />
+		    </LinearLayout>
+
+		    <LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal" >
+ <!-- 身長 -->
+		        <TextView
+		            android:id="@+id/write_height"
+		            style="@style/write_9_question"
+		            android:text="@string/write_height" />
+
+
+
+		        <TextView
+		            android:id="@+id/TextView_write_checkup_0_height"
+		            style="@style/blackOnly"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="----" >
+		        </TextView>
+
+		        <TextView
+		            android:id="@+id/write_cm"
+		            style="@style/write_9_question"
+		            android:layout_width="wrap_content"
+		            android:text="@string/write_cm" />
+		    </LinearLayout>
+
+		    <LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal" >
+
+		        <TextView
+		            android:id="@+id/write_chest"
+		            style="@style/write_9_question"
+		            android:text="@string/write_chest" />
+
+		        <!-- 胸囲 -->
+
+		        <TextView
+		            android:id="@+id/TextView_write_checkup_0_chest"
+		            style="@style/blackOnly"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="----" >
+		        </TextView>
+
+		        <TextView
+		            android:id="@+id/write_cm"
+		            style="@style/write_9_question"
+		            android:layout_width="wrap_content"
+		            android:text="@string/write_cm" />
+		    </LinearLayout>
+
+		    <LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal" >
+
+		        <TextView
+		            android:id="@+id/write_head"
+		            style="@style/write_9_question"
+		            android:text="@string/write_head" />
+
+		        <!-- 頭囲 -->
+
+		        <TextView
+		            android:id="@+id/TextView_write_checkup_0_head"
+		            style="@style/blackOnly"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="----" >
+		        </TextView>
+
+		        <TextView
+		            android:id="@+id/write_cm"
+		            style="@style/write_9_question"
+		            android:layout_width="wrap_content"
+		            android:text="@string/write_cm" />
+		    </LinearLayout>
+		    <!-- 縦長の画像を選択すると下までスクロールされないのでダミースペース -->
+				<TextView
+					android:text=" "
+					android:layout_width="wrap_content"
+					style="@style/write_9_question"/>
+				<TextView
+					android:text=" "
+					android:layout_width="wrap_content"
+					style="@style/write_9_question"/>
+		</LinearLayout>
+
+</ScrollView>
+
+<include layout="@layout/write_next_back_layout" />
+
+
+
+<!-- edittext 1～9 -->
+</RelativeLayout>

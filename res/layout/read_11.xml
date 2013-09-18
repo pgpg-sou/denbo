@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:orientation="vertical" >
+
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:gravity="center" >
+
+
+        <Button
+            android:id="@+id/read_button_11_back"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ButtonBack" />
+
+
+
+        <Button
+            android:id="@+id/read_button_11_mneu"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ButtonMneu" >
+
+        </Button>
+
+
+
+        <Button
+            android:id="@+id/read_button_11_next"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/ButtonNext" >
+
+        </Button>
+        >
+
+    </LinearLayout>
+
+
+<ScrollView
+	android:id="@+id/ScrollView01"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:orientation="vertical">
+
+	<TextView
+		android:text="@string/read_11_title"
+		android:id="@+id/read_11_title"
+		style="@style/read_x_title" />
+
+	<TextView
+		 android:text="@string/read_11_description"
+		 android:id="@+id/read_11_description"
+		 style="@style/read_x_description"/>
+
+	<TextView
+		android:text="@string/read_11_1_title"
+		android:id="@+id/read_11_1_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		android:text="@string/read_11_1_description"
+		android:id="@+id/read_11_1_description"
+		style="@style/read_x_x_description" />
+
+	<TextView
+		android:text="@string/read_11_2_title"
+		android:id="@+id/read_11_2_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		android:text="@string/read_11_2_description"
+		android:id="@+id/read_11_2_description"
+		style="@style/read_x_x_description" />
+
+	<TextView
+		android:text="@string/read_11_3_title"
+		android:id="@+id/read_11_3_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		android:text="@string/read_11_3_description"
+		android:id="@+id/read_11_3_description"
+		style="@style/read_x_x_description" />
+
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

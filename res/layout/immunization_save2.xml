@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+		<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:orientation="vertical">
+
+			<TextView
+			    android:id="@+id/write_9_1_title"
+			    style="@style/write_9_title"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:gravity="center"
+			    android:text="予防接種の記録" />
+
+			<!-- ダミー -->
+			<TextView
+				      android:layout_width="fill_parent"
+				      android:layout_height="fill_parent"
+				      android:text="　"
+				      android:layout_weight="1"
+				      android:gravity="center"
+				      >
+				    </TextView>
+
+
+			<TableLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	             >
+
+	            <TableLayout
+	                android:layout_width="fill_parent"
+	                android:layout_height="fill_parent" >
+
+	                <TableRow
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="fill_parent"
+	                     >
+
+	                    <TextView
+	                        android:layout_width="0dp"
+	                        android:layout_height="fill_parent"
+	                        android:layout_marginBottom="0.5dip"
+	                        android:layout_marginLeft="0.5dip"
+	                        android:layout_marginRight="0.5dip"
+	                        android:layout_marginTop="0.5dip"
+	                        android:layout_weight="2"
+	                        android:background="#FFDFA5"
+	                        android:text="ワクチンの種類"
+	                        android:textColor="#000000" />
+
+	                     <EditText
+				    android:id="@+id/EditText_immunization_write_vaccine"
+				    style="@style/write_9s_edittext"
+				    android:layout_width="0dp"
+				    android:layout_weight="5"
+				     />
+	                </TableRow>
+
+	                <TableRow
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="fill_parent"
+	                     >
+
+	                    <TextView
+	                        android:layout_width="0dp"
+	                        android:layout_height="fill_parent"
+	                        android:layout_marginBottom="0.5dip"
+	                        android:layout_marginLeft="0.5dip"
+	                        android:layout_marginRight="0.5dip"
+	                        android:layout_marginTop="0.5dip"
+	                        android:layout_weight="2"
+	                        android:background="#FFDFA5"
+	                        android:text="接種年月日"
+	                        android:textColor="#000000" />
+
+	                    <Button
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:layout_weight="2"
+							android:text="日付を入力"
+							android:onClick="datePickerShow1"
+							/>
+		        <EditText
+				    android:id="@+id/EditText_immunization_write_ymd"
+				    style="@style/write_9s_edittext"
+				    android:layout_width="0dp"
+				    android:layout_weight="3"
+				     />
+	                </TableRow>
+
+	                <TableRow
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="fill_parent"
+	                     >
+
+	                    <TextView
+	                        android:layout_width="0dp"
+	                        android:layout_height="fill_parent"
+	                        android:layout_marginBottom="0.5dip"
+	                        android:layout_marginLeft="0.5dip"
+	                        android:layout_marginRight="0.5dip"
+	                        android:layout_marginTop="0.5dip"
+	                        android:layout_weight="2"
+	                        android:background="#FFDFA5"
+	                        android:text="メーカー/ロット"
+	                        android:textColor="#000000" />
+
+	                     <EditText
+				    android:id="@+id/EditText_immunization_write_lot"
+				    style="@style/write_9s_edittext"
+				    android:layout_width="0dp"
+				    android:layout_weight="5"
+				     />
+	                </TableRow>
+
+	                <TableRow
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="fill_parent"
+	                     >
+
+	                    <TextView
+	                        android:layout_width="0dp"
+	                        android:layout_height="fill_parent"
+	                        android:layout_marginBottom="0.5dip"
+	                        android:layout_marginLeft="0.5dip"
+	                        android:layout_marginRight="0.5dip"
+	                        android:layout_marginTop="0.5dip"
+	                        android:layout_weight="2"
+	                        android:background="#FFDFA5"
+	                        android:text="接種者署名"
+	                        android:textColor="#000000" />
+
+	                     <EditText
+				    android:id="@+id/EditText_immunization_write_name"
+				    style="@style/write_9s_edittext"
+				    android:layout_width="0dp"
+				    android:layout_weight="5"
+				     />
+	                </TableRow>
+
+	                <TableRow
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="fill_parent"
+	                     >
+
+	                    <TextView
+	                        android:layout_width="0dp"
+	                        android:layout_height="fill_parent"
+	                        android:layout_marginBottom="0.5dip"
+	                        android:layout_marginLeft="0.5dip"
+	                        android:layout_marginRight="0.5dip"
+	                        android:layout_marginTop="0.5dip"
+	                        android:layout_weight="2"
+	                        android:background="#FFDFA5"
+	                        android:text="備考"
+	                        android:textColor="#000000" />
+
+	                     <EditText
+				    android:id="@+id/EditText_immunization_write_other"
+				    style="@style/write_9s_edittext"
+				    android:layout_width="0dp"
+				    android:layout_weight="5"
+				     />
+	                </TableRow>
+	            </TableLayout>
+
+	            <TableRow
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content" >
+
+	                <TextView
+	                    android:layout_width="0dp"
+	                    android:layout_height="fill_parent"
+	                    android:layout_marginBottom="0.5dip"
+	                    android:layout_marginLeft="0.5dip"
+	                    android:layout_marginRight="0.5dip"
+	                    android:layout_marginTop="0.5dip"
+	                    android:layout_weight="1"
+	                    android:background="#ffffff"
+	                    android:gravity="center"
+	                    android:text="　" />
+	            </TableRow>
+
+	        </TableLayout>
+		    <!-- 縦長の画像を選択すると下までスクロールされないのでダミースペース -->
+				<TextView
+					android:text=" "
+					android:layout_width="wrap_content"
+					style="@style/write_9_question"/>
+				<TextView
+					android:text=" "
+					android:layout_width="wrap_content"
+					style="@style/write_9_question"/>
+		</LinearLayout>
+    </ScrollView>
+
+    <include
+        android:layout_height="match_parent"
+        layout="@layout/write_save_cancel" />
+
+</RelativeLayout>

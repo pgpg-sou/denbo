@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+<ScrollView
+	android:id="@+id/ScrollView01"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_alignParentTop="true">
+
+
+<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="vertical">
+
+	<TextView
+            android:text="後期新生児期（生後1~4週）の経過"
+            android:id="@+id/write_9_1_title"
+            style="@style/write_9_title"
+            android:gravity="center"/>
+<!-- ダミー -->
+<TextView
+	      android:layout_width="fill_parent"
+	      android:layout_height="fill_parent"
+	      android:text="　"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      >
+	    </TextView>
+	<ImageView
+    	android:id="@+id/imageview_write_checkup_2"
+	    android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	android:src="@drawable/noimage"
+    	android:layout_weight="1" />
+	<!-- ダミー -->
+	<TextView
+	      android:layout_width="fill_parent"
+	      android:layout_height="fill_parent"
+	      android:text="　"
+	      android:layout_weight="1"
+	      android:gravity="center"/>
+
+
+<TableLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+      <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="#000000">
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="日齢"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginRight="1dip"
+		  android:layout_marginBottom="1dip"
+	      android:layout_marginTop="1dip"
+		  >
+	    </TextView>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="体重(g)"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginTop="1dip"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="哺乳力"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginTop="1dip"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="栄養法"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginTop="1dip"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="その他"
+	      android:background="#ccff99"
+	      android:layout_weight="2"
+	      android:gravity="center"
+	      android:layout_marginTop="1dip"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+	  </TableRow>
+	  <TableRow
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="#000000"
+	    android:stretchColumns="*">
+          <TextView
+        android:id="@+id/TextView_write_checkup_2_age1"
+	    android:layout_width="0dp"
+	    android:layout_height="fill_parent"
+	    android:text="----"
+	    android:textColor="#000000"
+	    android:background="#FFFFFF"
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    android:layout_marginLeft="1dip"
+	  android:layout_marginBottom="1dip">
+	 </TextView>
+	 <TextView
+	 	 android:id="@+id/TextView_write_checkup_2_weight1"
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="1"
+	     android:gravity="center"
+	     android:layout_marginLeft="1dip"
+	  android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	 </TextView>
+	 <TextView
+		 android:id="@+id/TextView_write_checkup_2_nursing1"
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="1"
+	     android:gravity="center"
+	     android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	 </TextView>
+	 <TextView
+	 	 android:id="@+id/TextView_write_checkup_2_feeding1"
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="1"
+	     android:gravity="center"
+	     android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	 </TextView>
+	 <TextView
+	 android:id="@+id/TextView_write_checkup_2_name1"
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="2"
+	     android:gravity="center"
+	     android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	 </TextView>
+	 </TableRow>
+	　<TableRow
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="#000000"
+	    android:stretchColumns="*">
+          <TextView
+        android:id="@+id/TextView_write_checkup_2_age2"
+	    android:layout_width="0dp"
+	    android:layout_height="fill_parent"
+	    android:text="----"
+	    android:textColor="#000000"
+	    android:background="#FFFFFF"
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    android:layout_marginLeft="1dip"
+	  android:layout_marginBottom="1dip">
+	 </TextView>
+	 <TextView
+	 	 android:id="@+id/TextView_write_checkup_2_weight2"
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="1"
+	     android:gravity="center"
+	     android:layout_marginLeft="1dip"
+	  android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	 </TextView>
+	 <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:id="@+id/TextView_write_checkup_2_nursing2"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="1"
+	     android:gravity="center"
+	     android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	 </TextView>
+
+	 <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:id="@+id/TextView_write_checkup_2_feeding2"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="1"
+	     android:gravity="center"
+	     android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	 </TextView>
+	 <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:id="@+id/TextView_write_checkup_2_name2"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="2"
+	     android:gravity="center"
+	     android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	 </TextView>
+	 </TableRow>
+</TableLayout>
+<!-- ダミー -->
+<TextView
+	      android:layout_width="fill_parent"
+	      android:layout_height="fill_parent"
+	      android:text="　"
+	      android:layout_weight="1"
+	      android:gravity="center">
+	    </TextView>
+
+ <LinearLayout
+		        style="@style/write_9_title"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		        android:layout_marginBottom="1dip" >
+
+		        <TextView
+		            android:id="@+id/write_day"
+		            style="@style/write_9_question"
+				    android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:text="新生児訪問指導等の記録" />
+		        <TextView
+		            android:id="@+id/TextView_write_checkup_2_newborn_day"
+		            style="@style/blackOnly"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="（日時）" >
+		        </TextView>
+				<TextView
+		            style="@style/write_9_question"
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:text="生後" />
+		        <TextView
+		            android:id="@+id/TextView_write_checkup_2_newborn_dayweight"
+		            style="@style/blackOnly"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="----" >
+		        </TextView>
+
+		        <TextView
+		            style="@style/write_9_question"
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:text="日" />
+</LinearLayout>
+
+<TableLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+      <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="#000000">
+	<TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="日齢"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginTop="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="体重(g)"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginTop="1dip"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="身長(cm)"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginTop="1dip"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="胸囲(cm)"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginTop="1dip"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+		<TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="頭囲(cm)"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginTop="1dip"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="栄養法"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginTop="1dip"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+	  </TableRow>
+	  <TableRow
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="#000000"
+	    android:stretchColumns="*">
+
+	 <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:id="@+id/TextView_write_checkup_2_age3"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="1"
+	     android:gravity="center"
+	     android:layout_marginLeft="1dip"
+	     android:layout_marginRight="1dip"
+		 android:layout_marginBottom="1dip">
+	 </TextView>
+
+	 <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:id="@+id/TextView_write_checkup_2_weight3"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="1"
+	     android:gravity="center"
+	     android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	 </TextView>
+	 <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:id="@+id/TextView_write_checkup_2_height"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="1"
+	     android:gravity="center"
+	     android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	 </TextView>
+	 <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:id="@+id/TextView_write_checkup_2_chest"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="1"
+	     android:gravity="center"
+	     android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	 </TextView>
+	 <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:id="@+id/TextView_write_checkup_2_head"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="1"
+	     android:gravity="center"
+	     android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	 </TextView>
+	 <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:id="@+id/TextView_write_checkup_2_feeding3"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="1"
+	     android:gravity="center"
+	     android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	 </TextView>
+	 </TableRow>
+
+</TableLayout>
+
+<TableLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+
+	  <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+	    android:background="#000000">
+<!-- 施設名又は担当者名 -->
+		<TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="施設名又は担当者名"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+		  android:layout_marginRight="1dip"
+		  android:layout_marginTop="1dip"	      >
+	    </TextView>
+
+	   <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:id="@+id/TextView_write_checkup_2_name3"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="1"
+	     android:gravity="center"
+	     android:layout_marginRight="1dip"
+	     android:layout_marginTop="1dip">
+	 </TextView>
+	 </TableRow>
+	 <TableRow
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="#000000">
+<!-- 電話 -->
+		<TextView
+	      android:layout_width="0dp"
+	      android:layout_height="fill_parent"
+	      android:text="特記事項"
+	      android:background="#ccff99"
+	      android:layout_weight="1"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginTop="1dip"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+
+	   <TextView
+	     android:layout_width="0dp"
+	     android:layout_height="fill_parent"
+	     android:id="@+id/TextView_write_checkup_2_other1"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:layout_weight="1"
+	     android:gravity="center"
+	     android:layout_marginTop="1dip"
+	  android:layout_marginBottom="1dip"
+	  android:layout_marginRight="1dip">
+	 </TextView>
+	 </TableRow>
+
+</TableLayout>
+<!-- ダミー -->
+<TextView
+	      android:layout_width="fill_parent"
+	      android:layout_height="fill_parent"
+	      android:text="　"
+	      android:layout_weight="1"
+	      android:gravity="center">
+	    </TextView>
+
+ <LinearLayout
+		        style="@style/write_9_title"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		        android:layout_marginBottom="1dip" >
+
+		        <TextView
+		            android:id="@+id/write_day"
+		            style="@style/write_9_question"
+		            android:layout_weight="1"
+		            android:text="検査の記録" />
+
+</LinearLayout>
+
+<TableLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+      <TableRow
+        android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:background="#000000"
+		>
+	<TextView
+	      android:layout_width="0dp"
+	      android:layout_weight="4"
+	      android:layout_height="fill_parent"
+	      android:text="検査項目"
+	      android:background="#ccff99"
+	      android:gravity="center"
+	      android:layout_marginLeft="1dip"
+	      android:layout_marginTop="1dip"
+	      android:layout_marginRight="1dip"
+		  android:layout_marginBottom="1dip">
+	    </TextView>
+
+		<TextView
+	      android:layout_width="0dp"
+	      android:layout_weight="3"
+	      android:layout_height="fill_parent"
+	      android:text="検査年月日"
+	      android:background="#ccff99"
+	      android:gravity="center"
+	      android:layout_marginTop="1dip"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+	    <TextView
+	      android:layout_width="0dp"
+	      android:layout_weight="3"
+	      android:layout_height="fill_parent"
+	      android:text="備考"
+	      android:background="#ccff99"
+	      android:gravity="center"
+	      android:layout_marginTop="1dip"
+	      android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	    </TextView>
+
+	  </TableRow>
+	  <TableRow
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="#000000"
+	    android:stretchColumns="*">
+
+	 <TextView
+	     android:layout_width="0dp"
+	      android:layout_weight="4"
+	     android:layout_height="fill_parent"
+	     android:text="先天性代謝異常検査"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:gravity="center"
+	     android:layout_marginLeft="1dip"
+	     android:layout_marginRight="1dip"
+		 android:layout_marginBottom="1dip">
+	 </TextView>
+	 <TextView
+	     android:layout_width="0dp"
+	      android:layout_weight="3"
+	     android:layout_height="fill_parent"
+	     android:id="@+id/TextView_write_checkup_2_congenital_day"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:gravity="center"
+	     android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	 </TextView>
+
+	 <TextView
+	     android:layout_width="0dp"
+	      android:layout_weight="3"
+	     android:layout_height="fill_parent"
+	     android:id="@+id/TextView_write_checkup_2_congenital_other"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:gravity="center"
+	     android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	 </TextView>
+	 </TableRow>
+
+	  <TableRow
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="#000000"
+	    android:stretchColumns="*">
+
+	 <TextView
+	     android:layout_width="0dp"
+	      android:layout_weight="4"
+	     android:layout_height="fill_parent"
+	     android:text="新生児聴覚検査"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:gravity="center"
+	     android:layout_marginLeft="1dip"
+	     android:layout_marginRight="1dip"
+		 android:layout_marginBottom="1dip">
+	 </TextView>
+	 <TextView
+	     android:layout_width="0dp"
+	      android:layout_weight="3"
+	     android:layout_height="fill_parent"
+	     android:id="@+id/TextView_write_checkup_2_here_day"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:gravity="center"
+	     android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	 </TextView>
+
+	 <TextView
+	     android:layout_width="0dp"
+	      android:layout_weight="3"
+	     android:layout_height="fill_parent"
+	     android:id="@+id/TextView_write_checkup_2_here_other"
+	     android:text="----"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:gravity="center"
+	     android:layout_marginRight="1dip"
+	  android:layout_marginBottom="1dip">
+	 </TextView>
+	 </TableRow>
+	  <TableRow
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:stretchColumns="*">
+
+	 <TextView
+	     android:layout_width="fill_parent"
+	     android:layout_height="fill_parent"
+	     android:text="※検査結果を記録する場合は、保護者に説明し同意を得ること。"
+	     android:textColor="#000000"
+	     android:background="#FFFFFF"
+	     android:gravity="center">
+	 </TextView>
+
+	 </TableRow>
+
+</TableLayout>
+
+<LinearLayout
+		        style="@style/write_9_title"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		        android:layout_marginBottom="1dip" >
+
+		        <TextView
+		            android:id="@+id/write_day"
+		            style="@style/write_9_question"
+		            android:layout_weight="1"
+		            android:text="予備欄" />
+
+</LinearLayout>
+			<TextView
+			    android:id="@+id/TextView_write_checkup_2_other2"
+			    android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="#F5F5F5"
+				android:text=" "
+				android:layout_weight="1"
+				android:layout_marginLeft="5px"
+				android:layout_marginTop="10px"
+				android:layout_marginRight="15px"
+				android:layout_marginBottom="20px"
+				android:layout_margin="10px"
+				android:paddingLeft="5px"
+				android:paddingTop="10px"
+				android:paddingRight="15px"
+				android:paddingBottom="20px"
+				android:padding="10px"
+				/>
+
+		    <!-- 縦長の画像を選択すると下までスクロールされないのでダミースペース -->
+				<TextView
+					android:text=" "
+					android:layout_width="wrap_content"
+					style="@style/write_9_question"/>
+				<TextView
+					android:text=" "
+					android:layout_width="wrap_content"
+					style="@style/write_9_question"/>
+		</LinearLayout>
+
+
+
+</ScrollView>
+
+<include layout="@layout/write_next_back_layout" />
+
+
+
+<!-- TextView 1～9 -->
+</RelativeLayout>

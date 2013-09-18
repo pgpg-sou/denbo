@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:orientation="vertical" style="@style/GreenTheme" android:background="@drawable/tile_bg">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/read_button_1_back"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ButtonBack" />
+
+        <Button
+            android:id="@+id/read_button_1_mneu"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ButtonMneu" >
+
+        </Button>
+
+        <Button
+            android:id="@+id/read_button_1_next"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/ButtonNext" >
+
+        </Button>
+        >
+    </LinearLayout>
+
+<ScrollView
+	android:id="@+id/ScrollView01"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" style="@style/PinkTheme">
+
+<LinearLayout
+
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:orientation="vertical">
+
+	<TextView
+		android:text="@string/read_1_title"
+		android:id="@+id/read_1_title"
+		style="@style/read_x_title" />
+
+	<TextView
+		 android:text="@string/read_1_description"
+		 android:id="@+id/read_1_description"
+		 style="@style/read_x_description"/>
+
+	<TextView
+		android:text="@string/read_1_1_title"
+		android:id="@+id/read_1_1_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		 android:text="@string/read_1_1_description"
+		 android:id="@+id/read_1_1_description"
+		 style="@style/read_x_x_description"/>
+
+	<TextView
+		android:text="@string/read_1_2_title"
+		android:id="@+id/read_1_2_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		 android:text="@string/read_1_2_description"
+		 android:id="@+id/read_1_2_description"
+		 style="@style/read_x_x_description"/>
+	<TextView android:layout_height="wrap_content" style="@style/read_x_x_column_title" android:layout_width="wrap_content" android:id="@+id/TextView01" android:text="こんなときは急いで診察を"></TextView>
+	<TextView android:layout_height="wrap_content" style="@style/read_x_x_column_description" android:layout_width="wrap_content" android:id="@+id/TextView02" android:text="次のようなときは早く産婦人科医の診察を受けましょう。"></TextView>
+	<TextView android:layout_height="wrap_content" style="@style/read_x_x_column_description" android:id="@+id/TextView03" android:layout_width="wrap_content" android:text="●性器出血　●腹痛　●下腹部が張って安静にしてもおさまらない　●むくみ　●発熱　●下痢　●がんこな便秘　●ふだんと違ったおりもの　●強い頭痛　●めまい　●吐き気　●嘔吐　●つわりで衰弱がひどい　●イライラしたり、動悸がはげしく、不安感が強い　●いままであった胎動を感じなくなった　…など"></TextView>
+
+	<TextView
+		android:text="@string/read_1_3_title"
+		android:id="@+id/read_1_3_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		 android:text="@string/read_1_3_description"
+		 android:id="@+id/read_1_3_description"
+		 style="@style/read_x_x_description"/>
+
+	<TextView
+		android:text="@string/read_1_4_title"
+		android:id="@+id/read_1_4_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		 android:text="@string/read_1_4_description"
+		 android:id="@+id/read_1_4_description"
+		 style="@style/read_x_x_description"/>
+
+	<TextView
+		android:text="@string/read_1_5_title"
+		android:id="@+id/read_1_5_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		 android:text="@string/read_1_5_description"
+		 android:id="@+id/read_1_5_description"
+		 style="@style/read_x_x_description"/>
+
+	<TextView
+		android:text="@string/read_1_6_title"
+		android:id="@+id/read_1_6_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		 android:text="@string/read_1_6_description"
+		 android:id="@+id/read_1_6_description"
+		 style="@style/read_x_x_description"/>
+
+	<TextView
+		android:text="@string/read_1_7_title"
+		android:id="@+id/read_1_7_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		 android:text="@string/read_1_7_description"
+		 android:id="@+id/read_1_7_description"
+		 style="@style/read_x_x_description"/>
+
+	<TextView
+		android:text="@string/read_1_8_title"
+		android:id="@+id/read_1_8_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		 android:text="@string/read_1_8_description"
+		 android:id="@+id/read_1_8_description"
+		 style="@style/read_x_x_description"/>
+
+	<TextView
+		 android:text="@string/read_1_8_footnote"
+		 android:id="@+id/read_1_8_footnote"
+		 style="@style/read_x_x_footnote"/>
+
+	<TextView
+		android:text="@string/read_1_9_title"
+		android:id="@+id/read_1_9_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		 android:text="@string/read_1_9_description"
+		 android:id="@+id/read_1_9_description"
+		 style="@style/read_x_x_description"/>
+
+	<TextView
+		android:text="@string/read_1_10_title"
+		android:id="@+id/read_1_10_title"
+		style="@style/read_x_x_title" />
+
+	<TextView
+		 android:text="@string/read_1_10_description"
+		 android:id="@+id/read_1_10_description"
+		 style="@style/read_x_x_description"/>
+
+	<TextView
+		android:text="@string/read_1_1_column_title"
+		android:id="@+id/read_1_1_column_title"
+		style="@style/read_x_x_column_title" />
+
+	<TextView
+		 android:text="@string/read_1_1_column_description"
+		 android:id="@+id/read_1_1_column_description"
+		 style="@style/read_x_x_column_description"/>
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
